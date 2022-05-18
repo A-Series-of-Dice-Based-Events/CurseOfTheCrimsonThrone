@@ -1,0 +1,682 @@
+{
+  "name": "Gobblegut",
+  "type": "npc",
+  "img": "worlds/crimson-throne/rolladvantage/Crocodile-zwn2ol.png",
+  "data": {
+    "attributes": {
+      "shield": {
+        "value": 0,
+        "max": 0,
+        "brokenThreshold": 0,
+        "hardness": 0,
+        "ac": 0
+      },
+      "hp": {
+        "value": 30,
+        "temp": 0,
+        "details": "",
+        "max": 30
+      },
+      "perception": {
+        "value": 7
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": "20",
+        "otherSpeeds": [
+          {
+            "type": "Swim",
+            "value": "25 feet"
+          }
+        ]
+      },
+      "ac": {
+        "value": 18,
+        "details": "",
+        "base": 18
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": 2
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Animal",
+      "blurb": "",
+      "publicNotes": "<p>Crocodiles can be found basking on riverbanks, lurking in swamps, or floating in lakes. They are usually are indistinguishable from logs when viewed from afar-at least until they attack. Alligators have similar statistics, but because they often live in more temperate climates, they endure cold temperatures better. Unlike alligators, crocodiles can tolerate salt water. Both are formidable predators that are likely to devour careless adventurers who fail to watch where they step.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "low-light vision"
+      },
+      "traits": {
+        "value": [
+          "animal"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "ci": [],
+      "rarity": {
+        "value": "common"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:58.482+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    }
+  },
+  "token": {
+    "disposition": -1,
+    "height": 2,
+    "img": "worlds/crimson-throne/rolladvantage/Crocodile-zwn2ol.png",
+    "name": "Gobblegut",
+    "width": 2,
+    "displayName": 20,
+    "actorLink": false,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "7Tl0EsClc5Q8xh8G",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "xxlz2gumqfl5od41hy9b": {
+            "damage": "1d10+4",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 10
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "gjQiQcNp4NjkcKFX",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "y91h34x7vvyo4zydxbjv": {
+            "damage": "1d6+4",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 10
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "sort": 200000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "d7O6THKVTPCJ94Vp",
+      "data": {
+        "description": {
+          "value": "<p>35 feet</p>\n<p><strong>Requirements</strong> The monster is hiding in water and a creature that hasn't detected it is within the listed number of feet. <strong>Effect</strong> The monster moves up to its swim Speed + 10 feet toward the triggering creature, traveling on water and on land. Once the creature is in reach, the monster makes a Strike against it. The creature is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against this Strike.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Aquatic Ambush",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "WLCM7iPJWfoRusL5",
+      "data": {
+        "description": {
+          "value": "<p><strong>Requirement</strong> The crocodile must have a creature grabbed. <strong>Effect</strong> The crocodile tucks its legs and rolls rapidly, twisting its victim. It makes a jaws Strike with a +2 circumstance bonus to the attack roll against the grabbed creature. If it hits, it also knocks the creature prone. If it fails, it releases the creature.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "attack"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Death Roll",
+      "sort": 400000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "A0HAbzH4Gjn59ZLw",
+      "data": {
+        "description": {
+          "value": "<p>The crocodile can hold its breath for about 2 hours.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Deep Breath",
+      "sort": 500000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "JsxIh3m18r1dxIjh",
+      "data": {
+        "description": {
+          "value": "<p><strong>Requirements</strong> The monster's last action was a success with a Strike that lists Grab in its damage entry, or it has a creature grabbed using this action. <strong>Effect</strong> The monster automatically Grabs the target until the end of the monster's next turn. The creature is grabbed by whichever body part the monster attacked with, and that body part can't be used to Strike creatures until the grab is ended. Using Grab extends the duration of the monster's Grab until the end of its next turn for all creatures grabbed by it. A grabbed creature can use the Escape action to get out of the grab, and the Grab ends for a grabbed creatures if the monster moves away from it.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Grab",
+      "sort": 600000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "bAvhRMMMAtiXoxT9",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 700000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "xXuKG36gOYgi1D2d",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "In Water",
+            "predicate": {
+              "all": [
+                "terrain:water"
+              ]
+            },
+            "selector": "stealth",
+            "value": 4
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.482+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        },
+        "variants": {
+          "0": {
+            "label": "+11 in water",
+            "options": "terrain:water"
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 800000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.vJwnApm0HkadGR7w"
+    },
+    "pf2e": {
+      "rollOptions": {
+        "all": {
+          "target:flatFooted": false
+        }
+      },
+      "lootable": false
+    },
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}

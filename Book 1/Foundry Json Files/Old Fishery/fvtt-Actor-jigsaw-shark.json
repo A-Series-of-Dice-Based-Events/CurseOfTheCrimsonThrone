@@ -1,0 +1,526 @@
+{
+  "name": "Jigsaw Shark",
+  "type": "npc",
+  "img": "worlds/crimson-throne/rolladvantage/jigsaw-zwxig2.png",
+  "data": {
+    "attributes": {
+      "shield": {
+        "value": 0,
+        "max": "0",
+        "brokenThreshold": "0",
+        "hardness": 0,
+        "ac": 0
+      },
+      "hp": {
+        "value": 20,
+        "temp": 0,
+        "details": "",
+        "max": 20
+      },
+      "perception": {
+        "value": 7
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": "30",
+        "otherSpeeds": []
+      },
+      "ac": {
+        "value": 16,
+        "details": "",
+        "base": 16
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder Society: Season 2"
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": ""
+    },
+    "traits": {
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "blood scent, scent (imprecise) 100ft"
+      },
+      "traits": {
+        "value": [
+          "animal",
+          "aquatic"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "ci": [],
+      "rarity": {
+        "value": "uncommon"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:58.485+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    }
+  },
+  "token": {
+    "disposition": -1,
+    "height": 2,
+    "img": "worlds/crimson-throne/rolladvantage/jigsaw-zwxig2.png",
+    "name": "Jigsaw Shark",
+    "width": 2,
+    "displayName": 50,
+    "actorLink": false,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "Nom1Cs7QXbb5Yl5b",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.486+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "pi7287x59mfbgvol2kk9mv": {
+            "damage": "1d6+3",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "69MZMQoPzOTaa0gd",
+      "data": {
+        "description": {
+          "value": "<p>The shark Swims up to its swim Speed, then Leaps vertically out of the water up to 15 feet high, making a Strike against a creature at any point during the jump (this lets it attack a creature within 20 feet of the water's surface). After the Strike, the shark splashes back down into the water.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.486+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Breach",
+      "sort": 200000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "UTQLyZ7H8eYOM5p5",
+      "data": {
+        "description": {
+          "value": "<p>The shark can smell blood in the water from up to 1 mile away.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.486+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Blood Scent",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "wYdsS6W2PmhhzlKp",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.486+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 400000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "z1V7x7NtG21SRrMN",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.486+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 500000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "sQpP9xPCcYPTvBui",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.486+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Survival",
+      "sort": 600000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pfs-season-2-bestiary.83k9JooGu3wbCJKa"
+    },
+    "pf2e": {
+      "rollOptions": {
+        "all": {
+          "target:flatFooted": false
+        }
+      },
+      "lootable": false
+    },
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}

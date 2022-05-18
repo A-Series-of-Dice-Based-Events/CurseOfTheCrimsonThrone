@@ -1,0 +1,77 @@
+{
+  "name": "Unhappy Childhood - Religious",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "data": {
+    "description": {
+      "value": "<p><span style=\"font-size: 9pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">You spent a period of time as one of Gaedren&rsquo;s enslaved orphans. Maybe you were abducted from your parent&rsquo;s home or during a trip to the market. Perhaps the irresponsible matron who ruled your orphanage traded you to him in return for a desperately needed loan of money. Or perhaps you, like most of Gaedren&rsquo;s slaves, were merely a child of the street who succumbed to his promise of regular meals and a roof in return for what he said would be &ldquo;a little light work.&rdquo; Whatever the case, you spent several years of your life as one of his &ldquo;Little Lamms&rdquo; before escaping. You&rsquo;ve nursed a grudge for the old man ever since.</span></p>\n<hr />\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">You found a holy symbol of the god you worship today while on a job for Gaedren and, intrigued by it, you snuck off to attend services. When Gaedren found out, he beat you to within an inch of your life and broke your holy symbol. Your faith let you block out the pain, and you escaped his control and took shelter in the church, where you spent the rest of your youth.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Choose two ability boosts. One must be to </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Wisdom</span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\"> or </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Intelligence</span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">. The other is a free boost.&nbsp;</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">You are trained in the Religion skill and the Lore skill of your chosen deity. You gain the Student of the Canon skill feat.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>"
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [],
+      "rarity": {
+        "value": "unique"
+      },
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:59.257+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "9dj7e": {
+        "pack": "pf2e.feats-srd",
+        "id": "x7EMZNMavris2aHY",
+        "img": "systems/pf2e/icons/features/feats/feats.webp",
+        "name": "Student of the Canon",
+        "level": 1
+      }
+    },
+    "trainedLore": "of choosen deity",
+    "trainedSkills": {
+      "value": [
+        "rel"
+      ],
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}

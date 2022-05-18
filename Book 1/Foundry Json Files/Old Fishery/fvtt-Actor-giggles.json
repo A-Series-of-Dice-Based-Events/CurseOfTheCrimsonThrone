@@ -1,0 +1,1489 @@
+{
+  "name": "Giggles",
+  "type": "npc",
+  "img": "worlds/crimson-throne/rolladvantage/Giggles-zwj3cg.png",
+  "data": {
+    "attributes": {
+      "shield": {
+        "value": 0,
+        "max": 0,
+        "brokenThreshold": 0,
+        "hardness": 0,
+        "ac": 0
+      },
+      "hp": {
+        "value": 23,
+        "temp": 0,
+        "details": "",
+        "max": 23
+      },
+      "perception": {
+        "value": 6,
+        "base": 6
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": "25",
+        "otherSpeeds": []
+      },
+      "ac": {
+        "value": 18,
+        "details": "",
+        "base": 18
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "CE"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary"
+      },
+      "creatureType": "Humanoid",
+      "blurb": "",
+      "publicNotes": "<p>If orc armies are rarely well organized, this shortcoming can likely be traced to the furious and undisciplined rank-and-file brutes who make up the bulk of an orc warband.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "darkvision"
+      },
+      "traits": {
+        "value": [
+          "humanoid",
+          "orc"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "orcish"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "ci": [],
+      "rarity": {
+        "value": "common"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:58.480+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": "",
+        "base": 8
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": "",
+        "base": 7
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": "",
+        "base": 4
+      }
+    },
+    "customModifiers": {}
+  },
+  "token": {
+    "disposition": -1,
+    "height": 1,
+    "img": "worlds/crimson-throne/rolladvantage/Giggles-zwj3cg.png",
+    "name": "Giggles",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "DmNGJHLmXcMGdmUS",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "disarm",
+            "sweep",
+            "trip"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "c2bx8kmbcvt0b0ci4ez6": {
+            "damage": "1d6+5",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 7
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Flail",
+      "sort": 400000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "TS7iVUZNmP0Szdfh",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "range-increment-120",
+            "reload-1"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0adt9iyismcqcxsu6amc": {
+            "damage": "1d8",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 5
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Crossbow",
+      "sort": 600000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "v68m3rOpFaQrfwvI",
+      "data": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The monster is reduced to 0 HP. <strong>Effect</strong> The monster avoids being knocked out and remains at 1 HP, but its @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} value increases by 1. When it is @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded 3}, it can no longer use this ability.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Ferocity",
+      "sort": 700000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "TSPqFVPDh1H4cu7n",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 4
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 800000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "nwc2sPsVn0fBEjwQ",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 4
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Intimidation",
+      "sort": 900000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "c5MYxkGV47ynAJnT",
+      "name": "Acrobatics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "obSWpmE8jLNSskcr",
+      "name": "Survival",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 4
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "APKooKJVOO9kqxhc",
+      "name": "Bludgeoner",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"text-pre\">Giggles doesn't take the normal penalty for making a nonlethal attack when attacking with his flail.</span></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HjPU4fsvhxrMbela",
+      "name": "Attack of Opportunity",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "data": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
+        }
+      }
+    },
+    {
+      "_id": "CB8iQqP61G3e2l6L",
+      "name": "Threaten the Lambs",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"text-pre\">Yargin threatens and insults at any children present. Attempt a Demoralize check on any Lambs in the Fishery present in the area. On a success, any Lambs in the Fishery in Yargin's area that have been made helpful to the PC's are instead reverted to harmful actions towards the PC's.</span></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "auditory",
+            "emotion"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.Qd5EW1fJeJTTNgny"
+        }
+      }
+    },
+    {
+      "_id": "b2DTxf6yICZsMDr1",
+      "name": "Flail",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/flail.webp",
+      "data": {
+        "description": {
+          "value": "<p>This weapon consists of a wooden handle attached to a spiked ball or cylinder by a chain, rope, or strap of leather.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [
+            "disarm",
+            "sweep",
+            "trip"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "flail",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "flail",
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "1 gp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "weaponType": {
+          "value": "martial"
+        },
+        "group": {
+          "value": "flail"
+        },
+        "hands": {
+          "value": ""
+        },
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "bludgeoning"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": {
+          "value": "melee"
+        },
+        "reload": {
+          "value": ""
+        },
+        "ability": {
+          "value": "str"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.t5FbyZtRL4qV0V7k"
+        }
+      }
+    },
+    {
+      "_id": "nTXa1cCX2dzNZTvz",
+      "name": "Chain Mail",
+      "type": "armor",
+      "img": "systems/pf2e/icons/equipment/armor/chainmail.webp",
+      "data": {
+        "description": {
+          "value": "<p>A suit of chain mail consists of several pieces of armor composed of small metal rings linked together in a protective mesh. It typically includes a chain shirt, leggings, a pair of arms, and a coif, collectively protecting most of the body.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [
+            "flexible",
+            "noisy"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "chain-mail",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "chain-mail",
+        "hp": {
+          "value": null
+        },
+        "maxHp": {
+          "value": null
+        },
+        "hardness": {
+          "value": null
+        },
+        "brokenThreshold": {
+          "value": null
+        },
+        "weight": {
+          "value": "3"
+        },
+        "equippedBulk": {
+          "value": "2"
+        },
+        "price": {
+          "value": "6 gp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "armor": {
+          "value": 4
+        },
+        "armorType": {
+          "value": "medium"
+        },
+        "group": {
+          "value": "chain"
+        },
+        "strength": {
+          "value": 16
+        },
+        "dex": {
+          "value": 1
+        },
+        "check": {
+          "value": -2
+        },
+        "speed": {
+          "value": -5
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "potency": {},
+        "resilient": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Kf4eJEXnFPuAsseP"
+        }
+      }
+    },
+    {
+      "_id": "qx1NBgBfLIEL5sH5",
+      "name": "Crossbow",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
+      "data": {
+        "description": {
+          "value": "<p>This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "crossbow",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "crossbow",
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "3 gp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "weaponType": {
+          "value": "simple"
+        },
+        "group": {
+          "value": "bow"
+        },
+        "hands": {
+          "value": ""
+        },
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d8",
+          "damageType": "piercing"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": {
+          "value": "120"
+        },
+        "reload": {
+          "value": "1"
+        },
+        "ability": {
+          "value": "dex"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
+        }
+      }
+    },
+    {
+      "_id": "EfUHpzrfpI0pYf53",
+      "name": "Bolts",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+      "data": {
+        "description": {
+          "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "bolts",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 10
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "1 sp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": "bolts"
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "autoUse": true,
+          "autoDestroy": true
+        },
+        "spell": {
+          "data": null,
+          "heightenedLevel": null
+        },
+        "level": {
+          "value": 0
+        },
+        "consumableType": {
+          "value": "ammo"
+        },
+        "charges": {
+          "value": 0,
+          "max": 0,
+          "_deprecated": true
+        },
+        "consume": {
+          "value": "",
+          "_deprecated": true
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.cDm6PzhO5nXlkGoi"
+    },
+    "pf2e": {
+      "rollOptions": {
+        "all": {
+          "target:flatFooted": false
+        }
+      },
+      "lootable": true
+    },
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}
