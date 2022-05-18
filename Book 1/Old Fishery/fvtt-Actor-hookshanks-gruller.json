@@ -1,0 +1,1764 @@
+{
+  "name": "Hookshanks Gruller",
+  "type": "npc",
+  "img": "worlds/crimson-throne/rolladvantage/gruller-zwtzl4.png",
+  "data": {
+    "attributes": {
+      "shield": {
+        "value": 0,
+        "max": 0,
+        "brokenThreshold": 0,
+        "hardness": 0,
+        "ac": 0
+      },
+      "hp": {
+        "value": 21,
+        "temp": 0,
+        "details": "",
+        "max": 21
+      },
+      "perception": {
+        "value": 6
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": "25",
+        "otherSpeeds": []
+      },
+      "ac": {
+        "value": 17,
+        "details": "",
+        "base": 17
+      },
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic, +2 status to all saves vs. mental"
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "NE"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary"
+      },
+      "creatureType": "Humanoid",
+      "blurb": "",
+      "publicNotes": "<p>Loners at heart, drow rogues trust no one-least of all fellow slayers. Thees drow rely on awareness and adaptation to survive the cutthroat nature of their society.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "size": {
+        "value": "sm"
+      },
+      "senses": {
+        "value": "low light vision"
+      },
+      "traits": {
+        "value": [
+          "gnome",
+          "humanoid"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "gnomish"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "sleep"
+        ],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "ci": [],
+      "rarity": {
+        "value": "common"
+      }
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:58.484+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": "",
+        "base": 5
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": "",
+        "base": 9
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": "",
+        "base": 5
+      }
+    },
+    "customModifiers": {}
+  },
+  "token": {
+    "disposition": -1,
+    "height": 1,
+    "img": "worlds/crimson-throne/rolladvantage/gruller-zwtzl4.png",
+    "name": "Hookshanks Gruller",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "h5gMevK3YjdXG7Th",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "ability": {
+          "value": ""
+        },
+        "spelldc": {
+          "value": 6,
+          "dc": "16",
+          "mod": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "displayLevels": {},
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "signatureSpells": {
+          "value": []
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "displayLevel": {},
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "sort": 100000,
+      "type": "spellcastingEntry",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "lPmnTeiNSRQpw0yt",
+      "data": {
+        "description": {
+          "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's level or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}.</p>"
+        },
+        "source": {
+          "value": "https://2e.aonprd.com/Spells.aspx?ID=59"
+        },
+        "traits": {
+          "value": [
+            "darkness"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "level": {
+          "value": 2
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": true,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": {
+          "value": 20,
+          "areaType": "burst"
+        },
+        "time": {
+          "value": "3"
+        },
+        "duration": {
+          "value": "1 minute"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "h5gMevK3YjdXG7Th"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "prepared": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/spells/darkness.webp",
+      "name": "Darkness",
+      "sort": 200000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "zXh5bZm4BRKoyhRW",
+      "data": {
+        "description": {
+          "value": "<p>All creatures in the area when you cast the spell are limned in colorful, heatless fire of a color of your choice for the duration. Visible creatures can't be @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} while affected by faerie fire. If the creatures are @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}, they are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} while affected by faerie fire, rather than being @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}.</p>"
+        },
+        "source": {
+          "value": "https://2e.aonprd.com/Spells.aspx?ID=107"
+        },
+        "traits": {
+          "value": [
+            "light"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "level": {
+          "value": 2
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": {
+          "value": 10,
+          "areaType": "burst"
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "5 minutes"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "h5gMevK3YjdXG7Th"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "prepared": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/spells/faerie-fire.webp",
+      "name": "Faerie Fire",
+      "sort": 300000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "nqdoGMXdpmwdxpx0",
+      "data": {
+        "description": {
+          "value": "<p>You create up to four floating lights, no two of which are more than 10 feet apart. Each sheds light like a torch. When you Sustain the Spell, you can move any number of lights up to 60 feet. Each light must remain within 120 feet of you and within 10 feet of all others, or it winks out.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "light",
+            "cantrip"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "occult",
+            "primal"
+          ],
+          "custom": ""
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": {
+          "value": null,
+          "areaType": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "sustained"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": true
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "h5gMevK3YjdXG7Th"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "prepared": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/spells/dancing-lights.webp",
+      "name": "Dancing Lights - Cantrips",
+      "sort": 400000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "jvZUoPLS8OA1SQTw",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "trip"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "ngdnt2m13cjxv6aeb52q": {
+            "damage": "1d6+3",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 6
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Kukri",
+      "sort": 900000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "3Op010rKsQ5J2vlN",
+      "data": {
+        "description": {
+          "value": "<p><strong>Requirement</strong> A drow rogue can't use this reaction while encumbered. <strong>Trigger</strong> The drow rogue is hit or critically hit by an attack made by a creature the drow rogue can see. <strong>Effect</strong> The drow rogue gains a +2 circumstance bonus to their Armor Class against the triggering attack.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Nimble Dodge",
+      "sort": 1200000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "IG7qNbsunVsE36NQ",
+      "data": {
+        "description": {
+          "value": "<p>The drow rogue deals 1d6 extra precision damage to @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} creatures.</p>\n<p>When the monster Strikes a creature that has the @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, or a ranged weapon attack, it also deals the listed precision damage. For a ranged attack with a thrown weapon, that weapon must also be an agile or finesse weapon.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": {
+              "all": [
+                "target:flatFooted"
+              ],
+              "any": [
+                "finesse",
+                "agile",
+                "ranged"
+              ]
+            },
+            "selector": "damage"
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sneak Attack",
+      "sort": 1400000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "CksfzTlFvUL6YitC",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 1600000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "4ErGKW8KpdFP1EtF",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 1900000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "E6amug5GPnI6HgjG",
+      "name": "Threaten the Lambs",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"text-pre\">Yargin threatens and insults at any children present. Attempt a Demoralize check on any Lambs in the Fishery present in the area. On a success, any Lambs in the Fishery in Yargin's area that have been made helpful to the PC's are instead reverted to harmful actions towards the PC's.</span></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "auditory",
+            "emotion"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.Qd5EW1fJeJTTNgny"
+        }
+      }
+    },
+    {
+      "_id": "WBqNC1neUCapQY6B",
+      "name": "Surprise Attack",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"text-pre\">On the first round of combat, creatures that haven&rsquo;t acted yet are flat-footed to the rebel.</span></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vhnsAapbPzWpnW50",
+      "name": "Athletics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X4bxHh2FBEq5gonw",
+      "name": "Kukri",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/kukri.webp",
+      "data": {
+        "description": {
+          "value": "<p>The blade of this foot‑long knife curves inward and lacks a cross guard at the hilt.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "trip"
+          ],
+          "rarity": {
+            "value": "uncommon"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "kukri",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "kukri",
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "6 sp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "weaponType": {
+          "value": "martial"
+        },
+        "group": {
+          "value": "knife"
+        },
+        "hands": {
+          "value": ""
+        },
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": null
+        },
+        "range": {
+          "value": "melee"
+        },
+        "reload": {
+          "value": ""
+        },
+        "ability": {
+          "value": "str"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.TDrO7Xdyn7juFy3c"
+        }
+      }
+    },
+    {
+      "_id": "DjrHeGzPZQfhBKVC",
+      "name": "Studded Leather Armor",
+      "type": "armor",
+      "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
+      "data": {
+        "description": {
+          "value": "<p>This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "studded-leather-armor",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "studded-leather-armor",
+        "hp": {
+          "value": null
+        },
+        "maxHp": {
+          "value": null
+        },
+        "hardness": {
+          "value": null
+        },
+        "brokenThreshold": {
+          "value": null
+        },
+        "weight": {
+          "value": "2"
+        },
+        "equippedBulk": {
+          "value": "1"
+        },
+        "price": {
+          "value": "3 gp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "armor": {
+          "value": 2
+        },
+        "armorType": {
+          "value": "light"
+        },
+        "group": {
+          "value": "leather"
+        },
+        "strength": {
+          "value": 12
+        },
+        "dex": {
+          "value": 3
+        },
+        "check": {
+          "value": -1
+        },
+        "speed": {
+          "value": 0
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "potency": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.ewQZ0VeL38v3qFnN"
+        }
+      }
+    },
+    {
+      "_id": "wgcidw93JNW7AX3a",
+      "name": "Disguise Kit",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/disguisekit.webp",
+      "data": {
+        "description": {
+          "value": "<p>This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. If you've crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "disguise-kit",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "2 gp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": ""
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Jvp0x2Sc82WVpExT"
+        }
+      }
+    },
+    {
+      "_id": "ypYuvzHRm138BGLm",
+      "name": "Key",
+      "type": "treasure",
+      "img": "systems/pf2e/icons/default-icons/treasure.svg",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.484+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "-"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": null
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": ""
+        },
+        "level": {
+          "value": 0
+        },
+        "denomination": {
+          "value": "gp"
+        },
+        "value": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "RDRTYAhTWR8OYG4X": 3
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.VBXjZ1jYxdKf64B7"
+    },
+    "pf2e": {
+      "rollOptions": {
+        "all": {
+          "target:flatFooted": false
+        }
+      },
+      "lootable": true
+    },
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}

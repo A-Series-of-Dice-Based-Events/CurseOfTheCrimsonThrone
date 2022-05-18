@@ -1,0 +1,1310 @@
+{
+  "name": "Lamm’s Lamb",
+  "type": "npc",
+  "img": "worlds/crimson-throne/rolladvantage/lamms-zwywqi.png",
+  "data": {
+    "attributes": {
+      "shield": {
+        "value": 0,
+        "max": 0,
+        "brokenThreshold": 0,
+        "hardness": 0,
+        "ac": 0
+      },
+      "hp": {
+        "value": 8,
+        "temp": 0,
+        "details": "",
+        "max": 8
+      },
+      "perception": {
+        "value": 3
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": "25",
+        "otherSpeeds": []
+      },
+      "ac": {
+        "value": 13,
+        "details": "",
+        "base": 16
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": -1
+      },
+      "source": {
+        "value": ""
+      },
+      "creatureType": "Humanoid",
+      "blurb": "",
+      "publicNotes": "<p>The typical kobold trains with agile weaponry, favoring the light pick for its use in crafting new tunnels to expand their domains through underground reaches. Kobolds are capable of landing sneaky strikes against unsuspecting foes but are just as quick to scamper off to safety when they don't, as a group, outnumber their enemies at least two to one.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "size": {
+        "value": "sm"
+      },
+      "senses": {
+        "value": "darkvision"
+      },
+      "traits": {
+        "value": [
+          "human",
+          "humanoid"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "ci": [],
+      "rarity": {
+        "value": "common"
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:58.817+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 4,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 3,
+        "saveDetail": ""
+      }
+    },
+    "customModifiers": {}
+  },
+  "token": {
+    "disposition": 0,
+    "height": 1,
+    "img": "worlds/crimson-throne/rolladvantage/lamms-zwywqi.png",
+    "name": "Lamm’s Lamb",
+    "width": 1,
+    "displayName": 40,
+    "actorLink": false,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "NFqLvAbzojRCXphX",
+      "data": {
+        "description": {
+          "value": "<p>Little more than a leather cup attached to a pair of straps, a sling can be used to fling smooth stones or sling bullets at a range.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "propulsive"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "sling",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "sling",
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "0 gp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "weaponType": {
+          "value": "simple"
+        },
+        "group": {
+          "value": "sling"
+        },
+        "hands": {
+          "value": ""
+        },
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "bludgeoning"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": {
+          "value": "50"
+        },
+        "reload": {
+          "value": "1"
+        },
+        "ability": {
+          "value": "dex"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.UCH4myuFnokGv0vF"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/sling.webp",
+      "name": "Sling",
+      "sort": 100000,
+      "type": "weapon",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "fTJDUnSHCpHle1X6",
+      "data": {
+        "description": {
+          "value": "<p>A long metal shaft ending with a metal spike, a spear can be used one‑handed as a melee weapon and can be thrown.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "thrown-20"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "spear",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "spear",
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "1 sp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "weaponType": {
+          "value": "simple"
+        },
+        "group": {
+          "value": "spear"
+        },
+        "hands": {
+          "value": ""
+        },
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": {
+          "value": "20"
+        },
+        "reload": {
+          "value": ""
+        },
+        "ability": {
+          "value": "str"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": null
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
+          "value": false
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.tOhoGvmCMw4JpWcS"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/spear.webp",
+      "name": "Spear",
+      "sort": 200000,
+      "type": "weapon",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "tSZlyyPN2sczGJPo",
+      "data": {
+        "description": {
+          "value": "<p>A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "leather-armor",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": "leather-armor",
+        "hp": {
+          "value": null
+        },
+        "maxHp": {
+          "value": null
+        },
+        "hardness": {
+          "value": null
+        },
+        "brokenThreshold": {
+          "value": null
+        },
+        "weight": {
+          "value": "2"
+        },
+        "equippedBulk": {
+          "value": "1"
+        },
+        "price": {
+          "value": "2 gp"
+        },
+        "equipped": {
+          "value": true
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "level": {
+          "value": 0
+        },
+        "invested": {
+          "value": false
+        },
+        "armor": {
+          "value": 1
+        },
+        "armorType": {
+          "value": "light"
+        },
+        "group": {
+          "value": "leather"
+        },
+        "strength": {
+          "value": 10
+        },
+        "dex": {
+          "value": 4
+        },
+        "check": {
+          "value": -1
+        },
+        "speed": {
+          "value": 0
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "potency": {}
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.4tIVTg9wj56RrveA"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/armor/leather-armor.webp",
+      "name": "Leather Armor",
+      "sort": 300000,
+      "type": "armor",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "KxvWPjI9vHPb77sh",
+      "data": {
+        "description": {
+          "value": "<p>These are small metal balls, typically either iron or lead, designed to be used as ammunition in slings.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "sling-bullets",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "quantity": {
+          "value": 10
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": "1 cp"
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": "slingBullets"
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "autoUse": true,
+          "autoDestroy": true
+        },
+        "spell": {
+          "data": null,
+          "heightenedLevel": null
+        },
+        "level": {
+          "value": 0
+        },
+        "consumableType": {
+          "value": "ammo"
+        },
+        "charges": {
+          "value": 0,
+          "max": 0,
+          "_deprecated": true
+        },
+        "consume": {
+          "value": "",
+          "_deprecated": true
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.MKSeXwUm56c15MZa"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/sling-bullets.webp",
+      "name": "Sling Bullets",
+      "sort": 400000,
+      "type": "consumable",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "yDIuApGqKF4695Oq",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "av8e3ms6pkhhnj0ym67j": {
+            "damage": "1d4+1",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 4
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Pitchfork",
+      "sort": 500000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ZlxZ2pDpBDTkPZ6M",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "propulsive",
+            "range-increment-50",
+            "reload-1"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "o31javx5ga7qa6o5eye1": {
+            "damage": "1d4",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 5
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Sling",
+      "sort": 600000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "SFjZ6idYbkipbFBO",
+      "data": {
+        "description": {
+          "value": "<p>A monster with darkvision can see perfectly well in areas of darkness and dim light, though such vision is in black and white only. Some forms of magical darkness, such as a 4th-level @Compendium[pf2e.spells-srd.4GE2ZdODgIQtg51c]{Darkness} spell, block normal darkvision. A monster with @Compendium[pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr]{Greater Darkvision}, however, can see through even these forms of magical darkness.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Darkvision",
+      "sort": 800000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "dF7ibA1On3Nvjxqk",
+      "data": {
+        "description": {
+          "value": "<p><strong>Requirements</strong> The kobold warrior is adjacent to at least one enemy.</p>\n<p><strong>Effect</strong> The kobold warrior Strides up to its Speed plus 5 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. It must end this movement in a space that's not adjacent to any enemy.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "ToggleProperty",
+            "property": "flags.pf2e.rollOptions.all.hurried-retreat"
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": {
+              "all": [
+                "hurried-retreat"
+              ]
+            },
+            "roll-options": [
+              "all",
+              "ac"
+            ],
+            "selector": "ac",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Hurried Retreat",
+      "sort": 900000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "tDKJ11iR9U2347FM",
+      "data": {
+        "description": {
+          "value": "<p>The kobold warrior deals an extra [[/r 1d4 #precision]]{1d4 precision damage} to @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} creatures.</p>\n<hr />\n<p>When the monster Strikes a creature that has the flat-footed condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, or a ranged weapon attack, it also deals the listed precision damage. For a ranged attack with a thrown weapon, that weapon must also be an agile or finesse weapon.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": {
+              "all": [
+                "target:flatFooted"
+              ],
+              "any": [
+                "finesse",
+                "agile",
+                "ranged"
+              ]
+            },
+            "selector": "damage"
+          }
+        ],
+        "slug": "sneak-attack",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.AWvNPE4U0kEJSL1T"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sneak Attack",
+      "sort": 1000000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "cCIfhGVcyEox2Cbt",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": {
+            "datetime": "2021-10-25T19:22:58.817+02:00",
+            "version": {
+              "schema": 0.68,
+              "foundry": "0.8.9",
+              "system": "2.17.0.8553"
+            }
+          }
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 1100000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.r9w1n85mp9Ip4QiS"
+    },
+    "pf2e": {
+      "rollOptions": {
+        "all": {
+          "target:flatFooted": false,
+          "hurried-retreat": false
+        }
+      },
+      "lootable": false
+    },
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}

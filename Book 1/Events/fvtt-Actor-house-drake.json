@@ -1,0 +1,1384 @@
+{
+  "name": "House Drake",
+  "type": "npc",
+  "img": "worlds/crimson-throne/rolladvantage/HouseDrake-bshkvz.png",
+  "data": {
+    "attributes": {
+      "shield": {
+        "value": 0,
+        "max": 0,
+        "brokenThreshold": 0,
+        "hardness": 0,
+        "ac": 2
+      },
+      "hp": {
+        "value": 16,
+        "temp": 0,
+        "details": "",
+        "max": 16
+      },
+      "perception": {
+        "value": 8
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": "15",
+        "otherSpeeds": [
+          {
+            "exceptions": "",
+            "label": "Fly",
+            "type": "fly",
+            "value": "40"
+          }
+        ]
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "CG"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary 3",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "<p>Beautifully colored in purples and electric blues, these tiny dragons are genuinely brilliant in more ways than one. They are playful and kind, and while they have a long tradition of assisting spellcasters, they prefer to be treated as equals and partners rather than pets. They're quite intelligent and don't appreciate condescension from those who treat them as simple animals.</p>\n<p>Tiny dragons have appeared in tales told among traditional Varisian communities for centuries, but only relatively recently have they become known by the name \"house drake.\" This new name arose in the city of Korvosa, where house drakes have adapted particularly well to urban life. When students of the magic school called the Acadamae failed in their studies and allowed their imp familiars to run wild, these tiny dragons found that they were particularly well suited to combating them. Most notably, their teeth become striated with silver due to their peculiar grooming habits, allowing their bites to puncture the imps' magically resistant skin. The two species are well-matched in intellect. Though their clashes typically begin with trying to outwit one another, they often end in messy brawls across rooftops and into alleys. The residents of Korvosa appreciated both the protection and the dragons' charming appearance and demeanor. House drakes are now more common in Korvosa than anywhere else in the world.</p>\n<p>House drakes are carnivorous, eating vermin and small birds. Though they're capable of hunting for food, many of them find it a bit dull and prefer to spend their time at other pursuits. They happily accept donations of food. To truly get on a house drake's good side, though, one should offer a gift of silver. Donations to drakes have become regular practice in Korvosa, to the point where \"Paid any drakes lately?\" has become a common phrase to suggest someone is a bit gullible and soft-hearted. These donations are just that-charity. House drakes avoid taking on anything resembling a \"job,\" taking pride in their self-sufficiency and ability to choose for themselves how to spend their time.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "size": {
+        "value": "tiny"
+      },
+      "senses": {
+        "value": "darkvision, scent (imprecise) 30 feet"
+      },
+      "traits": {
+        "value": [
+          "dragon"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "draconic",
+          "infernal"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "paralyzed",
+          "sleep"
+        ],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "ci": [],
+      "rarity": {
+        "value": "common"
+      }
+    },
+    "resources": {
+      "focus": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "schema": {
+      "version": 0.684,
+      "lastMigration": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    }
+  },
+  "token": {
+    "disposition": -1,
+    "height": 0.5,
+    "img": "worlds/crimson-throne/rolladvantage/HouseDrake-bshkvz.png",
+    "name": "House Drake",
+    "width": 0.5,
+    "displayName": 40,
+    "actorLink": false,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "5uQZlZI21p9wFVZD",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "ability": {
+          "value": ""
+        },
+        "spelldc": {
+          "value": 7,
+          "dc": 17,
+          "mod": 0,
+          "item": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "displayLevels": {},
+        "slots": {
+          "slot0": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": {
+              "0": {
+                "id": "8fh4XDeijTTmTqic"
+              },
+              "1": {
+                "id": "2o7biMfh5sDhxGfX"
+              }
+            },
+            "value": 2,
+            "max": 2
+          },
+          "slot2": {
+            "prepared": {
+              "0": {
+                "id": "2zjz9wJdhnpZoK16"
+              },
+              "1": {
+                "id": "hGPPCOydZxVBC607"
+              }
+            },
+            "value": 2,
+            "max": 2
+          },
+          "slot3": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": {},
+            "value": 0,
+            "max": 0
+          }
+        },
+        "signatureSpells": {
+          "value": []
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Arcane Innate Spells",
+      "sort": 100000,
+      "type": "spellcastingEntry",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "2zjz9wJdhnpZoK16",
+      "data": {
+        "description": {
+          "value": "<p>You call forth a cloud of mist. All creatures within the mist become @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}, and all creatures outside the mist become Concealed to creatures within it. You can Dismiss the cloud.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "water"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "obscuring-mist",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 2
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "conjuration"
+        },
+        "components": {
+          "focus": false,
+          "material": true,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": {
+          "value": 20,
+          "areaType": "burst"
+        },
+        "time": {
+          "value": "3"
+        },
+        "duration": {
+          "value": "1 minute"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "5uQZlZI21p9wFVZD"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "areasize": {
+          "value": "20-foot burst"
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.9XHmC2JgTUIQ1CCm"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/obscuring-mist.webp",
+      "name": "Obscuring Mist",
+      "sort": 200000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "hGPPCOydZxVBC607",
+      "data": {
+        "description": {
+          "value": "<p>You can see @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} creatures and objects. They appear to you as translucent shapes, and they are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} to you.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The spell has a duration of 8 hours.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "revelation"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "see-invisibility",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 2
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "school": {
+          "value": "divination"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "value": null,
+          "areaType": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "10 minutes"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "5uQZlZI21p9wFVZD"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "areasize": {
+          "value": ""
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.jwK43yKsHTkJQvQ9"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/see-invisibility.webp",
+      "name": "See Invisibility",
+      "sort": 300000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "8fh4XDeijTTmTqic",
+      "data": {
+        "description": {
+          "value": "<p>You ward an area to alert you when creatures enter without your permission. When you cast alarm, select a password. Whenever a Small or larger corporeal creature enters the spell's area without speaking the password, alarm sends your choice of a mental alert (in which case the spell gains the mental trait) or an audible alarm with the sound and volume of a hand bell (in which case the spell gains the auditory trait). Either option automatically awakens you, and the bell allows each creature in the area to attempt a DC 15 Perception check to wake up. A creature aware of the alarm must succeed at a Stealth check against the spell's DC or trigger the spell when moving into the area.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can specify criteria for which creatures sound the alarm spell-for instance, orcs or masked people.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "alarm",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "abjuration"
+        },
+        "components": {
+          "focus": false,
+          "material": true,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": "3 gp silver bell focus"
+        },
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": {
+          "value": null,
+          "areaType": ""
+        },
+        "time": {
+          "value": "10 minutes"
+        },
+        "duration": {
+          "value": "8 hours"
+        },
+        "damage": {
+          "value": {}
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "5uQZlZI21p9wFVZD"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "areasize": {
+          "value": "20-foot burst"
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.4WAib3GichxLjp5p"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/alarm.webp",
+      "name": "Alarm",
+      "sort": 400000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "2o7biMfh5sDhxGfX",
+      "data": {
+        "description": {
+          "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p>@Compendium[pf2e.spell-effects.nkk4O5fyzrC0057i]{Spell Effect: Soothe}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "emotion",
+            "healing",
+            "mental"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "soothe",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "level": {
+          "value": 1
+        },
+        "spellType": {
+          "value": "heal"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "occult"
+          ]
+        },
+        "school": {
+          "value": "enchantment"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "target": {
+          "value": "1 willing living creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": {
+          "value": null,
+          "areaType": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 minute"
+        },
+        "damage": {
+          "value": {
+            "0": {
+              "type": {
+                "categories": [],
+                "value": "healing"
+              },
+              "value": "1d10+4"
+            }
+          }
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "cost": {
+          "value": ""
+        },
+        "ability": {
+          "value": ""
+        },
+        "location": {
+          "value": "5uQZlZI21p9wFVZD"
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "areasize": {
+          "value": ""
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "scaling": {
+          "damage": {
+            "0": "1d10+4"
+          },
+          "interval": 1
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.szIyEsvihc5e1w8n"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/soothe.webp",
+      "name": "Soothe",
+      "sort": 500000,
+      "type": "spell",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "y0GOJlbF7uqf9iXm",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d8+1",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": [
+            "silver-strike"
+          ],
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 600000,
+      "type": "melee",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "9eI0RiQpFdTMAoty",
+      "data": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Darkvision",
+      "sort": 700000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "V2NsuzlWxUrYA0mE",
+      "data": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "scent",
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Scent (Imprecise) 30 Feet",
+      "sort": 800000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "8VqNl9kqJUEBBRW1",
+      "data": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The house drake succeeds at a saving throw against a magical mental effect;</p>\n<p><strong>Effect</strong> The house drake sends a blast of magical feedback at the effect's source, dealing [[/r 2d6 #mental]]{2d6 mental damage} (<span data-pf2-check=\"will\" data-pf2-dc=\"16\" data-pf2-traits=\"abjuration,arcane,mental,damaging-effect\" data-pf2-label=\"Ferocious Will DC\" data-pf2-show-dc=\"gm\">basic Will</span> save) to that creature. On a failed save, the creature is also @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "abjuration",
+            "arcane",
+            "mental"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Ferocious Will",
+      "sort": 900000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VR2zhinm3bRfVONP",
+      "data": {
+        "description": {
+          "value": "<p>The house drake breathes a 10-foot cone of silver mist. Each creature within the mist must succeed at a <span data-pf2-check=\"will\" data-pf2-dc=\"16\" data-pf2-traits=\"arcane,conjuration,mental\" data-pf2-label=\"Breath Weapon DC\" data-pf2-show-dc=\"gm\">Will</span> save or become @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p>\n<p>The house drake can't use Breath Weapon again for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "arcane",
+            "conjuration",
+            "mental"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Breath Weapon",
+      "sort": 1000000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "UYwd2bv5bCYGaPAI",
+      "data": {
+        "description": {
+          "value": "<p>House drakes sharpen their jaws on silver ornamentation until they incorporate bits of silver in their teeth. Their jaws Strike counts as silver.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Silver Strike",
+      "sort": 1100000,
+      "type": "action",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "OdCD2WOKwJXfs1Z0",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 1200000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "wOHCbdYFyjpY9hjP",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 4
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Society",
+      "sort": 1300000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "gf5vPhD7QvjhmlTa",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 1400000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r1Tj7VmMXvGWPGbC",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.684,
+          "lastMigration": null
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Survival",
+      "sort": 1500000,
+      "type": "lore",
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary-3.ldzHiLhLAHhwpVJe"
+    },
+    "pf2e": {
+      "rollOptions": {
+        "all": {
+          "target:flatFooted": false
+        }
+      },
+      "lootable": false
+    },
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}

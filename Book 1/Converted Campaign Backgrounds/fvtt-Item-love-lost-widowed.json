@@ -1,0 +1,77 @@
+{
+  "name": "Love Lost - Widowed",
+  "type": "background",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "data": {
+    "description": {
+      "value": "<p><span style=\"font-size: 9pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Someone you loved was knifed to death in a dark alley one night. You were called to the scene by the Korvosan Guard to identify the body, and as rough as that was for you, you also noticed a ring was missing from the body. Whoever murdered your loved one stole that ring&mdash;you&rsquo;re convinced of it. You&rsquo;ve done some investigation on your own and recently found the ring for sale at a local merchant. Although, to your great frustration, you can&rsquo;t afford yet to buy it back, the merchant did tell you from whom he purchased the ring: a man named Gaedren Lamm. It seems likely this criminal is the one who killed your loved one, or at the very least knows who did. The only problem is finding him.</span></p>\n<hr />\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">The murder victim was a lover. With your lover&rsquo;s death, a part of you died as well, leaving you haunted, grim, and prone to dark musings.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Choose two ability boosts. One must be to </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Charisma </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">or </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Wisdom</span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">. The other is a free boost.&nbsp;</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">You are trained in the Intimidate skill and the Underworld Lore skill. You gain the Intimidating Glare skill feat.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>"
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [],
+      "rarity": {
+        "value": "unique"
+      },
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.684,
+      "lastMigration": {
+        "datetime": "2021-10-25T19:22:59.256+02:00",
+        "version": {
+          "schema": 0.68,
+          "foundry": "0.8.9",
+          "system": "2.17.0.8553"
+        }
+      }
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "afpzg": {
+        "pack": "pf2e.feats-srd",
+        "id": "xQMz6eDgX75WX2ce",
+        "img": "systems/pf2e/icons/features/feats/feats.webp",
+        "name": "Intimidating Glare",
+        "level": 1
+      }
+    },
+    "trainedLore": "Underworld",
+    "trainedSkills": {
+      "value": [
+        "itm"
+      ],
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "2.17.0.8553"
+    }
+  }
+}
