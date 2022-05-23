@@ -1,16 +1,9 @@
 {
   "name": "Cow Hammer Boy",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/hammerboy-4jucoa.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": "0",
-        "brokenThreshold": "0",
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 18,
         "temp": 0,
@@ -25,7 +18,8 @@
       },
       "speed": {
         "value": "25",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 14,
@@ -52,9 +46,6 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "med"
-      },
       "senses": {
         "value": ""
       },
@@ -79,14 +70,15 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "common"
-      }
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
+      "version": 0.75,
       "lastMigration": null
     },
     "abilities": {
@@ -127,10 +119,10 @@
   "token": {
     "disposition": -1,
     "height": 1,
-    "img": "worlds/crimson-throne/rolladvantage/hammerboy-4jucoa.png",
-    "name": "Cow Hammer Boy",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "name": "Mercenary",
     "width": 1,
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -141,56 +133,48 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
-    "randomImg": false,
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "randomImg": false
   },
   "items": [
     {
       "_id": "t2tTQEGsUB0LvL9b",
       "data": {
         "description": {
-          "value": "<p>(agile, finesse, versatile S)</p>"
+          "value": ""
         },
         "source": {
           "value": ""
@@ -201,15 +185,13 @@
             "finesse",
             "versatile-s"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "weaponType": {
@@ -231,16 +213,16 @@
           "value": []
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Shortsword",
       "sort": 100000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "4FWVLCtFYGL4TH0i",
@@ -253,15 +235,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "weaponType": {
@@ -283,22 +263,22 @@
           "value": []
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Crossbow",
       "sort": 200000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "TtBNTIr9Z2OHopMt",
       "data": {
         "description": {
-          "value": "<p>(thrown 10 feet)</p>"
+          "value": ""
         },
         "source": {
           "value": ""
@@ -307,15 +287,13 @@
           "value": [
             "thrown-10"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "weaponType": {
@@ -337,22 +315,22 @@
           "value": []
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Club",
       "sort": 300000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "4qQGeUBrlcedG0kG",
       "data": {
         "description": {
-          "value": "<p>A mercenary throws dirt in an opponent's eyes or performs similar underhanded trick.</p>\n<p><strong>Effect</strong> The opponent must attempt a <span data-pf2-check=\"reflex\" data-pf2-dc=\"16\" data-pf2-traits=\"attack\" data-pf2-label=\"Dirty Fighting DC\" data-pf2-show-dc=\"gm\">Reflex</span> save. On a failure, the PC gains the Blinded condition for one round. On a critical failure, the duration increases to 2 rounds.</p>"
+          "value": "<p>A mercenary throws dirt in an opponent's eyes or performs similar underhanded trick.</p>\n<hr />\n<p><strong>Effect</strong> The opponent must attempt a @Check[type:reflex|dc:16] save. On a failure, the PC gains the Blinded condition for one round. On a critical failure, the duration increases to 2 rounds.</p>"
         },
         "source": {
           "value": ""
@@ -361,15 +339,13 @@
           "value": [
             "attack"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -387,20 +363,21 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "name": "Dirty Fighting",
       "sort": 400000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "aovVQ5UK8DsN8cFJ",
@@ -413,15 +390,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -429,21 +404,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Acrobatics",
       "sort": 500000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "SvKH7nOdt6XTsDuP",
@@ -456,15 +428,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -472,21 +442,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Athletics",
       "sort": 600000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "5h0KVt8A0timOpYs",
@@ -499,15 +466,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -515,42 +480,30 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Stealth",
       "sort": 700000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pfs-season-1-bestiary.dbEMEKNFWOIQw4BQ"
     },
-    "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
-      "lootable": false
-    },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.3.11650"
     }
   }
 }

@@ -1,16 +1,9 @@
 {
   "name": "Giggles",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/Giggles-zwj3cg.png",
+  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Giggles.png",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 23,
         "temp": 0,
@@ -26,7 +19,8 @@
       },
       "speed": {
         "value": "25",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 18,
@@ -45,7 +39,8 @@
         "value": 1
       },
       "source": {
-        "value": "Pathfinder Bestiary"
+        "value": "Pathfinder Bestiary",
+        "author": ""
       },
       "creatureType": "Humanoid",
       "blurb": "",
@@ -53,14 +48,12 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "med"
-      },
       "senses": {
         "value": "darkvision"
       },
       "traits": {
         "value": [
+          "human",
           "humanoid",
           "orc"
         ],
@@ -80,20 +73,21 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "common"
-      }
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
+      "version": 0.75,
       "lastMigration": {
-        "datetime": "2021-10-25T19:22:58.480+02:00",
+        "datetime": "2022-05-20T12:47:27.830-07:00",
         "version": {
-          "schema": 0.68,
-          "foundry": "0.8.9",
-          "system": "2.17.0.8553"
+          "schema": 0.684,
+          "foundry": "9.269",
+          "system": "3.10.2.11602"
         }
       }
     },
@@ -162,7 +156,7 @@
       "speed": 5,
       "intensity": 5
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -179,7 +173,28 @@
     "lightColor": null,
     "x": null,
     "y": null,
-    "elevation": null
+    "elevation": null,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
   },
   "items": [
     {
@@ -197,21 +212,19 @@
             "sweep",
             "trip"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -259,21 +272,19 @@
             "range-increment-120",
             "reload-1"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -311,28 +322,26 @@
       "_id": "v68m3rOpFaQrfwvI",
       "data": {
         "description": {
-          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The monster is reduced to 0 HP. <strong>Effect</strong> The monster avoids being knocked out and remains at 1 HP, but its @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} value increases by 1. When it is @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded 3}, it can no longer use this ability.</p>"
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The monster is reduced to 0 HP. <strong>Effect</strong> The monster avoids being knocked out and remains at 1 HP, but its @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} value increases by 1. When it is Wounded 3, it can no longer use this ability.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -351,6 +360,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -377,21 +387,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -427,21 +435,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.480+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -480,21 +486,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -528,21 +532,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -576,83 +578,24 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
         "actionType": {
           "value": "passive"
-        },
-        "actionCategory": {
-          "value": ""
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
-      },
-      "flags": {}
-    },
-    {
-      "_id": "HjPU4fsvhxrMbela",
-      "name": "Attack of Opportunity",
-      "type": "action",
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "data": {
-        "description": {
-          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> A creature within the monster's reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<p><strong>Effect</strong> The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn't count toward the monster's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "attack-of-opportunity",
-        "schema": {
-          "version": 0.684,
-          "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
-            "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
-            }
-          }
-        },
-        "actionType": {
-          "value": "reaction"
         },
         "actionCategory": {
           "value": "defensive"
@@ -666,9 +609,7 @@
         "trigger": {
           "value": ""
         },
-        "weapon": {
-          "value": ""
-        }
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
@@ -677,11 +618,7 @@
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
-        }
-      }
+      "flags": {}
     },
     {
       "_id": "CB8iQqP61G3e2l6L",
@@ -690,7 +627,7 @@
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "data": {
         "description": {
-          "value": "<p><span class=\"text-pre\">Yargin threatens and insults at any children present. Attempt a Demoralize check on any Lambs in the Fishery present in the area. On a success, any Lambs in the Fishery in Yargin's area that have been made helpful to the PC's are instead reverted to harmful actions towards the PC's.</span></p>"
+          "value": "<p>Yargin threatens and insults at any children present. Attempt a @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} check on any Lambs in the Fishery present in the area. On a success, any Lambs in the Fishery in Yargin's area that have been made helpful to the PC's are instead reverted to harmful actions towards the PC's.</p>"
         },
         "source": {
           "value": ""
@@ -700,21 +637,19 @@
             "auditory",
             "emotion"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -722,17 +657,18 @@
           "value": "action"
         },
         "actionCategory": {
-          "value": ""
+          "value": "offensive"
         },
         "actions": {
-          "value": null
+          "value": 1
         },
         "requirements": {
           "value": ""
         },
         "trigger": {
           "value": ""
-        }
+        },
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
@@ -765,40 +701,30 @@
             "sweep",
             "trip"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "flail",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "flail",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "1"
         },
@@ -806,35 +732,27 @@
           "value": ""
         },
         "price": {
-          "value": "1 gp"
+          "value": {
+            "gp": 1
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": null
         },
         "preciousMaterialGrade": {
           "value": null
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -854,18 +772,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "martial"
-        },
-        "group": {
-          "value": "flail"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "martial",
+        "group": "flail",
         "bonus": {
           "value": 0
         },
@@ -881,14 +789,9 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "melee"
-        },
+        "range": null,
         "reload": {
           "value": ""
-        },
-        "ability": {
-          "value": "str"
         },
         "MAP": {
           "value": ""
@@ -959,40 +862,30 @@
             "flexible",
             "noisy"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "chain-mail",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "chain-mail",
         "hp": {
-          "value": null
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": null
-        },
-        "hardness": {
-          "value": null
-        },
-        "brokenThreshold": {
-          "value": null
-        },
+        "hardness": 0,
         "weight": {
           "value": "3"
         },
@@ -1000,35 +893,27 @@
           "value": "2"
         },
         "price": {
-          "value": "6 gp"
+          "value": {
+            "gp": 6
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": false
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1048,18 +933,11 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
         "armor": {
           "value": 4
         },
-        "armorType": {
-          "value": "medium"
-        },
-        "group": {
-          "value": "chain"
-        },
+        "category": "medium",
+        "group": "chain",
         "strength": {
           "value": 16
         },
@@ -1120,40 +998,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "crossbow",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "crossbow",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "1"
         },
@@ -1161,35 +1029,27 @@
           "value": ""
         },
         "price": {
-          "value": "3 gp"
+          "value": {
+            "gp": 3
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1209,18 +1069,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "simple"
-        },
-        "group": {
-          "value": "bow"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "simple",
+        "group": "bow",
         "bonus": {
           "value": 0
         },
@@ -1236,14 +1086,9 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "120"
-        },
+        "range": 120,
         "reload": {
           "value": "1"
-        },
-        "ability": {
-          "value": "dex"
         },
         "MAP": {
           "value": ""
@@ -1311,40 +1156,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "bolts",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.481+02:00",
+            "datetime": "2022-05-20T12:47:27.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
-        "quantity": {
-          "value": 10
-        },
+        "quantity": 10,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -1352,35 +1187,27 @@
           "value": ""
         },
         "price": {
-          "value": "1 sp"
+          "value": {
+            "sp": 1
+          },
+          "per": 10
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": "bolts"
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": "bolts",
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1463,27 +1290,80 @@
           "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
         }
       }
+    },
+    {
+      "_id": "Hz9mmUXFqlS75x4D",
+      "name": "Attack of Opportunity",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "data": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "schema": {
+          "version": 0.75,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
+        }
+      }
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.cDm6PzhO5nXlkGoi"
     },
     "pf2e": {
       "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
+        "all": {}
       },
       "lootable": true
     },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.3.11650"
     }
   }
 }

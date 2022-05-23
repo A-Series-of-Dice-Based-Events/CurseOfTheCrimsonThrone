@@ -1,16 +1,9 @@
 {
   "name": "Imp",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/Imp-Devil-bsf6nm.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 15,
         "temp": 0,
@@ -27,7 +20,6 @@
         "value": "20",
         "otherSpeeds": [
           {
-            "label": "Fly",
             "type": "fly",
             "value": "30"
           }
@@ -49,8 +41,7 @@
         "value": 1
       },
       "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
+        "value": "Pathfinder Bestiary"
       },
       "creatureType": "Fiend",
       "blurb": "",
@@ -58,9 +49,6 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "tiny"
-      },
       "senses": {
         "value": "greater darkvision"
       },
@@ -74,8 +62,7 @@
       "languages": {
         "value": [
           "common",
-          "infernal",
-          "custom"
+          "infernal"
         ],
         "selected": [],
         "custom": "Telepathy (Touch)"
@@ -88,29 +75,26 @@
       },
       "dr": [
         {
-          "exceptions": "",
-          "label": "Poison",
-          "type": "poison",
-          "value": "5"
+          "exceptions": "except silver",
+          "type": "physical",
+          "value": 3
         },
         {
-          "exceptions": "except Silver",
-          "label": "Physical",
-          "type": "physical",
-          "value": "3"
+          "type": "poison",
+          "value": 5
         }
       ],
       "dv": [
         {
-          "label": "Good",
           "type": "good",
-          "value": "3"
+          "value": 3
         }
       ],
-      "ci": [],
-      "rarity": {
-        "value": "common"
-      }
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      },
+      "ci": []
     },
     "resources": {
       "focus": {
@@ -119,7 +103,7 @@
       }
     },
     "schema": {
-      "version": 0.684,
+      "version": 0.75,
       "lastMigration": null
     },
     "abilities": {
@@ -160,10 +144,10 @@
   "token": {
     "disposition": -1,
     "height": 0.5,
-    "img": "worlds/crimson-throne/rolladvantage/Imp-Devil-bsf6nm.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Imp",
     "width": 0.5,
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -174,53 +158,45 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
-    "randomImg": false,
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "randomImg": false
   },
   "items": [
     {
-      "_id": "PAAIDr7g7Ay1wExH",
+      "_id": "AuBndTd199sHLYXX",
       "data": {
         "description": {
           "value": ""
@@ -230,15 +206,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "ability": {
@@ -246,21 +220,21 @@
         },
         "spelldc": {
           "value": 9,
-          "dc": "17",
-          "mod": 0,
-          "item": 0
+          "dc": 17,
+          "mod": 0
         },
         "tradition": {
           "value": "divine"
         },
         "prepared": {
-          "value": "innate"
+          "value": "innate",
+          "flexible": false
         },
         "showUnpreparedSpells": {
-          "value": false
+          "value": true
         },
         "showSlotlessLevels": {
-          "value": true
+          "value": false
         },
         "proficiency": {
           "value": 0
@@ -274,8 +248,8 @@
           },
           "slot1": {
             "prepared": [],
-            "value": 1,
-            "max": 1
+            "value": 0,
+            "max": 0
           },
           "slot2": {
             "prepared": [],
@@ -289,8 +263,8 @@
           },
           "slot4": {
             "prepared": [],
-            "value": 1,
-            "max": 1
+            "value": 0,
+            "max": 0
           },
           "slot5": {
             "prepared": [],
@@ -328,50 +302,41 @@
             "max": 0
           }
         },
-        "signatureSpells": {
-          "value": []
-        },
         "autoHeightenLevel": {
           "value": null
-        },
-        "displayLevel": {},
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
       "name": "Divine Innate Spells",
       "sort": 100000,
       "type": "spellcastingEntry",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
-      "_id": "i7i5JhfTO1Z8bqap",
+      "_id": "ljWqi7Rdo10zXj2j",
       "data": {
         "description": {
           "value": "<p>You peek into the future. Choose a particular goal or activity you plan to engage in within 1 week, or an event you expect might happen within 1 week. You learn a cryptic clue or piece of advice that could help with the chosen event, often in the form of a rhyme or omen.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
             "prediction"
           ],
-          "rarity": {
-            "value": "uncommon"
-          },
+          "rarity": "uncommon",
           "custom": ""
         },
         "rules": [],
         "slug": "read-omens",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "level": {
@@ -434,13 +399,11 @@
           "value": ""
         },
         "location": {
-          "value": "PAAIDr7g7Ay1wExH"
+          "value": "AuBndTd199sHLYXX",
+          "heightenedLevel": 4
         },
         "hasCounteractCheck": {
           "value": false
-        },
-        "autoHeightenLevel": {
-          "value": null
         },
         "areasize": {
           "value": ""
@@ -458,7 +421,6 @@
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.spells-srd.pkcOby5prOausy1k"
@@ -468,31 +430,30 @@
       "name": "Read Omens",
       "sort": 200000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "Si8xAZumInM1Xpwr",
+      "_id": "VpJedVOR1dcpVdbe",
       "data": {
         "description": {
           "value": "<p>Cloaked in illusion, the target becomes @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}. This makes it @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "invisibility",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "level": {
@@ -526,7 +487,7 @@
           "value": "self"
         },
         "range": {
-          "value": "self"
+          "value": "touch"
         },
         "area": {
           "value": "",
@@ -555,13 +516,11 @@
           "value": ""
         },
         "location": {
-          "value": "PAAIDr7g7Ay1wExH"
+          "value": "AuBndTd199sHLYXX",
+          "heightenedLevel": 2
         },
         "hasCounteractCheck": {
           "value": false
-        },
-        "autoHeightenLevel": {
-          "value": null
         },
         "areasize": {
           "value": ""
@@ -579,7 +538,6 @@
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB"
@@ -589,19 +547,20 @@
       "name": "Invisibility (At Will) (Self Only)",
       "sort": 300000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "TgjOPdWuJXfjDYWA",
+      "_id": "1dpMc0MTl3sBJ1yR",
       "data": {
         "description": {
           "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @Compendium[pf2e.conditionitems.v66R7FdOf11l94im]{Friendly} toward you. If it was Friendly, it becomes @Compendium[pf2e.conditionitems.v44P3WUcU1j0115l]{Helpful}. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
@@ -609,15 +568,13 @@
             "incapacitation",
             "mental"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "charm",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "level": {
@@ -681,13 +638,11 @@
           "value": ""
         },
         "location": {
-          "value": "PAAIDr7g7Ay1wExH"
+          "value": "AuBndTd199sHLYXX",
+          "heightenedLevel": 1
         },
         "hasCounteractCheck": {
           "value": false
-        },
-        "autoHeightenLevel": {
-          "value": null
         },
         "areasize": {
           "value": ""
@@ -705,7 +660,6 @@
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.spells-srd.vLA0q0WOK2YPuJs6"
@@ -715,33 +669,32 @@
       "name": "Charm",
       "sort": 400000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "QtdtFERSiVNkyVMq",
+      "_id": "fEOaF0IuTdPQkeq9",
       "data": {
         "description": {
           "value": "<p>Your eyes glow as you sense aligned auras. Choose chaotic, evil, good, or lawful. You detect auras of that alignment. You receive no information beyond presence or absence. You can choose not to detect creatures or effects you're aware have that alignment.</p>\n<p>Only creatures of 6th level or higher-unless divine spellcasters, undead, or beings from the Outer Sphere-have alignment auras.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> You learn each aura's location and strength.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
             "detection"
           ],
-          "rarity": {
-            "value": "uncommon"
-          },
+          "rarity": "uncommon",
           "custom": ""
         },
         "rules": [],
         "slug": "detect-alignment",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "level": {
@@ -804,13 +757,11 @@
           "value": ""
         },
         "location": {
-          "value": "PAAIDr7g7Ay1wExH"
+          "value": "AuBndTd199sHLYXX",
+          "heightenedLevel": 1
         },
         "hasCounteractCheck": {
           "value": false
-        },
-        "autoHeightenLevel": {
-          "value": null
         },
         "areasize": {
           "value": "30-foot emanation"
@@ -828,7 +779,6 @@
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.spells-srd.QnTtGCAvdWRU4spv"
@@ -838,34 +788,33 @@
       "name": "Detect Alignment (At Will) (Good Only)",
       "sort": 500000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "tJgUUE2XN1vH3hNI",
+      "_id": "3kk2mTRbqYBvm4Rt",
       "data": {
         "description": {
-          "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies.</p>\n<p>You detect illusion magic only if that magic's effect has a lower level than the level of your detect magic spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an invisibility potion) typically are detected normally.</p>\n<p><strong>Heightened (3rd)</strong> You learn the school of magic for the highest-level effect within range that the spell detects. If multiple effects are equally strong, the GM determines which you learn.</p>\n<p><strong>Heightened (4th)</strong> As 3rd level, but you also pinpoint the source of the highest-level magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
+          "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies.</p>\n<p>You detect illusion magic only if that magic's effect has a lower level than the level of your detect magic spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an invisibility potion) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the school of magic for the highest-level effect within range that the spell detects. If multiple effects are equally strong, the GM determines which you learn.</p>\n<p><strong>Heightened (4th)</strong> As 3rd level, but you also pinpoint the source of the highest-level magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
             "detection",
             "cantrip"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "detect-magic",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "level": {
@@ -931,13 +880,10 @@
           "value": ""
         },
         "location": {
-          "value": "PAAIDr7g7Ay1wExH"
+          "value": "AuBndTd199sHLYXX"
         },
         "hasCounteractCheck": {
           "value": false
-        },
-        "autoHeightenLevel": {
-          "value": null
         },
         "areasize": {
           "value": "30-foot emanation"
@@ -955,7 +901,6 @@
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl"
@@ -965,6 +910,7 @@
       "name": "Detect Magic",
       "sort": 600000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -986,15 +932,13 @@
             "finesse",
             "magical"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "weaponType": {
@@ -1023,16 +967,16 @@
           "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Stinger",
       "sort": 700000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "U1ORlKZKu61bng75",
@@ -1045,15 +989,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "greater-darkvision",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1071,20 +1013,21 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr"
         }
       },
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Greater Darkvision",
       "sort": 800000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -1105,15 +1048,13 @@
             "divination",
             "magical"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "telepathy",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1131,11 +1072,11 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.kdhbPaBMK1d1fpbA"
@@ -1145,6 +1086,7 @@
       "name": "Telepathy (Touch)",
       "sort": 900000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -1161,15 +1103,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "at-will-spells",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1187,20 +1127,21 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
         }
       },
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "At-Will Spells",
       "sort": 1000000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -1210,7 +1151,7 @@
       "_id": "kZEJMwLRJaBvJMSU",
       "data": {
         "description": {
-          "value": "<ul>\n<li><strong>Boar</strong>\n<ul>\n<li><strong>Size</strong> Medium;</li>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent (Imprecise) 30 feet};</li>\n<li><strong>Speed</strong> 40 feet;</li>\n<li><strong>Melee</strong> tusk [[/r 1d20+9 #Tusk]]{+9}, [[/r 1d20+4 #Tusk]]{+4}, [[/r 1d20-1 #Tusk]]{-1} (finesse),</li>\n<li><strong>Damage</strong> [[/r 1d10-1 #piercing]]{1d10-1 piercing damage}</li>\n</ul>\n</li>\n<li><strong>Giant Spider</strong>\n<ul>\n<li><strong>Size</strong> Medium;</li>\n<li><strong>Speed</strong> 25 feet, climb 25 feet;</li>\n<li><strong>Melee</strong> fangs [[/r 1d20+9 #Fangs]]{+9}, [[/r 1d20+4 #Fangs]]{+4}, [[/r 1d20-1 #Fangs]]{-1} (finesse, poison),</li>\n<li><strong>Damage</strong> [[/r 1d6-1 #piercing]]{1d6-1 piercing damage} plus [[/r 1d4 #poison]]{1d4 poison damage}</li>\n</ul>\n</li>\n<li><strong>Rat</strong>\n<ul>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent};</li>\n<li><strong>Speed</strong> 20 feet;</li>\n<li><strong>Melee</strong> jaws [[/r 1d20+9 #Jaws]]{+9}, [[/r 1d20+5 #Jaws]]{+5}, [[/r 1d20+1 #Jaws]]{+1} (agile, finesse),</li>\n<li><strong>Damage</strong> [[/r 1 #piercing]]{1 piercing damage}</li>\n</ul>\n</li>\n<li><strong>Raven</strong>\n<ul>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent};</li>\n<li><strong>Speed</strong> 10 feet, fly 40 feet;</li>\n<li><strong>Melee</strong> beak [[/r 1d20+9 #Beak]]{+9}, [[/r 1d20+4 #Beak]]{+4}, [[/r 1d20-1 #Beak]]{-1} (finesse),</li>\n<li><strong>Damage</strong> [[/r 1 #piercing]]{1 piercing damage}</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "value": "<ul>\n<li><strong>Boar</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent (Imprecise) 30 feet}</li>\n<li><strong>Speed</strong> 40 feet</li>\n<li><strong>Melee</strong> tusk [[/r 1d20+9 #Tusk]]{+9}/[[/r 1d20+4 #Tusk]]{+4}/[[/r 1d20-1 #Tusk]]{-1} (finesse), <strong>Damage</strong> [[/r {1d10-1}[piercing]]]{1d10-1 piercing damage}</li>\n</ul>\n</li>\n<li><strong>Giant Spider</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li><strong>Speed</strong> 25 feet, climb 25 feet</li>\n<li><strong>Melee</strong> fangs [[/r 1d20+9 #Fangs]]{+9}/[[/r 1d20+4 #Fangs]]{+4}/[[/r 1d20-1 #Fangs]]{-1} (finesse, poison), <strong>Damage</strong> [[/r {1d6-1}[piercing]+{1d4}[poison]]]{1d6-1 piercing damage plus 1d4 poison damage}</li>\n</ul>\n</li>\n<li><strong>Rat</strong>\n<ul>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent}</li>\n<li><strong>Speed</strong> 20 feet</li>\n<li><strong>Melee</strong> jaws [[/r 1d20+9 #Jaws]]{+9}/[[/r 1d20+5 #Jaws]]{+5}/[[/r 1d20+1 #Jaws]]{+1} (agile, finesse), <strong>Damage</strong> [[/r {1}[piercing]]]{1 piercing damage}</li>\n</ul>\n</li>\n<li><strong>Raven</strong>\n<ul>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent}</li>\n<li><strong>Speed</strong> 10 feet, fly 40 feet</li>\n<li><strong>Melee</strong> beak [[/r 1d20+9 #Beak]]{+9}/[[/r 1d20+4 #Beak]]{+4}/[[/r 1d20-1 #Beak]]{-1} (finesse), <strong>Damage</strong> [[/r {1}[piercing]]]{1 piercing damage}</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "source": {
           "value": ""
@@ -1222,15 +1163,13 @@
             "polymorph",
             "transmutation"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "change-shape",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1248,11 +1187,11 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.eQM5hQ1W3d1uen97"
@@ -1262,6 +1201,7 @@
       "name": "Change Shape",
       "sort": 1100000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -1271,7 +1211,7 @@
       "_id": "ATs94SggOJoPD71u",
       "data": {
         "description": {
-          "value": "<p><strong>Frequency</strong> once per round.</p>\n<p><strong>Effect</strong> The imp regains [[/r 1d6 #Hit Points]]{1d6 Hit Points}.</p>"
+          "value": "<p><strong>Frequency</strong> once per round.</p>\n<hr />\n<p><strong>Effect</strong> The imp regains [[/r {1d6}[healing]]]{1d6 Hit Points}.</p>"
         },
         "source": {
           "value": ""
@@ -1283,15 +1223,13 @@
             "healing",
             "necromancy"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1309,26 +1247,27 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Diabolic Healing",
       "sort": 1200000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "hwvMSx3qTN1uk4iN",
       "data": {
         "description": {
-          "value": "<p><strong>Saving Throw</strong><span data-pf2-check=\"fortitude\" data-pf2-traits=\"poison\" data-pf2-label=\"Imp Venom\" data-pf2-dc=\"16\" data-pf2-show-dc=\"gm\">basic Fortitude</span>;</p>\n<div data-visibility=\"gm\">\n<p><strong>Maximum Duration</strong> 6 rounds;</p>\n<p><strong>Stage 1</strong> [[/r 1d6 #poison]]{1d6 poison damage} and @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round);</p>\n<p><strong>Stage 2</strong> [[/r 1d6 #poison]]{1d6 poison damage}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p>\n</div>"
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:16]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r {1d6}[poison]]]{1d6 poison damage} and @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {1d6}[poison]]]{1d6 poison damage}, clumsy 1, and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p>"
         },
         "source": {
           "value": ""
@@ -1337,15 +1276,13 @@
           "value": [
             "poison"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1363,47 +1300,46 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Imp Venom",
       "sort": 1300000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "RZv15pm5vEmZAZhK",
       "data": {
         "description": {
-          "value": "<p><strong>Frequency</strong> once per day.</p>\n<p><strong>Effect</strong> The imp offers a non-fiend within 15 feet a bargain, granting a boon of good luck if the creature accepts. The boon lasts for 1 hour once accepted. If the creature dies while the boon is in place, its soul travels to Hell, where it is bound for eternity and unable to be raised or resurrected except by <em>@Compendium[pf2e.spells-srd.6dDtGIUerazSHIOu]{Wish}</em> or similar magic.</p>\n<p>Once during the hour, the creature can roll an attack roll or saving throw twice and use the higher result.</p>"
+          "value": "<p><strong>Frequency</strong> once per day.</p>\n<hr />\n<p><strong>Effect</strong> The imp offers a non-fiend within 15 feet a bargain, granting a boon of good luck if the creature accepts. The boon lasts for 1 hour once accepted.</p>\n<p>If the creature dies while the boon is in place, its soul travels to Hell, where it is bound for eternity and unable to be raised or resurrected except by <em>@Compendium[pf2e.spells-srd.6dDtGIUerazSHIOu]{Wish}</em> or similar magic.</p>\n<p>Once during the hour, the creature can roll an attack roll or saving throw twice and use the higher result.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [
-            "divine",
             "concentrate",
+            "divine",
             "enchantment",
             "evil",
             "fortune"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -1421,20 +1357,21 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Infernal Temptation",
       "sort": 1400000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "AOdoPhtCg5SaX0OF",
@@ -1447,15 +1384,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -1463,21 +1398,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Acrobatics",
       "sort": 1500000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "HXMRJLMCyPgtDq33",
@@ -1490,15 +1422,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -1506,21 +1436,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
+      "name": "Arcana",
       "sort": 1600000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "Hcq6v4mQtR55Zl7o",
@@ -1533,15 +1460,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -1549,21 +1474,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Deception",
       "sort": 1700000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "bujJKmGpjAphjLcc",
@@ -1576,15 +1498,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -1592,42 +1512,30 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Religion",
       "sort": 1800000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.I4CpyMUsWfFYdpL5"
     },
-    "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
-      "lootable": false
-    },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.3.11650"
     }
   }
 }

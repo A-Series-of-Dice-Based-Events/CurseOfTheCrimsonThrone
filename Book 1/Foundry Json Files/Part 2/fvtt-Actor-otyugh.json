@@ -1,16 +1,9 @@
 {
   "name": "Otyugh",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/otyugh-bsjsqx.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 70,
         "temp": 0,
@@ -43,18 +36,14 @@
         "value": 4
       },
       "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
+        "value": "Pathfinder Bestiary"
       },
       "creatureType": "Aberration",
       "blurb": "",
-      "publicNotes": "<p>Lords of sewers, ditches, and landfllls, otyughs are filthy monstrosities that stomp about on three massive legs in search of tasty garbage and refuse. Using two barbed tentacles to grasp and tear, guided by a third with a proliferation of eyes at the end, the otyugh has perfectly adapted to life in its cramped, disgusting environment, where it uses its appendages to see into tight spaces and grasp hidden prey.</p>\n<p> Most assume that otyughs originally evolved in swamps and moved into sewers as civilization encroached on their natural habitats. True or not, they are now one of the larger predators in those dank environs. Otyughs are territorial, but they have been known to form loose collectives, even giving each other important-sounding titles like 'king of offal'; and 'duchess of slime' to indicate their rank and station in their sludgy underworld beneath the streets.</p>\n<p>Those who run across an otyugh might be surprised to hear it speak, shouting at intruders to leave its putrid home or demanding tribute in the form of trash or other prizes of dubious nature.</p>",
+      "publicNotes": "<p>Lords of sewers, ditches, and landfllls, otyughs are filthy monstrosities that stomp about on three massive legs in search of tasty garbage and refuse. Using two barbed tentacles to grasp and tear, guided by a third with a proliferation of eyes at the end, the otyugh has perfectly adapted to life in its cramped, disgusting environment, where it uses its appendages to see into tight spaces and grasp hidden prey.</p>\n<p>Most assume that otyughs originally evolved in swamps and moved into sewers as civilization encroached on their natural habitats. True or not, they are now one of the larger predators in those dank environs. Otyughs are territorial, but they have been known to form loose collectives, even giving each other important-sounding titles like 'king of offal'; and 'duchess of slime' to indicate their rank and station in their sludgy underworld beneath the streets.</p>\n<p>Those who run across an otyugh might be surprised to hear it speak, shouting at intruders to leave its putrid home or demanding tribute in the form of trash or other prizes of dubious nature.</p>",
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "lg"
-      },
       "senses": {
         "value": "darkvision, scent (imprecise) 30 feet"
       },
@@ -79,14 +68,15 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "common"
-      }
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "ci": []
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
+      "version": 0.75,
       "lastMigration": null
     },
     "abilities": {
@@ -127,10 +117,10 @@
   "token": {
     "disposition": -1,
     "height": 2,
-    "img": "worlds/crimson-throne/rolladvantage/otyugh-bsjsqx.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Otyugh",
     "width": 2,
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -141,49 +131,41 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
-    "randomImg": false,
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "randomImg": false
   },
   "items": [
     {
@@ -197,15 +179,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "weaponType": {
@@ -230,16 +210,16 @@
           "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Jaws",
       "sort": 100000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "Tyan53wuqYSDd7rE",
@@ -255,15 +235,13 @@
             "agile",
             "reach-10"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "weaponType": {
@@ -288,19 +266,19 @@
           "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Tentacle",
       "sort": 200000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
-      "_id": "v5N9wC4St1u0XNTK",
+      "_id": "IzdeO18d4uSX3LyW",
       "data": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
@@ -310,15 +288,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "darkvision",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -336,11 +312,11 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
@@ -350,13 +326,14 @@
       "name": "Darkvision",
       "sort": 300000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "bGfGduHcV63CJ137",
+      "_id": "gjZuHZMNsUIskGJf",
       "data": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
@@ -366,15 +343,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "scent",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -392,11 +367,11 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r"
@@ -406,6 +381,7 @@
       "name": "Scent (Imprecise) 30 feet",
       "sort": 400000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -415,7 +391,7 @@
       "_id": "r1SlNgELge3BicQv",
       "data": {
         "description": {
-          "value": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura} 40 feet.</p>\n<p>A creature entering the aura must succeed at a <span data-pf2-check=\"fortitude\" data-pf2-dc=\"20\" data-pf2-traits=\"aura,olfactory\" data-pf2-label=\"Stench DC\" data-pf2-show-dc=\"gm\">Fortitude</span> save or be @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (plus @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for the same duration on a critical failure). On a success, the creature is temporarily immune to the sickened and slowed effects of this stench for 1 hour. Regardless of the save, while within the aura, creatures take a -2 circumstance penalty to saves against diseases. An otyugh's stench is due to the oflal and refuse that it wallows in, so cleaning the creature thoroughly (with create water and sufficient scrubbing, for example) deactivates the aura, while a sufficiently plugged nose allows an individual to avoid exposure to the stench.</p>"
+          "value": "<p>@Template[type:emanation|distance:40]{40 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>A creature entering the aura must succeed at a @Check[type:fortitude|dc:20] save or be @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (plus @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for the same duration on a critical failure). On a success, the creature is temporarily immune to the sickened and slowed effects of this stench for 1 hour. Regardless of the save, while within the aura, creatures take a -2 circumstance penalty to saves against diseases. An otyugh's stench is due to the oflal and refuse that it wallows in, so cleaning the creature thoroughly (with <em>@Compendium[pf2e.spells-srd.WzLKjSw6hsBhuklC]{Create Water}</em> and sufficient scrubbing, for example) deactivates the aura, while a sufficiently plugged nose allows an individual to avoid exposure to the stench.</p>\n<hr />\n<p>@Compendium[pf2e.bestiary-effects.wX9L6fbqVMLP05hn]{Effect: Stench}</p>"
         },
         "source": {
           "value": ""
@@ -425,15 +401,13 @@
             "aura",
             "olfactory"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -451,16 +425,72 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Stench",
       "sort": 500000,
       "type": "action",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ajDZIRytCVKqw5RN",
+      "data": {
+        "description": {
+          "value": "<p>[[/r {1d6+6}[bludgeoning]]]{1d6+6 bludgeoning}, @Check[type:fortitude|dc:22|basic:true]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "constrict",
+        "schema": {
+          "version": 0.75,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.g26YiEIfSHCpLocV"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "sort": 600000,
+      "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -470,7 +500,7 @@
       "_id": "GHuGn3ZCUkbeSFiQ",
       "data": {
         "description": {
-          "value": "<p data-visibility=\"gm\">The @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} and @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} conditions from filth fever don't improve on their own until the disease is cured.</p>\n<p><strong>Saving Throw</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"20\" data-pf2-traits=\"disease\" data-pf2-label=\"Filth Fever DC\" data-pf2-show-dc=\"gm\">Fortitude</span>;</p>\n<div data-visibility=\"gm\">\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day);</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 day);</p>\n<p><strong>Stage 3</strong> Sickened 1 and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it remains Sickened (1 day);</p>\n<p><strong>Stage 4</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} (1 day);</p>\n<p><strong>Stage 5</strong> dead</p>\n</div>"
+          "value": "<p>The @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} and @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} conditions from filth fever don't improve on their own until the disease is cured.</p>\n<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:20]</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> sickened 1 and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it remains sickened (1 day)</p>\n<p><strong>Stage 4</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
         },
         "source": {
           "value": ""
@@ -479,15 +509,13 @@
           "value": [
             "disease"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -505,41 +533,40 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Filth Fever",
-      "sort": 600000,
+      "sort": 700000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "nQudJs5Bky0XvlDC",
       "data": {
         "description": {
-          "value": "<p>The otyugh attempts to move all creatures that it has grabbed into other spaces within the reach of its tentacles, rolling a single Athletics check and comparing the result against each creature's Fortitude DC. On a failure, the creature remains in place, and on a critical failure, the creature is no longer grabbed.</p>"
+          "value": "<p>The otyugh attempts to move all creatures that it has @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} into other spaces within the reach of its tentacles, rolling a single @Check[type:athletics] check and comparing the result against each creature's Fortitude DC. On a failure, the creature remains in place, and on a critical failure, the creature is no longer grabbed.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -557,79 +584,24 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Reposition",
-      "sort": 700000,
-      "type": "action",
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "eN5D2eJhQniMX2RG",
-      "data": {
-        "description": {
-          "value": "<p>[[/r 1d6+6 #bludgeoning]]{1d6+6 bludgeoning damage}, <span data-pf2-check=\"fortitude\" data-pf2-traits=\"bludgeoning,constrict,damaging-effect\" data-pf2-label=\"Constrict DC\" data-pf2-dc=\"22\" data-pf2-show-dc=\"gm\">basic Fortitude</span></p>\n<p data-visibility=\"gm\">The monster deals the listed amount of damage to any number of creatures @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} by it. Each of those creatures can attempt a basic Fortitude save with the listed DC.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "constrict",
-        "schema": {
-          "version": 0.684,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": 1
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "weapon": {
-          "value": ""
-        }
-      },
-      "effects": [],
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.g26YiEIfSHCpLocV"
         }
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Constrict",
+      "name": "Reposition",
       "sort": 800000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
-      "_id": "LPHdl34BrfuUOdHr",
+      "_id": "xWNlGD6uekL83QTY",
       "data": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
@@ -639,15 +611,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "grab",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "actionType": {
@@ -665,11 +635,11 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr"
@@ -679,6 +649,7 @@
       "name": "Grab",
       "sort": 900000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -695,15 +666,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -711,21 +680,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Acrobatics",
       "sort": 1000000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "NPOvP9lYvdch5SLE",
@@ -738,15 +704,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
@@ -754,21 +718,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Athletics",
       "sort": 1100000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "vln9tGlYOAxkVD0U",
@@ -781,15 +742,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [
           {
             "key": "FlatModifier",
-            "label": "In Lair",
+            "label": "PF2E.SkillVariant.Lair",
             "predicate": {
               "all": [
                 "terrain:lair"
@@ -801,16 +760,13 @@
         ],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": null
         },
         "mod": {
           "value": 8
         },
         "proficient": {
-          "value": 0
-        },
-        "item": {
           "value": 0
         },
         "variants": {
@@ -820,37 +776,28 @@
           }
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Stealth",
       "sort": 1200000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.kPBSSOuR8n8vZHXB"
     },
-    "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
-      "lootable": false
-    },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.3.11650"
     }
   }
 }

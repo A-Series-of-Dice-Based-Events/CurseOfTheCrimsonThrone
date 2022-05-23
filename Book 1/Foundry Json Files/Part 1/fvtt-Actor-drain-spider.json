@@ -1,16 +1,9 @@
 {
   "name": "Drain Spider",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/drain-zw0fp7.png",
+  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Drain%20Spider.png",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 8,
         "temp": 0,
@@ -33,7 +26,8 @@
             "type": "climb",
             "value": "25"
           }
-        ]
+        ],
+        "details": ""
       },
       "ac": {
         "value": 15,
@@ -52,7 +46,8 @@
         "value": -1
       },
       "source": {
-        "value": "Pathfinder Bestiary 2"
+        "value": "Pathfinder Bestiary 2",
+        "author": ""
       },
       "creatureType": "Animal",
       "blurb": "",
@@ -60,9 +55,6 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "tiny"
-      },
       "senses": {
         "value": "darkvision, web sense"
       },
@@ -83,23 +75,24 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "common"
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
       },
+      "ci": [],
       "attitude": {
         "value": "hostile"
       }
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
+      "version": 0.75,
       "lastMigration": {
-        "datetime": "2021-10-25T19:22:58.477+02:00",
+        "datetime": "2022-05-20T12:52:28.829-07:00",
         "version": {
-          "schema": 0.68,
-          "foundry": "0.8.9",
-          "system": "2.17.0.8553"
+          "schema": 0.684,
+          "foundry": "9.269",
+          "system": "3.10.2.11602"
         }
       }
     },
@@ -142,7 +135,7 @@
   "token": {
     "disposition": -1,
     "height": 0.5,
-    "img": "worlds/crimson-throne/rolladvantage/drain-zw0fp7.png",
+    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Drain%20Spider.png",
     "name": "Drain Spider",
     "width": 0.5,
     "displayName": 20,
@@ -165,7 +158,7 @@
       "speed": 5,
       "intensity": 5
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -175,6 +168,31 @@
     "flags": {
       "pf2e": {
         "linkToActorSize": true
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "light": {}
+      },
+      "core": {
+        "priority": null
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
       }
     },
     "randomImg": false,
@@ -182,7 +200,29 @@
     "lightColor": null,
     "x": null,
     "y": null,
-    "elevation": null
+    "elevation": null,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    }
   },
   "items": [
     {
@@ -198,21 +238,19 @@
           "value": [
             "finesse"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -262,21 +300,19 @@
           "value": [
             "range-increment-10"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -320,21 +356,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "darkvision",
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -353,6 +387,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -383,21 +418,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -416,6 +449,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -435,7 +469,7 @@
       "_id": "bR7DFykvg3BJRRmV",
       "data": {
         "description": {
-          "value": "<p><strong>Saving Throw</strong> <span data-pf2-check=\"fortitude\" data-pf2-dc=\"16\" data-pf2-traits=\"poison\" data-pf2-label=\"Dream Spider Venom DC\" data-pf2-show-dc=\"gm\">Fortitude</span>;</p>\n<div data-visibility=\"gm\">\n<p><strong>Maximum Duration</strong> 4 rounds;</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r 1d6 #poison]]{1d6 poison damage} plus @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} (1 round)</p>\n</div>"
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:15]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.Fatigued]{Fatigued} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {1d6}[poison]]]{1d6 poison damage} plus fatigued (1 round)</p>"
         },
         "source": {
           "value": ""
@@ -444,21 +478,19 @@
           "value": [
             "poison"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -477,6 +509,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -496,28 +529,26 @@
       "_id": "Q7cHvTaIWyRwhMYl",
       "data": {
         "description": {
-          "value": "<p>A creature hit by the dream spider's web attack is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface until it @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} (DC 16).</p>"
+          "value": "<p>A creature hit by the dream spider's web attack is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface until it @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} (DC 15).</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -536,6 +567,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -562,21 +594,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.829-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -602,56 +632,6 @@
       }
     },
     {
-      "_id": "YXtwbvrIC9pbLB0K",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.684,
-          "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
-            "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
-            }
-          }
-        },
-        "mod": {
-          "value": 2
-        },
-        "proficient": {
-          "value": 0
-        },
-        "item": {
-          "value": 0
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 800000,
-      "type": "lore",
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
       "_id": "10XFRXBhSfS0hWjp",
       "data": {
         "description": {
@@ -662,21 +642,19 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.75,
           "lastMigration": {
-            "datetime": "2021-10-25T19:22:58.477+02:00",
+            "datetime": "2022-05-20T12:52:28.830-07:00",
             "version": {
-              "schema": 0.68,
-              "foundry": "0.8.9",
-              "system": "2.17.0.8553"
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.2.11602"
             }
           }
         },
@@ -703,24 +681,21 @@
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pathfinder-bestiary-2.Z2v611Np3J1MBkpv"
     },
     "pf2e": {
       "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
+        "all": {}
       },
       "lootable": false
     },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.3.11650"
     }
   }
 }
