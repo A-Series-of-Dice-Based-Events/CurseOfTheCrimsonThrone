@@ -1,16 +1,9 @@
 {
   "name": "Verik Vancaskerkin",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/Verik_Vacaskerkin-bs3hyd.png",
+  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Verik%20Vancaskerkin.png",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 49,
         "temp": 0,
@@ -25,7 +18,8 @@
       },
       "speed": {
         "value": "25",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 20,
@@ -49,17 +43,17 @@
       "creatureType": "",
       "blurb": "",
       "publicNotes": "",
-      "privateNotes": ""
+      "privateNotes": "<p>The conversion doc doesn't list skills for this NPC, but in 1E, he's a level 4 fighter with the following skills: Handle Animal +8, Indimidate +8, and Ride +7. Intimidation and Nature make sense as the adaptation of these. I assumed expert in Indimidation and trained in Nature.</p>"
     },
     "traits": {
-      "size": {
-        "value": "med"
-      },
       "senses": {
         "value": ""
       },
       "traits": {
-        "value": [],
+        "value": [
+          "human",
+          "humanoid"
+        ],
         "custom": ""
       },
       "languages": {
@@ -75,15 +69,22 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "unique"
+      "rarity": "unique",
+      "size": {
+        "value": "med"
       }
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
-      "lastMigration": null
+      "version": 0.751,
+      "lastMigration": {
+        "datetime": "2022-06-03T08:00:29.888-07:00",
+        "version": {
+          "schema": 0.75,
+          "foundry": "9.269",
+          "system": "3.10.4.11747"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -118,40 +119,18 @@
         "value": 7,
         "saveDetail": ""
       }
-    },
-    "customModifiers": {}
+    }
   },
   "token": {
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "displayName": 40,
-    "displayBars": 40,
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
     "height": 1,
     "width": 1,
-    "disposition": -1,
     "name": "Verik Vancaskerkin",
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -162,29 +141,42 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "randomImg": false,
-    "img": "worlds/crimson-throne/rolladvantage/Verik_Vacaskerkin-bs3hyd.png",
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Verik%20Vancaskerkin.png"
   },
   "items": [
     {
-      "_id": "NJi571twsxabmveq",
+      "_id": "t3GJAbp3XkYot1Sa",
       "name": "Chain Mail",
       "type": "armor",
       "img": "systems/pf2e/icons/equipment/armor/chainmail.webp",
@@ -200,33 +192,30 @@
             "flexible",
             "noisy"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "chain-mail",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "chain-mail",
         "hp": {
-          "value": null
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": null
-        },
-        "hardness": {
-          "value": null
-        },
-        "brokenThreshold": {
-          "value": null
-        },
+        "hardness": 0,
         "weight": {
           "value": "3"
         },
@@ -234,35 +223,26 @@
           "value": "2"
         },
         "price": {
-          "value": "6 gp"
+          "value": {
+            "gp": 6
+          }
         },
         "equipped": {
-          "value": true
+          "carryType": "worn",
+          "invested": null
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -282,18 +262,11 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
         "armor": {
           "value": 4
         },
-        "armorType": {
-          "value": "medium"
-        },
-        "group": {
-          "value": "chain"
-        },
+        "category": "medium",
+        "group": "chain",
         "strength": {
           "value": 16
         },
@@ -331,7 +304,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -340,7 +313,7 @@
       }
     },
     {
-      "_id": "wtQA2E8FlJzuSSio",
+      "_id": "JAekKPnPwoZfbBEB",
       "name": "Longspear",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/longspear.webp",
@@ -355,33 +328,30 @@
           "value": [
             "reach"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "longspear",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "longspear",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "2"
         },
@@ -389,35 +359,27 @@
           "value": ""
         },
         "price": {
-          "value": "5 sp"
+          "value": {
+            "sp": 5
+          }
         },
         "equipped": {
-          "value": true
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -437,18 +399,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "simple"
-        },
-        "group": {
-          "value": "spear"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "simple",
+        "group": "spear",
         "bonus": {
           "value": 0
         },
@@ -464,14 +416,9 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "melee"
-        },
+        "range": null,
         "reload": {
           "value": ""
-        },
-        "ability": {
-          "value": "str"
         },
         "MAP": {
           "value": null
@@ -517,7 +464,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -526,7 +473,7 @@
       }
     },
     {
-      "_id": "NQS53XVjKTNg0znS",
+      "_id": "IOX59Axbtw5zpTJh",
       "name": "Shortbow",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/shortbow.webp",
@@ -541,33 +488,30 @@
           "value": [
             "deadly-d10"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "shortbow",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "shortbow",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "1"
         },
@@ -575,35 +519,27 @@
           "value": ""
         },
         "price": {
-          "value": "3 gp"
+          "value": {
+            "gp": 3
+          }
         },
         "equipped": {
-          "value": true
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
-          "value": ""
+          "value": null
         },
         "preciousMaterialGrade": {
-          "value": ""
+          "value": null
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -623,18 +559,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "martial"
-        },
-        "group": {
-          "value": "bow"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "martial",
+        "group": "bow",
         "bonus": {
           "value": 0
         },
@@ -650,20 +576,15 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "60"
-        },
+        "range": 60,
         "reload": {
-          "value": ""
-        },
-        "ability": {
-          "value": "dex"
+          "value": "0"
         },
         "MAP": {
           "value": ""
         },
         "potencyRune": {
-          "value": null
+          "value": 0
         },
         "strikingRune": {
           "value": ""
@@ -672,16 +593,16 @@
           "value": false
         },
         "propertyRune1": {
-          "value": ""
+          "value": null
         },
         "propertyRune2": {
-          "value": ""
+          "value": null
         },
         "propertyRune3": {
-          "value": ""
+          "value": null
         },
         "propertyRune4": {
-          "value": ""
+          "value": null
         },
         "property1": {
           "value": "",
@@ -703,7 +624,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -712,7 +633,7 @@
       }
     },
     {
-      "_id": "pZLQFir6B68XD0eN",
+      "_id": "X6htclZ6oMvsgl88",
       "name": "Arrows",
       "type": "consumable",
       "img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
@@ -725,33 +646,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "arrows",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 10
-        },
+        "quantity": 20,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -759,40 +677,32 @@
           "value": ""
         },
         "price": {
-          "value": "1 sp"
+          "value": {
+            "sp": 1
+          },
+          "per": 10
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": "arrows"
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": "arrows",
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
-            "name": "",
-            "img": "",
+            "name": "Unusual Ammunition",
+            "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
             "data": {
               "description": {
                 "value": ""
@@ -863,7 +773,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -872,7 +782,7 @@
       }
     },
     {
-      "_id": "MElyzHQyIMGUL9Yk",
+      "_id": "Z0ak7PgglIkILhjt",
       "name": "Attack of Opportunity",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
@@ -885,16 +795,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "attack-of-opportunity",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "reaction"
@@ -911,6 +826,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -920,7 +836,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -929,7 +845,7 @@
       }
     },
     {
-      "_id": "VXTnSECXuyCacKm8",
+      "_id": "SrElSBF1btovp9BM",
       "name": "Longspear",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -944,16 +860,21 @@
           "value": [
             "reach-10"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "weaponType": {
           "value": "melee"
@@ -962,7 +883,7 @@
           "value": ""
         },
         "damageRolls": {
-          "y0766clcbvsat7z2kpgw": {
+          "1c9ncpl6s98xe8kpil3f": {
             "damage": "1d8+6",
             "damageType": "piercing"
           }
@@ -979,12 +900,12 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     },
     {
-      "_id": "W60RpoQMSVhnbdXp",
+      "_id": "Q62UFmi7D9oJGYnv",
       "name": "Shortbow",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -1000,16 +921,21 @@
             "deadly-d10",
             "range-60"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "weaponType": {
           "value": "ranged"
@@ -1018,7 +944,7 @@
           "value": ""
         },
         "damageRolls": {
-          "00gj45zdslmpahpot2i5": {
+          "aqytnf8ixzbor9ihmi6j": {
             "damage": "1d6+6",
             "damageType": "piercing"
           }
@@ -1035,50 +961,44 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     },
     {
-      "_id": "LynVMrqKPzJVtJHI",
-      "name": "Power Attack",
+      "_id": "2nFwDpd1ZjM9RLgX",
+      "name": "Intimidating Strike",
       "type": "action",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "data": {
         "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.PowerAttack]</p>"
+          "value": "<p>Verik makes a melee Strike. If he hits and deals damage, the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical hit.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "value": [
+            "emotion",
+            "fear",
+            "fighter",
+            "mental"
+          ],
+          "rarity": "common",
           "custom": ""
         },
-        "rules": [
-          {
-            "key": "ToggleProperty",
-            "property": "flags.pf2e.rollOptions.damage-roll.power-attack"
-          },
-          {
-            "diceNumber": 1,
-            "key": "DamageDice",
-            "predicate": {
-              "all": [
-                "melee",
-                "power-attack"
-              ]
-            },
-            "selector": "damage"
-          }
-        ],
-        "slug": "power-attack",
+        "rules": [],
+        "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "action"
@@ -1095,6 +1015,81 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ikZIdEkT36EnOXBL",
+      "name": "Power Attack",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "data": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.PowerAttack]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "domain": "damage-roll",
+            "key": "RollOption",
+            "option": "power-attack",
+            "toggleable": true
+          },
+          {
+            "diceNumber": 1,
+            "key": "DamageDice",
+            "predicate": {
+              "all": [
+                "melee",
+                "power-attack"
+              ]
+            },
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": "power-attack",
+        "schema": {
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -1104,31 +1099,117 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.0B39GdScyZMPWalX"
         }
       }
+    },
+    {
+      "_id": "pfTEHl5qPx1zE324",
+      "name": "Intimidation",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8ZIjE3UbgjBdTgTO",
+      "name": "Nature",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "data": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
       "lootable": true
     },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.4.11747"
     }
   }
 }

@@ -1,16 +1,9 @@
 {
-  "name": "Zombie Shambler",
+  "name": "Human Zombie",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/zombie-s0mnn0.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 30,
         "temp": 0,
@@ -25,7 +18,8 @@
       },
       "speed": {
         "value": "25",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 12,
@@ -52,9 +46,6 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "med"
-      },
       "senses": {
         "value": "darkvision"
       },
@@ -86,27 +77,26 @@
       "dr": [],
       "dv": [
         {
-          "label": "Positive",
           "type": "positive",
-          "value": "5"
+          "value": 5
         },
         {
-          "label": "Slashing",
           "type": "slashing",
-          "value": "5"
+          "value": 5
         }
       ],
-      "ci": [],
-      "rarity": {
-        "value": "common"
+      "rarity": "common",
+      "size": {
+        "value": "med"
       },
       "attitude": {
         "value": "hostile"
-      }
+      },
+      "ci": []
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
+      "version": 0.751,
       "lastMigration": null
     },
     "abilities": {
@@ -147,10 +137,10 @@
   "token": {
     "disposition": -1,
     "height": 1,
-    "img": "worlds/crimson-throne/rolladvantage/zombie-s0mnn0.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Zombie Shambler",
     "width": 1,
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -161,51 +151,121 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
-    "randomImg": false,
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "randomImg": false
   },
   "items": [
+    {
+      "_id": "qiyu0aoav4y0v7tf",
+      "data": {
+        "description": {
+          "value": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "slowed",
+        "schema": {
+          "version": 0.751,
+          "lastMigration": null
+        },
+        "active": true,
+        "removable": true,
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "immunityFrom": []
+        },
+        "hud": {
+          "statusName": "slowed",
+          "selectable": true,
+          "img": {
+            "useStatusName": true,
+            "value": "systems/pf2e/icons/conditions-2/slowed.webp"
+          }
+        },
+        "duration": {
+          "perpetual": true,
+          "value": 0,
+          "text": ""
+        },
+        "modifiers": [],
+        "base": "Slowed",
+        "group": "",
+        "value": {
+          "isValued": true,
+          "immutable": false,
+          "value": 1,
+          "modifiers": []
+        },
+        "sources": {
+          "hud": true,
+          "values": []
+        },
+        "alsoApplies": {
+          "linked": [],
+          "unlinked": []
+        },
+        "overrides": []
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3"
+        },
+        "pf2e": {
+          "condition": true
+        }
+      },
+      "img": "systems/pf2e/icons/conditions/slowed.webp",
+      "name": "Slowed",
+      "sort": 100000,
+      "type": "condition",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
     {
       "_id": "wOkHQN8ELSDh7T1f",
       "data": {
@@ -217,15 +277,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "weaponType": {
@@ -250,37 +308,35 @@
           "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Fist",
-      "sort": 100000,
+      "sort": 200000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "v90WRjELLiKF57vr",
       "data": {
         "description": {
-          "value": "<p data-visibility=\"gm\"><strong>Requirement</strong> The zombie has a creature @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}or @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p>"
+          "value": "<p><strong>Requirement</strong> The zombie has a creature @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "weaponType": {
@@ -299,22 +355,23 @@
           "value": 7
         },
         "attackEffects": {
-          "value": []
+          "value": [],
+          "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Jaws",
-      "sort": 200000,
+      "sort": 300000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
-      "_id": "53hkdTI31rqEkN73",
+      "_id": "SyWmilYaLnrtDFVe",
       "data": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
@@ -324,15 +381,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "darkvision",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "actionType": {
@@ -350,20 +405,21 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
         }
       },
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Darkvision",
-      "sort": 300000,
+      "sort": 400000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -380,15 +436,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "actionType": {
@@ -406,23 +460,24 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Slow",
-      "sort": 400000,
+      "sort": 500000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
-      "_id": "PcAUi0OEboIBKDAa",
+      "_id": "q1OobVjFqRsc58KI",
       "data": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
@@ -432,9 +487,7 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [
@@ -447,7 +500,7 @@
         ],
         "slug": "negative-healing",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "actionType": {
@@ -465,27 +518,28 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.TTCw5NusiSSkJU1x"
         }
       },
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Negative Healing",
-      "sort": 500000,
+      "sort": 600000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "FkmuhTkXBqRu4Rnh",
+      "_id": "Qknp3UNQSMjNTUmL",
       "data": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
@@ -495,15 +549,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "grab",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "actionType": {
@@ -521,11 +573,11 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
       "flags": {
         "core": {
           "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr"
@@ -533,8 +585,9 @@
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Grab",
-      "sort": 600000,
+      "sort": 700000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -551,15 +604,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "mod": {
@@ -567,42 +618,30 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Athletics",
-      "sort": 700000,
+      "sort": 800000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.0plBflWwrCWQO2RO"
     },
-    "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
-      "lootable": false
-    },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.4.11747"
     }
   }
 }

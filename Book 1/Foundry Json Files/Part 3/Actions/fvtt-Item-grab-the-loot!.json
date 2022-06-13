@@ -1,0 +1,58 @@
+{
+  "name": "Grab the Loot!",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "data": {
+    "description": {
+      "value": "<p>You attempt to grab a handful of gold from the Knivesies table. Attempt an Acrobatics check against your opponent's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You quickly snatch [[/r 1d10]]{1d10 coins} from the table without provoking an Attack of Opportunity from your opponent.</p>\n<p><strong>Success</strong> You pick up [[/r 1d10]]{1d10 coins} from the table.</p>\n<p><strong>Failure</strong> You pick up [[/r 1d4]]{1d4 coins} from the table.</p>\n<p><strong>Critical Failure</strong> You fail to pick up any coins.</p>"
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [
+        "move"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.751,
+      "lastMigration": {
+        "datetime": "2022-06-12T15:18:59.902-07:00",
+        "version": {
+          "schema": null,
+          "foundry": "9.269",
+          "system": "3.10.4.11747"
+        }
+      }
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actionCategory": {
+      "value": "interaction"
+    },
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "curse-of-the-crimson-throne",
+      "system": "pf2e",
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.4.11747"
+    }
+  }
+}

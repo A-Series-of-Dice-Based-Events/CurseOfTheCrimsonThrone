@@ -1,16 +1,9 @@
 {
-  "name": "Eel’s End Enforcer",
+  "name": "Eel's End Enforcer",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/brute-4mstdr.png",
+  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Eels%20End%20Enforcers.png",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 32,
         "temp": 0,
@@ -25,7 +18,8 @@
       },
       "speed": {
         "value": "25",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 18,
@@ -52,18 +46,20 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "med"
-      },
       "senses": {
         "value": ""
       },
       "traits": {
-        "value": [],
+        "value": [
+          "human",
+          "humanoid"
+        ],
         "custom": ""
       },
       "languages": {
-        "value": [],
+        "value": [
+          "common"
+        ],
         "selected": [],
         "custom": ""
       },
@@ -73,15 +69,22 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "common"
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
       }
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
-      "lastMigration": null
+      "version": 0.751,
+      "lastMigration": {
+        "datetime": "2022-06-03T08:00:29.872-07:00",
+        "version": {
+          "schema": 0.75,
+          "foundry": "9.269",
+          "system": "3.10.4.11747"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -119,36 +122,15 @@
     }
   },
   "token": {
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "displayName": 40,
-    "displayBars": 40,
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
     "height": 1,
     "width": 1,
-    "disposition": -1,
-    "name": "Eel’s End Enforcer",
+    "name": "Eel's End Enforcer",
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -159,29 +141,42 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "randomImg": false,
-    "img": "worlds/crimson-throne/rolladvantage/brute-4mstdr.png",
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Eels%20End%20Enforcers.png"
   },
   "items": [
     {
-      "_id": "RYJNqMAxp7CypdH4",
+      "_id": "uwqe8V16W7he6I0b",
       "name": "Acrobatics",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
@@ -194,16 +189,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 5
@@ -217,12 +217,12 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     },
     {
-      "_id": "6WWPzZc8fkH3Sdsg",
+      "_id": "RS6gwaQtIdeTn9AI",
       "name": "Athletics",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
@@ -235,16 +235,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 8
@@ -258,12 +263,12 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     },
     {
-      "_id": "9WhfmKY70qoD3IpP",
+      "_id": "i5HNp00Ij6MiOWxu",
       "name": "Sap",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/sap.webp",
@@ -279,33 +284,30 @@
             "agile",
             "nonlethal"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "sap",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "sap",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -313,35 +315,27 @@
           "value": ""
         },
         "price": {
-          "value": "1 sp"
+          "value": {
+            "sp": 1
+          }
         },
         "equipped": {
-          "value": true
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -361,18 +355,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "martial"
-        },
-        "group": {
-          "value": "club"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "martial",
+        "group": "club",
         "bonus": {
           "value": 0
         },
@@ -388,14 +372,9 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "melee"
-        },
+        "range": null,
         "reload": {
           "value": ""
-        },
-        "ability": {
-          "value": "str"
         },
         "MAP": {
           "value": ""
@@ -441,7 +420,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -450,7 +429,7 @@
       }
     },
     {
-      "_id": "ND2dVt84A0lWsF5z",
+      "_id": "MwryqH1IU2ZxemCy",
       "name": "Manacles (Simple)",
       "type": "equipment",
       "img": "systems/pf2e/icons/equipment/adventuring-gear/manacles.webp",
@@ -463,33 +442,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "manacles-simple",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "-"
         },
@@ -497,35 +473,26 @@
           "value": ""
         },
         "price": {
-          "value": "3 gp"
+          "value": {
+            "gp": 3
+          }
         },
         "equipped": {
-          "value": true
+          "carryType": "worn",
+          "invested": null
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -544,9 +511,6 @@
         },
         "level": {
           "value": 1
-        },
-        "invested": {
-          "value": false
         }
       },
       "effects": [],
@@ -554,7 +518,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -563,7 +527,7 @@
       }
     },
     {
-      "_id": "98uzjG2xDLcy4i4H",
+      "_id": "NUMk37As0iwX8ZqG",
       "name": "Studded Leather Armor",
       "type": "armor",
       "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
@@ -576,33 +540,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "studded-leather-armor",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "studded-leather-armor",
         "hp": {
-          "value": null
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": null
-        },
-        "hardness": {
-          "value": null
-        },
-        "brokenThreshold": {
-          "value": null
-        },
+        "hardness": 0,
         "weight": {
           "value": "2"
         },
@@ -610,35 +571,26 @@
           "value": "1"
         },
         "price": {
-          "value": "3 gp"
+          "value": {
+            "gp": 3
+          }
         },
         "equipped": {
-          "value": true
+          "carryType": "worn",
+          "invested": null
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -658,18 +610,11 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
         "armor": {
           "value": 2
         },
-        "armorType": {
-          "value": "light"
-        },
-        "group": {
-          "value": "leather"
-        },
+        "category": "light",
+        "group": "leather",
         "strength": {
           "value": 12
         },
@@ -707,7 +652,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -716,7 +661,7 @@
       }
     },
     {
-      "_id": "WxAENR4jWf7Ms9KS",
+      "_id": "F3lv3CbliH3aBC6z",
       "name": "Attack of Opportunity",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
@@ -729,16 +674,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "attack-of-opportunity",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "reaction"
@@ -755,6 +705,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -764,7 +715,7 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {
         "core": {
@@ -773,7 +724,7 @@
       }
     },
     {
-      "_id": "5d5njqXDKmIlLj6A",
+      "_id": "5HG9eUz1hOmIkY4m",
       "name": "Sap",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -789,16 +740,21 @@
             "agile",
             "nonlethal"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "weaponType": {
           "value": "melee"
@@ -807,7 +763,7 @@
           "value": ""
         },
         "damageRolls": {
-          "42unrpyr4hiqf0w9y0qd": {
+          "0t55hva7dwsonina40v7": {
             "damage": "1d6+5",
             "damageType": "bludgeoning"
           }
@@ -824,18 +780,18 @@
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     },
     {
-      "_id": "fZOnKSd9PVyN05xf",
+      "_id": "hohwyv5KFSmbjFYk",
       "name": "Efficient Capture",
       "type": "action",
       "img": "systems/pf2e/icons/actions/ThreeActions.webp",
       "data": {
         "description": {
-          "value": "<p><strong>Requirements&nbsp;</strong>The eel's end enforcer has manacles</p>\n<p>in hand and is adjacent to a creature;<strong> </strong></p>\n<p><strong>Effect </strong>The eel's end enforcer attempts to bind the creature&rsquo;s wrists</p>\n<p>or ankles with the manacles. If the eel's end enforcer succeeds at</p>\n<p>an attack roll with a +8 modifer against the target&rsquo;s AC, they apply</p>\n<p>the manacles.</p>"
+          "value": "<p><strong>Requirements</strong> The eel's end enforcer has manacles in hand and is adjacent to a creature</p>\n<p><strong>Effect</strong> The eel's end enforcer attempts to bind the creature's wrists or ankles with the manacles. If the eel's end enforcer succeeds at an attack roll with a +8 modifier against the target's AC, they apply the manacles.</p>"
         },
         "source": {
           "value": ""
@@ -845,22 +801,27 @@
             "attack",
             "manipulate"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "action"
         },
         "actionCategory": {
-          "value": "offensive"
+          "value": "interaction"
         },
         "actions": {
           "value": 3
@@ -870,41 +831,52 @@
         },
         "trigger": {
           "value": ""
-        }
+        },
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     },
     {
-      "_id": "UlE23Xbpx7JUDKaM",
+      "_id": "9saeq4NpfooJ9agn",
       "name": "Intimidating Strike",
       "type": "action",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "data": {
         "description": {
-          "value": "<p>The eel's end enforcer makes a melee Strike. If the eel's end</p>\n<p>enforcer hits and deals damage, the target is frightened 1, or</p>\n<p>frightened 2 on a critical hit.</p>"
+          "value": "<p>The Eel's End Enforcer makes a melee Strike. If he hits and deals damage, the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical hit.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "value": [
+            "emotion",
+            "fear",
+            "fighter",
+            "mental"
+          ],
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-03T08:00:29.872-07:00",
+            "version": {
+              "schema": 0.75,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "action"
@@ -920,34 +892,29 @@
         },
         "trigger": {
           "value": ""
-        }
+        },
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
       "sort": 0,
       "permission": {
         "default": 0,
-        "RDRTYAhTWR8OYG4X": 3
+        "N8BJEefwErTVmTS8": 3
       },
       "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
-      "lootable": false
+      "lootable": true
     },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.4.11747"
     }
   }
 }

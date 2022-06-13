@@ -1,16 +1,9 @@
 {
   "name": "Devargo Bavarsi",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/Devargo_Barvasi-4nd77b.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 70,
         "temp": 0,
@@ -25,7 +18,8 @@
       },
       "speed": {
         "value": "25",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 22,
@@ -52,9 +46,6 @@
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "med"
-      },
       "senses": {
         "value": ""
       },
@@ -76,15 +67,23 @@
       },
       "dr": [],
       "dv": [],
-      "ci": [],
-      "rarity": {
-        "value": "unique"
-      }
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
     },
     "resources": {},
     "schema": {
-      "version": 0.684,
-      "lastMigration": null
+      "version": 0.751,
+      "lastMigration": {
+        "datetime": "2022-06-12T15:28:56.692-07:00",
+        "version": {
+          "schema": 0.684,
+          "foundry": "9.269",
+          "system": "3.10.4.11747"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -125,8 +124,8 @@
     "bar1": {
       "attribute": "attributes.hp"
     },
-    "displayName": 40,
-    "displayBars": 40,
+    "displayName": 20,
+    "displayBars": 20,
     "flags": {
       "pf2e": {
         "linkToActorSize": true
@@ -180,7 +179,28 @@
     "lightColor": null,
     "x": null,
     "y": null,
-    "elevation": null
+    "elevation": null,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
   },
   "items": [
     {
@@ -197,16 +217,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.692-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 13
@@ -238,16 +263,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 12
@@ -279,16 +309,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 12
@@ -320,16 +355,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 10
@@ -361,16 +401,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 15
@@ -402,16 +447,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 13
@@ -443,16 +493,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "mod": {
           "value": 8
@@ -484,33 +539,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "hand-crossbow",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "hand-crossbow",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -518,35 +570,27 @@
           "value": ""
         },
         "price": {
-          "value": "3 gp"
+          "value": {
+            "gp": 3
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -566,18 +610,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "simple"
-        },
-        "group": {
-          "value": "bow"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "simple",
+        "group": "bow",
         "bonus": {
           "value": 0
         },
@@ -593,14 +627,9 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "60"
-        },
+        "range": 60,
         "reload": {
           "value": "1"
-        },
-        "ability": {
-          "value": "dex"
         },
         "MAP": {
           "value": ""
@@ -668,33 +697,30 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "leather-armor",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "leather-armor",
         "hp": {
-          "value": null
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": null
-        },
-        "hardness": {
-          "value": null
-        },
-        "brokenThreshold": {
-          "value": null
-        },
+        "hardness": 0,
         "weight": {
           "value": "2"
         },
@@ -702,35 +728,27 @@
           "value": "1"
         },
         "price": {
-          "value": "2 gp"
+          "value": {
+            "gp": 2
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": false
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -750,18 +768,11 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
         "armor": {
           "value": 1
         },
-        "armorType": {
-          "value": "light"
-        },
-        "group": {
-          "value": "leather"
-        },
+        "category": "light",
+        "group": "leather",
         "strength": {
           "value": 10
         },
@@ -824,33 +835,30 @@
             "agile",
             "free-hand"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "spiked-gauntlet",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": "spiked-gauntlet",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -858,35 +866,27 @@
           "value": ""
         },
         "price": {
-          "value": "3 sp"
+          "value": {
+            "sp": 3
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": null
         },
         "preciousMaterialGrade": {
           "value": null
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -906,18 +906,8 @@
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
-        },
-        "weaponType": {
-          "value": "simple"
-        },
-        "group": {
-          "value": "brawling"
-        },
-        "hands": {
-          "value": ""
-        },
+        "category": "simple",
+        "group": "brawling",
         "bonus": {
           "value": 0
         },
@@ -933,14 +923,9 @@
         "splashDamage": {
           "value": 0
         },
-        "range": {
-          "value": "melee"
-        },
+        "range": null,
         "reload": {
           "value": ""
-        },
-        "ability": {
-          "value": "str"
         },
         "MAP": {
           "value": ""
@@ -1013,33 +998,30 @@
             "magical",
             "potion"
           ],
-          "rarity": {
-            "value": "uncommon"
-          },
+          "rarity": "uncommon",
           "custom": ""
         },
         "rules": [],
         "slug": "invisibility-potion",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -1047,35 +1029,26 @@
           "value": ""
         },
         "price": {
-          "value": "20 gp"
+          "value": {
+            "gp": 20
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1180,33 +1153,30 @@
             "positive",
             "potion"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "healing-potion-lesser",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -1214,35 +1184,26 @@
           "value": ""
         },
         "price": {
-          "value": "12 gp"
+          "value": {
+            "gp": 12
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1333,16 +1294,14 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "data": {
         "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+          "value": "<p>Devargo deals an extra [[/r {1d6}[precision]]]{1d6 precision damage} to flat‑footed creatures.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [
@@ -1353,7 +1312,7 @@
             "key": "DamageDice",
             "predicate": {
               "all": [
-                "target:flatFooted"
+                "target:condition:flat-footed"
               ],
               "any": [
                 "finesse",
@@ -1361,13 +1320,20 @@
                 "ranged"
               ]
             },
-            "selector": "damage"
+            "selector": "strike-damage"
           }
         ],
         "slug": "sneak-attack",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1384,6 +1350,7 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
@@ -1408,23 +1375,35 @@
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "data": {
         "description": {
-          "value": "<p>Devargo isn&rsquo;t flat‐footed to&nbsp;creatures of 5th level or lower that are</p>\n<p>hidden, undetected, flanking, or using surprise attack.</p>"
+          "value": "<p>Devargo isn't flat‑footed to creatures of 5th level or lower that are @Compendium[pf2e.conditionitems.Hidden]{Hidden}, undetected, flanking, or using surprise attack.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
-        "rules": [],
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "data.attributes.flanking.flatFootable",
+            "value": "@actor.level"
+          }
+        ],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1440,7 +1419,8 @@
         },
         "trigger": {
           "value": ""
-        }
+        },
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
@@ -1458,23 +1438,28 @@
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "data": {
         "description": {
-          "value": "<p><strong>Trigger </strong>A creature within Devargo&rsquo;s melee reach is hit by a melee</p>\n<p>attack from one of his allies;</p>\n<p><strong>Effect </strong>Devargo makes a Strike against the triggering creature with</p>\n<p>a &ndash;2 penalty to the attack roll. He can&rsquo;t deal sneak attack damage</p>\n<p>on this Strike. After this Strike, Devargo can Stride without</p>\n<p>triggering reactions.</p>"
+          "value": "<p><strong>Trigger</strong> A creature within Devargo's melee reach is hit by a melee attack from one of his allies</p>\n<p><strong>Effect</strong> Devargo makes a Strike against the triggering creature with a -2 penalty to the attack roll. He can't deal sneak attack damage on this Strike. After this Strike, Devargo can Stride without triggering reactions.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "reaction"
@@ -1490,7 +1475,8 @@
         },
         "trigger": {
           "value": ""
-        }
+        },
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
@@ -1518,16 +1504,21 @@
             "agile",
             "free-hand"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "weaponType": {
           "value": "melee"
@@ -1579,33 +1570,30 @@
             "injury",
             "poison"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": "hunting-spider-venom",
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
           "value": "L"
         },
@@ -1613,35 +1601,26 @@
           "value": ""
         },
         "price": {
-          "value": "25 gp"
+          "value": {
+            "gp": 25
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "worn",
+          "handsHeld": 0
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1739,16 +1718,21 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1764,7 +1748,8 @@
         },
         "trigger": {
           "value": ""
-        }
+        },
+        "deathNote": false
       },
       "effects": [],
       "folder": null,
@@ -1792,16 +1777,21 @@
             "range-increment-60",
             "reload-1"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
-          "lastMigration": null
+          "version": 0.751,
+          "lastMigration": {
+            "datetime": "2022-06-12T15:28:56.693-07:00",
+            "version": {
+              "schema": 0.684,
+              "foundry": "9.269",
+              "system": "3.10.4.11747"
+            }
+          }
         },
         "weaponType": {
           "value": "ranged"
@@ -1830,24 +1820,159 @@
         "RDRTYAhTWR8OYG4X": 3
       },
       "flags": {}
+    },
+    {
+      "_id": "xsxPZNwBsnRzO066",
+      "name": "Bolts",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+      "data": {
+        "description": {
+          "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "bolts",
+        "schema": {
+          "version": 0.751,
+          "lastMigration": null
+        },
+        "quantity": 10,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 10
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "stackGroup": "bolts",
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "autoUse": true,
+          "autoDestroy": true
+        },
+        "spell": {
+          "data": null,
+          "heightenedLevel": null
+        },
+        "level": {
+          "value": 0
+        },
+        "consumableType": {
+          "value": "ammo"
+        },
+        "charges": {
+          "value": 0,
+          "max": 0,
+          "_deprecated": true
+        },
+        "consume": {
+          "value": "",
+          "_deprecated": true
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      }
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
       "lootable": false
     },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.4.11747"
     }
   }
 }

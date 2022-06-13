@@ -1,16 +1,9 @@
 {
-  "name": "Dero Strangler",
+  "name": "Derro",
   "type": "npc",
-  "img": "worlds/crimson-throne/rolladvantage/Derrogirl-s0chs9.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
-      "shield": {
-        "value": 0,
-        "max": 0,
-        "brokenThreshold": 0,
-        "hardness": 0,
-        "ac": 0
-      },
       "hp": {
         "value": 45,
         "temp": 0,
@@ -25,7 +18,8 @@
       },
       "speed": {
         "value": "20",
-        "otherSpeeds": []
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 19,
@@ -48,13 +42,10 @@
       },
       "creatureType": "Humanoid",
       "blurb": "",
-      "publicNotes": "<p>Dero stranglers specialize in capturing living victims, and they are often called upon to aid in abductions.</p>",
+      "publicNotes": "<p>Dero stranglers specialize in capturing living victims, and they are often called upon to aid in abductions.</p>\n<hr />\n<p>Deros are short, wiry humanoids with milky white eyes, gray-blue skin, and wild shocks of off-white or gray hair. The descendants of a mysterious type of fey abandoned in the deepest, darkest caverns of Golarion, deros are the subject of fearful legends and folk tales to most of the world's surface races. They skulk beneath major metropolitan areas, performing cruel and twisted experiments on unwilling subjects. A dero is 3 feet tall and weighs approximately 70 pounds.</p>",
       "privateNotes": ""
     },
     "traits": {
-      "size": {
-        "value": "sm"
-      },
       "senses": {
         "value": "darlvision"
       },
@@ -82,14 +73,15 @@
       "dr": [],
       "dv": [
         {
-          "label": "Vulnerable To Sunlight",
-          "type": "vulnerable to sunlight"
+          "type": "vulnerable-to-sunlight",
+          "value": 0
         }
       ],
-      "ci": [],
-      "rarity": {
-        "value": "common"
-      }
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      },
+      "ci": []
     },
     "resources": {
       "focus": {
@@ -98,7 +90,7 @@
       }
     },
     "schema": {
-      "version": 0.684,
+      "version": 0.751,
       "lastMigration": null
     },
     "abilities": {
@@ -139,10 +131,10 @@
   "token": {
     "disposition": -1,
     "height": 1,
-    "img": "worlds/crimson-throne/rolladvantage/Derrogirl-s0chs9.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Dero Strangler",
     "width": 1,
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "scale": 1,
     "mirrorX": false,
@@ -153,53 +145,45 @@
     "vision": false,
     "dimSight": 0,
     "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
     "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "flags": {
       "pf2e": {
         "linkToActorSize": true
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
       }
     },
-    "randomImg": false,
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null
+    "randomImg": false
   },
   "items": [
     {
-      "_id": "My8vYwxHYGghh2vq",
+      "_id": "osyjgXeJV4vv5i3F",
       "data": {
         "description": {
           "value": ""
@@ -209,37 +193,35 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "ability": {
-          "value": ""
+          "value": "cha"
         },
         "spelldc": {
-          "value": 9,
-          "dc": "19",
-          "mod": 0,
-          "item": 0
+          "value": 11,
+          "dc": 19,
+          "mod": 0
         },
         "tradition": {
           "value": "occult"
         },
         "prepared": {
-          "value": "innate"
+          "value": "innate",
+          "flexible": false
         },
         "showUnpreparedSpells": {
-          "value": false
+          "value": true
         },
         "showSlotlessLevels": {
-          "value": true
+          "value": false
         },
         "proficiency": {
           "value": 0
@@ -307,50 +289,41 @@
             "max": 0
           }
         },
-        "signatureSpells": {
-          "value": []
-        },
         "autoHeightenLevel": {
           "value": null
-        },
-        "displayLevel": {},
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
       "name": "Occult Innate Spells",
       "sort": 100000,
       "type": "spellcastingEntry",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
-      "_id": "MHQEnkuD2yVUeqgU",
+      "_id": "E9yEjfkAzFYDW6Iy",
       "data": {
         "description": {
-          "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's level or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}.</p>"
+          "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's level or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}.</p>"
         },
         "source": {
-          "value": "https://2e.aonprd.com/Spells.aspx?ID=59"
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
             "darkness"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "darkness",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "level": {
@@ -389,7 +362,7 @@
           "value": "120 feet"
         },
         "area": {
-          "value": 20,
+          "value": "20",
           "areaType": "burst"
         },
         "time": {
@@ -415,51 +388,63 @@
           "value": ""
         },
         "location": {
-          "value": "My8vYwxHYGghh2vq"
+          "value": "osyjgXeJV4vv5i3F",
+          "heightenedLevel": 2
         },
         "hasCounteractCheck": {
           "value": false
         },
-        "autoHeightenLevel": {
-          "value": null
+        "areasize": {
+          "value": "20-foot burst"
         },
         "prepared": {
           "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c"
+        }
+      },
       "img": "systems/pf2e/icons/spells/darkness.webp",
-      "name": "Darkness",
+      "name": "Darkness (At Will)",
       "sort": 200000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "Jka0CkLv18AAowE4",
+      "_id": "bMvPJFV7vj2bgwOK",
       "data": {
         "description": {
-          "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr /><strong>Critical Success</strong> The creature is unaffected.\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute, and is @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr /><strong>Heightened</strong> The damage increases by 1d10."
+          "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
         },
         "source": {
-          "value": "https://2e.aonprd.com/Spells.aspx?ID=292"
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
             "sonic"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "sound-burst",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "level": {
@@ -496,7 +481,7 @@
           "value": "30 feet"
         },
         "area": {
-          "value": 10,
+          "value": "10",
           "areaType": "burst"
         },
         "time": {
@@ -530,37 +515,58 @@
           "value": ""
         },
         "location": {
-          "value": "My8vYwxHYGghh2vq"
+          "value": "osyjgXeJV4vv5i3F",
+          "heightenedLevel": 2
         },
         "hasCounteractCheck": {
           "value": false
         },
-        "autoHeightenLevel": {
-          "value": null
+        "areasize": {
+          "value": "10-foot burst"
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d10"
+          },
+          "interval": 1,
+          "type": "interval"
         },
         "prepared": {
           "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.wzLkNU3AAqOSKFPR"
+        }
+      },
       "img": "systems/pf2e/icons/spells/sound-burst.webp",
       "name": "Sound Burst",
       "sort": 300000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "2RG6LLprwt51of8d",
+      "_id": "qfnBEDuh8ayHKkWs",
       "data": {
         "description": {
-          "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened</strong> The damage increases by 1d6.</p>"
+          "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
         },
         "source": {
-          "value": "https://2e.aonprd.com/Spells.aspx?ID=61"
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
@@ -568,15 +574,13 @@
             "mental",
             "nonlethal"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "daze",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "level": {
@@ -624,11 +628,20 @@
           "value": "1 round"
         },
         "damage": {
-          "value": {}
+          "value": {
+            "0": {
+              "applyMod": true,
+              "type": {
+                "categories": [],
+                "value": "mental"
+              },
+              "value": "0"
+            }
+          }
         },
         "save": {
           "value": "will",
-          "basic": ""
+          "basic": "basic"
         },
         "sustained": {
           "value": false
@@ -640,58 +653,70 @@
           "value": ""
         },
         "location": {
-          "value": "My8vYwxHYGghh2vq"
+          "value": "osyjgXeJV4vv5i3F"
         },
         "hasCounteractCheck": {
           "value": false
         },
-        "autoHeightenLevel": {
-          "value": null
+        "areasize": {
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 2,
+          "type": "interval"
         },
         "prepared": {
           "value": ""
         },
-        "scaling": {
-          "damage": {
-            "0": "1d6"
-          },
-          "interval": 2
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.4gBIw4IDrSfFHik4"
+        }
+      },
       "img": "systems/pf2e/icons/spells/daze.webp",
       "name": "Daze",
       "sort": 400000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "vscf07Rj06OrPJOX",
+      "_id": "PWln8e7NZhbFQEiU",
       "data": {
         "description": {
-          "value": "<p>You create an auditory illusion of simple sounds that has a maximum volume equal to four normal humans shouting. The sounds emanate from a square you designate within range. You can't create intelligible words or other intricate sounds (such as music).</p>\n<hr />\n<p><strong>Heightened</strong> The range increases to 60 feet.</p>\n<p><strong>Heightened</strong> The range increases to 120 feet.</p>"
+          "value": "<p>You create an auditory illusion of simple sounds that has a maximum volume equal to four normal humans shouting. The sounds emanate from a square you designate within range. You can't create intelligible words or other intricate sounds (such as music).</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The range increases to 60 feet.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 120 feet.</p>"
         },
         "source": {
-          "value": "https://2e.aonprd.com/Spells.aspx?ID=132"
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
             "auditory",
             "cantrip"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "ghost-sound",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "level": {
@@ -754,103 +779,103 @@
           "value": ""
         },
         "location": {
-          "value": "My8vYwxHYGghh2vq"
+          "value": "osyjgXeJV4vv5i3F"
         },
         "hasCounteractCheck": {
           "value": false
         },
-        "autoHeightenLevel": {
-          "value": null
+        "areasize": {
+          "value": ""
         },
         "prepared": {
           "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.atlgGNI1E1Ox3O3a"
+        }
+      },
       "img": "systems/pf2e/icons/spells/ghost-sound.webp",
       "name": "Ghost Sound",
       "sort": 500000,
       "type": "spell",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "ykQbHbX4Hr57tmXS",
+      "_id": "NzbLKc9kj7IBRhxp",
       "data": {
         "description": {
-          "value": ""
+          "value": "<p>The aklys is a throwing club with a hook on one end and a lengthy cord attached to the other. Though aklyses aren't available in most shops, one might be purchased for 5 gp from a vendor that specializes in strange weapons.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Bestiary"
         },
         "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "value": [
+            "ranged-trip",
+            "tethered",
+            "thrown-20",
+            "trip"
+          ],
+          "rarity": "uncommon",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "aklys",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
-        "quantity": {
-          "value": 1
-        },
-        "baseItem": null,
+        "quantity": 1,
+        "baseItem": "aklys",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
-          "value": 0
+          "value": "1"
         },
         "equippedBulk": {
           "value": ""
         },
         "price": {
-          "value": "0 gp"
+          "value": {
+            "gp": 5
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
-          "value": ""
+          "value": null
         },
         "preciousMaterialGrade": {
-          "value": ""
+          "value": null
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "sm",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -870,95 +895,137 @@
         "level": {
           "value": 0
         },
-        "invested": {
+        "category": "advanced",
+        "group": "club",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "bludgeoning"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": null
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "MAP": {
+          "value": "5"
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
           "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "aklys",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.YnPYSKCQBLIOtm0J"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/aklys.webp",
+      "name": "Aklys",
       "sort": 600000,
-      "type": "equipment",
+      "type": "weapon",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "tTmOKCOXnFGlqETP",
+      "_id": "aMrfeaJgHIoPyWhD",
       "data": {
         "description": {
-          "value": ""
+          "value": "<p>Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "hand-crossbow",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
-        "quantity": {
-          "value": 1
-        },
-        "baseItem": null,
+        "quantity": 1,
+        "baseItem": "hand-crossbow",
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
-          "value": 0
+          "value": "L"
         },
         "equippedBulk": {
           "value": ""
         },
         "price": {
-          "value": "0 gp"
+          "value": {
+            "gp": 3
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
-          "value": ""
+          "value": null
         },
         "preciousMaterialGrade": {
-          "value": ""
+          "value": null
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "sm",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -978,95 +1045,137 @@
         "level": {
           "value": 0
         },
-        "invested": {
+        "category": "simple",
+        "group": "bow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "value": "",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing"
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 60,
+        "reload": {
+          "value": "1"
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "specific": {
           "value": false
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "hand crossbow",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.XyA6PKV46aNlLXOd"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
+      "name": "Hand Crossbow",
       "sort": 700000,
-      "type": "equipment",
+      "type": "weapon",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "AperNqGmQncqGuev",
+      "_id": "Bl8rxvSctjIs06lY",
       "data": {
         "description": {
-          "value": ""
+          "value": "<p>50 feet of rope.</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "rope",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 1,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
-          "value": 0
+          "value": "L"
         },
         "equippedBulk": {
           "value": ""
         },
         "price": {
-          "value": "0 gp"
+          "value": {
+            "sp": 5
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
-          "value": "0"
-        },
-        "containerId": {
           "value": ""
         },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1085,96 +1194,85 @@
         },
         "level": {
           "value": 0
-        },
-        "invested": {
-          "value": false
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "lethargy poison",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.fyYnQf1NAx9fWFaS"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/rope.webp",
+      "name": "Rope",
       "sort": 800000,
       "type": "equipment",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
       }
     },
     {
-      "_id": "AYklmQH84wYs1YKn",
+      "_id": "CQl8LEG6PSZ2LQ81",
       "data": {
         "description": {
-          "value": ""
+          "value": "<p>Lethargy poison is commonly used in hit-and-run tactics by drow and others who want their victims alive; the ambusher retreats until the poison sets in and the victim falls unconscious. Further exposure to lethargy poison does not require the target to attempt additional saving throws; only failing an saving throw against an ongoing exposure can progress its stage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">D</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p>\n<p><strong>Stage 2</strong> slowed 1 (1 minute)</p>\n<p><strong>Stage 3</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} with no Perception check to wake up (1 round)</p>\n<p><strong>Stage 4</strong> unconscious with no Perception check to wake up ([[/br 1d4 #hours]]{1d4 hours}).</p>"
         },
         "source": {
-          "value": ""
+          "value": "Pathfinder Core Rulebook"
         },
         "traits": {
-          "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "value": [
+            "alchemical",
+            "conjuration",
+            "incapacitation",
+            "injury",
+            "poison",
+            "sleep"
+          ],
+          "rarity": "uncommon",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "lethargy-poison",
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
-        "quantity": {
-          "value": 1
-        },
+        "quantity": 5,
         "baseItem": null,
         "hp": {
-          "value": 0
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "maxHp": {
-          "value": 0
-        },
-        "hardness": {
-          "value": 0
-        },
-        "brokenThreshold": {
-          "value": 0
-        },
+        "hardness": 0,
         "weight": {
-          "value": 0
+          "value": "L"
         },
         "equippedBulk": {
           "value": ""
         },
         "price": {
-          "value": "0 gp"
+          "value": {
+            "gp": 7
+          }
         },
         "equipped": {
-          "value": false
+          "carryType": "held",
+          "handsHeld": 1
         },
-        "stackGroup": {
-          "value": ""
-        },
-        "bulkCapacity": {
-          "value": ""
-        },
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
-        "containerId": {
-          "value": ""
-        },
+        "containerId": null,
         "preciousMaterial": {
           "value": ""
         },
         "preciousMaterialGrade": {
           "value": ""
         },
-        "collapsed": {
-          "value": false
-        },
-        "size": {
-          "value": "med"
-        },
+        "size": "med",
         "identification": {
           "status": "identified",
           "unidentified": {
@@ -1191,19 +1289,211 @@
         "usage": {
           "value": "held-in-one-hand"
         },
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "autoUse": true,
+          "autoDestroy": true
+        },
+        "spell": {
+          "data": null,
+          "heightenedLevel": null
+        },
+        "level": {
+          "value": 2
+        },
+        "consumableType": {
+          "value": "poison"
+        },
+        "charges": {
+          "value": 1,
+          "max": 1,
+          "_deprecated": true
+        },
+        "consume": {
+          "value": "",
+          "_deprecated": true
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
+        }
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/lethargy-poison.webp",
+      "name": "Lethargy Poison",
+      "sort": 900000,
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1CVLhTrJVtFboNQC",
+      "data": {
+        "description": {
+          "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "bolts",
+        "schema": {
+          "version": 0.751,
+          "lastMigration": null
+        },
+        "quantity": 10,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 10
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1
+        },
+        "stackGroup": "bolts",
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "autoUse": true,
+          "autoDestroy": true
+        },
+        "spell": {
+          "data": null,
+          "heightenedLevel": null
+        },
         "level": {
           "value": 0
         },
-        "invested": {
-          "value": false
+        "consumableType": {
+          "value": "ammo"
+        },
+        "charges": {
+          "value": 0,
+          "max": 0,
+          "_deprecated": true
+        },
+        "consume": {
+          "value": "",
+          "_deprecated": true
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
         }
       },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+      "name": "Bolts",
+      "sort": 1000000,
+      "type": "consumable",
       "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "rope",
-      "sort": 900000,
-      "type": "equipment",
       "folder": null,
       "permission": {
         "default": 0
@@ -1222,15 +1512,13 @@
           "value": [
             "trip"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "weaponType": {
@@ -1249,19 +1537,20 @@
           "value": 11
         },
         "attackEffects": {
-          "value": []
+          "value": [],
+          "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Aklys",
-      "sort": 1000000,
+      "sort": 1100000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "mvM0UYDSareH0kWj",
@@ -1274,19 +1563,17 @@
         },
         "traits": {
           "value": [
-            "ranged trip",
+            "ranged-trip",
             "tethered",
             "thrown-20"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "weaponType": {
@@ -1305,19 +1592,20 @@
           "value": 10
         },
         "attackEffects": {
-          "value": []
+          "value": [],
+          "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Aklys",
-      "sort": 1100000,
+      "sort": 1200000,
       "type": "melee",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "5HRKFbIvbD2qXTXD",
@@ -1333,15 +1621,13 @@
             "range-increment-60",
             "reload-1"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "weaponType": {
@@ -1362,15 +1648,126 @@
         "attackEffects": {
           "value": [
             "lethargy-poison"
-          ]
+          ],
+          "custom": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Hand Crossbow",
-      "sort": 1200000,
+      "sort": 1300000,
       "type": "melee",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LLJiTLsfaDzD1nZo",
+      "data": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.751,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 1400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "HzveIcuKPfW88Zc6",
+      "data": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "at-will-spells",
+        "schema": {
+          "version": 0.751,
+          "lastMigration": null
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "At-Will Spells",
+      "sort": 1500000,
+      "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
@@ -1380,22 +1777,20 @@
       "_id": "uldVZLVdwiLD1q6v",
       "data": {
         "description": {
-          "value": "<p>A dero strangler takes [[/r 8 #damage]]{8 damage} for every hour they're exposed to sunlight.</p>"
+          "value": "<p>A dero strangler takes [[/r {8}]]{8 damage} for every hour they're exposed to sunlight.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "actionType": {
@@ -1413,26 +1808,27 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Vulnerable to Sunlight",
-      "sort": 1300000,
+      "sort": 1600000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "ZDJkjnIor7qxsiSU",
       "data": {
         "description": {
-          "value": "<p><strong>Requirement</strong> The dero must have two free hands, or be wielding an aklys and have one hand free. <strong>Effect</strong> The dero attempts an Athletics check to Grab with a +2 circumstance bonus. On a success, the target takes [[/r 1d6+6 #bludgeoning]]{1d6+6 bludgeoning damage}. Double the damage on a critical success.</p>"
+          "value": "<p><strong>Requirement</strong> The dero must have two free hands, or be wielding an aklys and have one hand free.</p>\n<hr />\n<p><strong>Effect</strong> The dero attempts an @Check[type:athletics|traits:action:grapple,action:strangle] check to @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grab} with a +2 circumstance bonus. On a success, the target takes [[/r {1d6+6}[bludgeoning]]]{1d6+6 bludgeoning damage}. Double the damage on a critical success.</p>"
         },
         "source": {
           "value": ""
@@ -1442,15 +1838,26 @@
             "attack",
             "nonlethal"
           ],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
-        "rules": [],
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": {
+              "all": [
+                "action:grapple",
+                "action:strangle"
+              ]
+            },
+            "selector": "athletics",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "actionType": {
@@ -1468,20 +1875,21 @@
         "trigger": {
           "value": ""
         },
+        "deathNote": false,
         "weapon": {
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Strangle",
-      "sort": 1400000,
+      "sort": 1700000,
       "type": "action",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "m4E5Z11TgNcjvLMr",
@@ -1494,15 +1902,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "mod": {
@@ -1510,21 +1916,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Athletics",
-      "sort": 1500000,
+      "sort": 1800000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "UIo1toFdmWKBBeQX",
@@ -1537,15 +1940,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "mod": {
@@ -1553,21 +1954,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Intimidation",
-      "sort": 1600000,
+      "sort": 1900000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "BDQwFRB2ZtSosflq",
@@ -1580,15 +1978,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "mod": {
@@ -1596,21 +1992,18 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Medicine",
-      "sort": 1700000,
+      "sort": 2000000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     },
     {
       "_id": "H4F6aPPZpF1qqFjS",
@@ -1623,15 +2016,13 @@
         },
         "traits": {
           "value": [],
-          "rarity": {
-            "value": "common"
-          },
+          "rarity": "common",
           "custom": ""
         },
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.684,
+          "version": 0.751,
           "lastMigration": null
         },
         "mod": {
@@ -1639,42 +2030,30 @@
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Stealth",
-      "sort": 1800000,
+      "sort": 2100000,
       "type": "lore",
+      "effects": [],
       "folder": null,
       "permission": {
         "default": 0
-      }
+      },
+      "flags": {}
     }
   ],
   "effects": [],
-  "sort": 0,
   "flags": {
     "core": {
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.ZsduIlmluQe4ZxFy"
     },
-    "pf2e": {
-      "rollOptions": {
-        "all": {
-          "target:flatFooted": false
-        }
-      },
-      "lootable": false
-    },
     "exportSource": {
-      "world": "crimson-throne",
+      "world": "curse-of-the-crimson-throne",
       "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
+      "coreVersion": "9.269",
+      "systemVersion": "3.10.4.11747"
     }
   }
 }
