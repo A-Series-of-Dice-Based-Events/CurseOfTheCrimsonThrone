@@ -1,7 +1,7 @@
 {
   "name": "Reefclaw",
   "type": "npc",
-  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Reef%20Claw.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
       "hp": {
@@ -130,7 +130,7 @@
   "token": {
     "disposition": -1,
     "height": 1,
-    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Reef%20Claw.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Reefclaw",
     "width": 1,
     "displayName": 20,

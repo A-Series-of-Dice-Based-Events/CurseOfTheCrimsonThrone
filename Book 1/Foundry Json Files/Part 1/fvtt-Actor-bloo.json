@@ -1,7 +1,7 @@
 {
   "name": "Bloo",
   "type": "npc",
-  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Old%20Bloo.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
       "hp": {
@@ -115,7 +115,7 @@
   "token": {
     "disposition": -1,
     "height": 1,
-    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Old%20Bloo.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Guard Dog",
     "width": 1,
     "displayName": 20,

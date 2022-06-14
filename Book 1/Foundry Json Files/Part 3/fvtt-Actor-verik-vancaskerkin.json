@@ -1,7 +1,7 @@
 {
   "name": "Verik Vancaskerkin",
   "type": "npc",
-  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Verik%20Vancaskerkin.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
       "hp": {

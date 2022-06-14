@@ -1,7 +1,7 @@
 {
   "name": "Gaedren Lamm",
   "type": "npc",
-  "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Gaedren%20Lamm.png",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "data": {
     "attributes": {
       "hp": {
@@ -199,7 +199,7 @@
       "attribute": ""
     },
     "randomImg": false,
-    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Gaedren%20Lamm.png",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "tint": null,
     "x": null,
     "y": null,
