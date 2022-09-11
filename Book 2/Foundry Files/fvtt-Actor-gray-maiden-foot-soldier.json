@@ -1,41 +1,203 @@
 {
-  "name": "Human Skeleton",
+  "name": "Gray Maiden Foot Soldier",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
-      "_id": "hTTposL17d8Wx1Gf",
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.hIgqLgH3YcLZBeoT"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/shortbow.webp",
-      "name": "Shortbow",
-      "sort": 100000,
-      "type": "weapon",
+      "_id": "x20RmwwwuHJNA9gK",
+      "name": "Athletics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
       "effects": [],
       "folder": null,
+      "sort": 0,
+      "flags": {},
       "system": {
         "description": {
-          "value": "<p>This smaller bow is made of a single piece of wood and favored by skirmishers and cavalry.</p>"
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.129-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "l8bHAYdXUznYid3u",
+      "name": "Diplomacy",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.129-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ezot0G68N9VurLV1",
+      "name": "Intimidation",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.129-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ooy4X4RbbFy7CC91",
+      "name": "Full Plate (Korvosa Insignia)",
+      "type": "armor",
+      "img": "systems/pf2e/icons/equipment//armor/fullplate.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Gq1cZWSKOtJhKd2p"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
         },
         "source": {
           "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
-            "deadly-d10"
+            "bulwark"
           ],
           "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": "shortbow",
+        "slug": "full-plate",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
+            "datetime": "2022-09-11T09:44:48.129-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -44,7 +206,7 @@
           }
         },
         "quantity": 1,
-        "baseItem": "shortbow",
+        "baseItem": "full-plate",
         "hp": {
           "brokenThreshold": 0,
           "value": 0,
@@ -52,20 +214,21 @@
         },
         "hardness": 0,
         "weight": {
-          "value": "1"
+          "value": "5"
         },
         "equippedBulk": {
-          "value": ""
+          "value": "4"
         },
         "price": {
           "value": {
-            "gp": 3
+            "gp": 30
           }
         },
         "equipped": {
-          "carryType": "held",
+          "carryType": "worn",
           "invested": null,
-          "handsHeld": 1
+          "handsHeld": 0,
+          "inSlot": false
         },
         "stackGroup": null,
         "negateBulk": {
@@ -82,8 +245,8 @@
         "identification": {
           "status": "identified",
           "unidentified": {
-            "name": "",
-            "img": "",
+            "name": "Unusual Full Plate",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
             "data": {
               "description": {
                 "value": ""
@@ -93,73 +256,51 @@
           "misidentified": {}
         },
         "usage": {
-          "value": "held-in-one-plus-hands"
+          "value": "wornarmor"
         },
         "level": {
+          "value": 2
+        },
+        "armor": {
+          "value": 6
+        },
+        "category": "heavy",
+        "group": "plate",
+        "strength": {
+          "value": 18
+        },
+        "dex": {
           "value": 0
         },
-        "category": "martial",
-        "group": "bow",
-        "bonus": {
-          "value": 0
+        "check": {
+          "value": -3
         },
-        "damage": {
-          "value": "",
-          "dice": 1,
-          "die": "d6",
-          "damageType": "piercing"
-        },
-        "bonusDamage": {
-          "value": 0
-        },
-        "splashDamage": {
-          "value": 0
-        },
-        "range": 60,
-        "reload": {
-          "value": "0"
-        },
-        "MAP": {
-          "value": ""
+        "speed": {
+          "value": -10
         },
         "potencyRune": {
           "value": 0
         },
-        "strikingRune": {
+        "resiliencyRune": {
           "value": ""
         },
-        "specific": {
-          "value": false
-        },
         "propertyRune1": {
-          "value": null
+          "value": ""
         },
         "propertyRune2": {
-          "value": null
+          "value": ""
         },
         "propertyRune3": {
-          "value": null
+          "value": ""
         },
         "propertyRune4": {
-          "value": null
+          "value": ""
         },
-        "property1": {
-          "value": "",
-          "dice": null,
-          "die": "",
-          "damageType": "",
-          "critDice": null,
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": "",
-          "criticalConditionType": "",
-          "criticalConditionValue": null,
-          "strikeConditionType": "",
-          "strikeConditionValue": null
-        }
+        "potency": {}
       },
       "ownership": {
-        "default": 0
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
       },
       "_stats": {
         "systemId": null,
@@ -171,39 +312,38 @@
       }
     },
     {
-      "_id": "lvEBxcOGsiz69ynp",
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.grmaV4GdoGD7sKbn"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/scimitar.webp",
-      "name": "Scimitar",
-      "sort": 200000,
+      "_id": "waI2y89UYuv34Lsy",
+      "name": "Longsword",
       "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/longsword.webp",
       "effects": [],
       "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.LJdbVTOZog39EEbi"
+        }
+      },
       "system": {
         "description": {
-          "value": "<p>This one-handed curved blade is sharp on one side.</p>"
+          "value": "<p>Longswords can be one‑edged or two‑edged swords. Their blades are heavy and they're between 3 and 4 feet in length.</p>"
         },
         "source": {
           "value": "Pathfinder Core Rulebook"
         },
         "traits": {
           "value": [
-            "forceful",
-            "sweep"
+            "versatile-p"
           ],
           "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": "scimitar",
+        "slug": "longsword",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
+            "datetime": "2022-09-11T09:44:48.129-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -212,7 +352,7 @@
           }
         },
         "quantity": 1,
-        "baseItem": "scimitar",
+        "baseItem": "longsword",
         "hp": {
           "brokenThreshold": 0,
           "value": 0,
@@ -231,9 +371,9 @@
           }
         },
         "equipped": {
-          "carryType": "held",
+          "carryType": "worn",
           "invested": null,
-          "handsHeld": 1
+          "handsHeld": 0
         },
         "stackGroup": null,
         "negateBulk": {
@@ -241,10 +381,10 @@
         },
         "containerId": null,
         "preciousMaterial": {
-          "value": null
+          "value": ""
         },
         "preciousMaterialGrade": {
-          "value": null
+          "value": ""
         },
         "size": "med",
         "identification": {
@@ -274,7 +414,7 @@
         "damage": {
           "value": "",
           "dice": 1,
-          "die": "d6",
+          "die": "d8",
           "damageType": "slashing"
         },
         "bonusDamage": {
@@ -291,7 +431,7 @@
           "value": ""
         },
         "potencyRune": {
-          "value": 0
+          "value": null
         },
         "strikingRune": {
           "value": ""
@@ -300,16 +440,16 @@
           "value": false
         },
         "propertyRune1": {
-          "value": null
+          "value": ""
         },
         "propertyRune2": {
-          "value": null
+          "value": ""
         },
         "propertyRune3": {
-          "value": null
+          "value": ""
         },
         "propertyRune4": {
-          "value": null
+          "value": ""
         },
         "property1": {
           "value": "",
@@ -327,7 +467,8 @@
         }
       },
       "ownership": {
-        "default": 0
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
       },
       "_stats": {
         "systemId": null,
@@ -339,21 +480,21 @@
       }
     },
     {
-      "_id": "C1Qh67YEkuH7r5lt",
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.w2ENw2VMPcsbif8g"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
-      "name": "Arrows",
-      "sort": 300000,
-      "type": "consumable",
+      "_id": "N7a15efcvZw5Yqc9",
+      "name": "Manacles (Simple)",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/manacles.webp",
       "effects": [],
       "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.ckGYDocGEaelHfXF"
+        }
+      },
       "system": {
         "description": {
-          "value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+          "value": "<p>You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10-30 seconds depending on the creature's size and how many manacles you apply. A two‑legged creature with its legs bound takes a -15‑foot circumstance penalty to its Speeds, and a two‑handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from simple manacles requires three successful DC 22 Thievery checks.</p>"
         },
         "source": {
           "value": "Pathfinder Core Rulebook"
@@ -364,11 +505,11 @@
           "custom": ""
         },
         "rules": [],
-        "slug": "arrows",
+        "slug": "manacles-simple",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
+            "datetime": "2022-09-11T09:44:48.129-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -376,7 +517,7 @@
             }
           }
         },
-        "quantity": 20,
+        "quantity": 1,
         "baseItem": null,
         "hp": {
           "brokenThreshold": 0,
@@ -385,22 +526,21 @@
         },
         "hardness": 0,
         "weight": {
-          "value": "L"
+          "value": "-"
         },
         "equippedBulk": {
           "value": ""
         },
         "price": {
           "value": {
-            "sp": 1
-          },
-          "per": 10
+            "gp": 3
+          }
         },
         "equipped": {
-          "carryType": "held",
-          "handsHeld": 1
+          "carryType": "worn",
+          "invested": null
         },
-        "stackGroup": "arrows",
+        "stackGroup": null,
         "negateBulk": {
           "value": "0"
         },
@@ -428,59 +568,156 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
+        "level": {
+          "value": 1
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "7OehTl3srN3ObmcN",
+      "name": "Steel Shield",
+      "type": "armor",
+      "img": "systems/pf2e/icons/equipment/shields/steel-shield.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Yr9yCuJiAlFh3QEB"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>"
         },
-        "duration": {
-          "value": null,
-          "units": ""
+        "source": {
+          "value": "Pathfinder Core Rulebook"
         },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
         },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+        "rules": [],
+        "slug": "steel-shield",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.129-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "autoUse": true,
-          "autoDestroy": true
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 10,
+          "value": 20,
+          "max": 20
         },
-        "spell": null,
+        "hardness": 5,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Shield",
+            "img": "systems/pf2e/icons/unidentified_item_icons/shields.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
         "level": {
           "value": 0
         },
-        "consumableType": {
-          "value": "ammo"
+        "armor": {
+          "value": 2
         },
-        "charges": {
-          "value": 0,
-          "max": 0,
-          "_deprecated": true
+        "category": "shield",
+        "group": null,
+        "strength": {
+          "value": 0
         },
-        "consume": {
-          "value": "",
-          "_deprecated": true
+        "dex": {
+          "value": 0
         },
-        "autoUse": {
-          "value": true,
-          "_deprecated": true
+        "check": {
+          "value": 0
         },
-        "autoDestroy": {
-          "value": true,
-          "_deprecated": true
-        }
+        "speed": {
+          "value": 0
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "potency": {}
       },
       "ownership": {
-        "default": 0
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
       },
       "_stats": {
         "systemId": null,
@@ -492,226 +729,21 @@
       }
     },
     {
-      "_id": "jL9PDQ27Dz6UAMOH",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Scimitar",
-      "sort": 400000,
-      "type": "melee",
+      "_id": "YF14yPyyT6XmnEFE",
+      "name": "Attack of Opportunity",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
       "effects": [],
       "folder": null,
-      "flags": {},
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "forceful",
-            "sweep"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "diei19392sv23f7i0ucu": {
-            "damage": "1d6+2",
-            "damageType": "slashing"
-          }
-        },
-        "bonus": {
-          "value": 6
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "EzSKWtWM2tSTtZwA",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Claw",
-      "sort": 500000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "flags": {},
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "agile",
-            "finesse"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "q53yexxuuer5r0apnaa1": {
-            "damage": "1d4+2",
-            "damageType": "slashing"
-          }
-        },
-        "bonus": {
-          "value": 6
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "7ODNVUAaNraSivsT",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Shortbow",
-      "sort": 600000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "flags": {},
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "deadly-d10",
-            "range-increment-60",
-            "reload-0"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "jsg1lcmrbh9lns2sm86k": {
-            "damage": "1d6",
-            "damageType": "piercing"
-          }
-        },
-        "bonus": {
-          "value": 6
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "83QmDBGigZxaHbbd",
+      "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 700000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
       "system": {
         "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "source": {
           "value": ""
@@ -722,11 +754,11 @@
           "custom": ""
         },
         "rules": [],
-        "slug": "darkvision",
+        "slug": "attack-of-opportunity",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
+            "datetime": "2022-09-11T09:44:48.129-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -735,84 +767,7 @@
           }
         },
         "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "m25t326n1Ovt0t5U",
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.TTCw5NusiSSkJU1x"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Negative Healing",
-      "sort": 800000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [
-          {
-            "key": "ActiveEffectLike",
-            "mode": "override",
-            "path": "system.attributes.hp.negativeHealing",
-            "value": true
-          }
-        ],
-        "slug": "negative-healing",
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "actionType": {
-          "value": "passive"
+          "value": "reaction"
         },
         "actionCategory": {
           "value": "defensive"
@@ -832,7 +787,8 @@
         }
       },
       "ownership": {
-        "default": 0
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
       },
       "_stats": {
         "systemId": null,
@@ -844,17 +800,21 @@
       }
     },
     {
-      "_id": "XqRiijAJt8vRBQPZ",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Acrobatics",
-      "sort": 900000,
-      "type": "lore",
+      "_id": "n68TKQliiNljlDNH",
+      "name": "Shield Block",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
       "effects": [],
       "folder": null,
-      "flags": {},
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.m4HQ2o5aPxjXf2kY"
+        }
+      },
       "system": {
         "description": {
-          "value": ""
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "source": {
           "value": ""
@@ -865,11 +825,11 @@
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "shield-block",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
+            "datetime": "2022-09-11T09:44:48.129-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -877,15 +837,29 @@
             }
           }
         },
-        "mod": {
-          "value": 6
+        "actionType": {
+          "value": "reaction"
         },
-        "proficient": {
-          "value": 0
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
         }
       },
       "ownership": {
-        "default": 0
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
       },
       "_stats": {
         "systemId": null,
@@ -897,13 +871,13 @@
       }
     },
     {
-      "_id": "Ag8nL0UqymTYzkeA",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1000000,
-      "type": "lore",
+      "_id": "QVPcz65E73u04996",
+      "name": "Longsword",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
       "effects": [],
       "folder": null,
+      "sort": 0,
       "flags": {},
       "system": {
         "description": {
@@ -913,7 +887,9 @@
           "value": ""
         },
         "traits": {
-          "value": [],
+          "value": [
+            "versatile-p"
+          ],
           "rarity": "common",
           "custom": ""
         },
@@ -922,7 +898,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.124-07:00",
+            "datetime": "2022-09-11T09:44:48.129-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -930,15 +906,165 @@
             }
           }
         },
-        "mod": {
-          "value": 3
+        "weaponType": {
+          "value": "melee"
         },
-        "proficient": {
-          "value": 0
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "s4pb7rymjyecwkjv2z1b": {
+            "damage": "1d8+5",
+            "damageType": "slashing"
+          }
+        },
+        "bonus": {
+          "value": 11
+        },
+        "attackEffects": {
+          "value": []
         }
       },
       "ownership": {
-        "default": 0
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "bcg9nObabsvzwS32",
+      "name": "Shortbow",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "deadly-d10"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.129-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "gza2pm4ae1kwu9l4ijjw": {
+            "damage": "1d6+4",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "hE1DZDAmwJQvb2Tq",
+      "name": "Intimidating Strike",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>This creature makes a melee Strike. If he hits and deals damage, the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical hit.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "emotion",
+            "fear",
+            "fighter",
+            "mental"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.129-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
       },
       "_stats": {
         "systemId": null,
@@ -952,8 +1078,8 @@
   ],
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.pathfinder-bestiary.5H8ZX7y5IkUBhvhF"
+    "pf2e": {
+      "lootable": true
     },
     "exportSource": {
       "world": "crimson-throne-test",
@@ -965,10 +1091,10 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 4,
+        "value": 45,
         "temp": 0,
-        "max": 4,
-        "details": "negative healing"
+        "max": 45,
+        "details": ""
       },
       "initiative": {
         "ability": "perception"
@@ -979,11 +1105,11 @@
         "details": ""
       },
       "ac": {
-        "value": 16,
+        "value": 20,
         "details": ""
       },
       "perception": {
-        "value": 2
+        "value": 13
       },
       "allSaves": {
         "value": ""
@@ -991,82 +1117,51 @@
     },
     "details": {
       "alignment": {
-        "value": "NE"
+        "value": "LE"
       },
       "level": {
-        "value": -1
+        "value": 3
       },
       "source": {
-        "value": "Pathfinder Bestiary",
+        "value": "",
         "author": ""
       },
-      "creatureType": "Undead",
+      "creatureType": "",
       "blurb": "",
-      "publicNotes": "<p>The most common skeletal minions are mere guardians.</p>\n<hr />\n<p>Made from bones held together by foul necromancy, skeletons are among the most common types of undead, found haunting old dungeons and forgotten cemeteries.</p>",
+      "publicNotes": "",
       "privateNotes": ""
     },
     "traits": {
       "value": [
-        "mindless",
-        "skeleton",
-        "undead"
+        "human",
+        "humanoid"
       ],
       "senses": {
-        "value": "darkvision"
+        "value": ""
       },
       "languages": {
-        "value": [],
+        "value": [
+          "common"
+        ],
         "selected": [],
         "custom": ""
       },
       "di": {
-        "value": [
-          "death-effects",
-          "disease",
-          "mental",
-          "paralyzed",
-          "poison",
-          "unconscious"
-        ],
+        "value": [],
         "custom": ""
       },
-      "dr": [
-        {
-          "type": "cold",
-          "value": 5
-        },
-        {
-          "type": "electricity",
-          "value": 5
-        },
-        {
-          "type": "fire",
-          "value": 5
-        },
-        {
-          "type": "piercing",
-          "value": 5
-        },
-        {
-          "type": "slashing",
-          "value": 5
-        }
-      ],
+      "dr": [],
       "dv": [],
       "rarity": "common",
       "size": {
         "value": "med"
-      },
-      "attitude": {
-        "value": "hostile"
-      },
-      "ci": []
+      }
     },
     "resources": {},
     "schema": {
       "version": 0.785,
       "lastMigration": {
-        "datetime": "2022-09-11T09:44:48.124-07:00",
+        "datetime": "2022-09-11T09:44:48.129-07:00",
         "version": {
           "schema": 0.769,
           "foundry": "10.285",
@@ -1076,44 +1171,49 @@
     },
     "abilities": {
       "str": {
-        "mod": 2
-      },
-      "dex": {
         "mod": 4
       },
+      "dex": {
+        "mod": 2
+      },
       "con": {
-        "mod": 0
+        "mod": 3
       },
       "int": {
-        "mod": -5
+        "mod": 0
       },
       "wis": {
-        "mod": 0
+        "mod": 4
       },
       "cha": {
-        "mod": 0
+        "mod": 2
       }
     },
     "saves": {
       "fortitude": {
-        "value": 2,
+        "value": 11,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 8,
+        "value": 6,
         "saveDetail": ""
       },
       "will": {
-        "value": 2,
+        "value": 8,
         "saveDetail": ""
       }
-    }
+    },
+    "customModifiers": {}
   },
   "prototypeToken": {
-    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
     "height": 1,
-    "name": "Skeleton Guard",
     "width": 1,
+    "name": "Gray Maiden Foot Soldier",
     "displayName": 20,
     "actorLink": false,
     "lockRotation": false,
@@ -1142,17 +1242,13 @@
       "attenuation": 0.5,
       "color": null
     },
+    "disposition": -1,
     "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
       "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
     },
     "randomImg": false,
     "texture": {
@@ -1182,7 +1278,7 @@
     "systemVersion": "4.0.2",
     "coreVersion": "10.285",
     "createdTime": null,
-    "modifiedTime": 1662914688389,
+    "modifiedTime": 1662914688393,
     "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

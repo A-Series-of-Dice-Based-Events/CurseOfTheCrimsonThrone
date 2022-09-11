@@ -2,204 +2,17 @@
   "name": "Giggles",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 23,
-        "temp": 0,
-        "max": 23,
-        "details": ""
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "25",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 18,
-        "details": "",
-        "base": 18
-      },
-      "perception": {
-        "value": 6,
-        "base": 6
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "CE"
-      },
-      "level": {
-        "value": 1
-      },
-      "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
-      },
-      "creatureType": "Humanoid",
-      "blurb": "",
-      "publicNotes": "<p>If orc armies are rarely well organized, this shortcoming can likely be traced to the furious and undisciplined rank-and-file brutes who make up the bulk of an orc warband.</p>",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": "darkvision"
-      },
-      "traits": {
-        "value": [
-          "human",
-          "humanoid",
-          "orc"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common",
-          "orcish"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "unique",
-      "size": {
-        "value": "med"
-      },
-      "ci": []
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.758,
-      "lastMigration": {
-        "datetime": "2022-06-16T14:35:50.236-07:00",
-        "version": {
-          "schema": 0.75,
-          "foundry": "9.269",
-          "system": "3.11.2.6"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 4
-      },
-      "dex": {
-        "mod": 2
-      },
-      "con": {
-        "mod": 3
-      },
-      "int": {
-        "mod": -1
-      },
-      "wis": {
-        "mod": 1
-      },
-      "cha": {
-        "mod": 0
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 8,
-        "saveDetail": "",
-        "base": 8
-      },
-      "reflex": {
-        "value": 7,
-        "saveDetail": "",
-        "base": 7
-      },
-      "will": {
-        "value": 4,
-        "saveDetail": "",
-        "base": 4
-      }
-    },
-    "customModifiers": {}
-  },
-  "token": {
-    "disposition": -1,
-    "height": 1,
-    "img": "worlds/crimson-throne/rolladvantage/Giggles-zwj3cg.png",
-    "name": "Giggles",
-    "width": 1,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": ""
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false,
-    "tint": null,
-    "lightColor": null,
-    "x": null,
-    "y": null,
-    "elevation": null,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    }
-  },
   "items": [
     {
       "_id": "DmNGJHLmXcMGdmUS",
-      "data": {
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Flail",
+      "sort": 400000,
+      "type": "melee",
+      "folder": null,
+      "system": {
         "description": {
           "value": ""
         },
@@ -218,13 +31,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -247,20 +60,28 @@
           "value": []
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Flail",
-      "sort": 400000,
-      "type": "melee",
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "TS7iVUZNmP0Szdfh",
-      "data": {
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Crossbow",
+      "sort": 600000,
+      "type": "melee",
+      "folder": null,
+      "system": {
         "description": {
           "value": ""
         },
@@ -278,13 +99,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -307,20 +128,28 @@
           "value": []
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Crossbow",
-      "sort": 600000,
-      "type": "melee",
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "v68m3rOpFaQrfwvI",
-      "data": {
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Ferocity",
+      "sort": 700000,
+      "type": "action",
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p><strong>Trigger</strong> The monster is reduced to 0 HP. <strong>Effect</strong> The monster avoids being knocked out and remains at 1 HP, but its @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} value increases by 1. When it is Wounded 3, it can no longer use this ability.</p>"
         },
@@ -335,13 +164,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -365,54 +194,20 @@
           "value": ""
         }
       },
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Ferocity",
-      "sort": 700000,
-      "type": "action",
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "TSPqFVPDh1H4cu7n",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.758,
-          "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
-            "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
-            }
-          }
-        },
-        "mod": {
-          "value": 4
-        },
-        "proficient": {
-          "value": 0
-        },
-        "item": {
-          "value": 0
-        }
-      },
       "effects": [],
       "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
@@ -420,13 +215,7 @@
       "sort": 800000,
       "type": "lore",
       "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "nwc2sPsVn0fBEjwQ",
-      "data": {
+      "system": {
         "description": {
           "value": ""
         },
@@ -441,13 +230,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -461,6 +250,20 @@
           "value": 0
         }
       },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "nwc2sPsVn0fBEjwQ",
       "effects": [],
       "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
@@ -468,16 +271,7 @@
       "sort": 900000,
       "type": "lore",
       "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "c5MYxkGV47ynAJnT",
-      "name": "Acrobatics",
-      "type": "lore",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "system": {
         "description": {
           "value": ""
         },
@@ -492,13 +286,69 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 4
+        },
+        "proficient": {
+          "value": 0
+        },
+        "item": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "c5MYxkGV47ynAJnT",
+      "name": "Acrobatics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.137-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -509,21 +359,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "obSWpmE8jLNSskcr",
       "name": "Survival",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -538,13 +396,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -555,21 +413,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "APKooKJVOO9kqxhc",
       "name": "Bludgeoner",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><span class=\"text-pre\">Giggles doesn't take the normal penalty for making a nonlethal attack when attacking with his flail.</span></p>"
         },
@@ -584,13 +450,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -611,21 +477,33 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "CB8iQqP61G3e2l6L",
       "name": "Threaten the Lambs",
       "type": "action",
       "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Item.Qd5EW1fJeJTTNgny"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>Yargin threatens and insults at any children present. Attempt a @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} check on any Lambs in the Fishery present in the area. On a success, any Lambs in the Fishery in Yargin's area that have been made helpful to the PC's are instead reverted to harmful actions towards the PC's.</p>"
         },
@@ -643,13 +521,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -670,17 +548,17 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Item.Qd5EW1fJeJTTNgny"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -688,7 +566,15 @@
       "name": "Flail",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/flail.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.t5FbyZtRL4qV0V7k"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This weapon consists of a wooden handle attached to a spiked ball or cylinder by a chain, rope, or strap of leather.</p>"
         },
@@ -707,13 +593,13 @@
         "rules": [],
         "slug": "flail",
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -832,17 +718,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.t5FbyZtRL4qV0V7k"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -850,7 +736,15 @@
       "name": "Chain Mail",
       "type": "armor",
       "img": "systems/pf2e/icons/equipment/armor/chainmail.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Kf4eJEXnFPuAsseP"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>A suit of chain mail consists of several pieces of armor composed of small metal rings linked together in a protective mesh. It typically includes a chain shirt, leggings, a pair of arms, and a coif, collectively protecting most of the body.</p>"
         },
@@ -868,13 +762,13 @@
         "rules": [],
         "slug": "chain-mail",
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -971,17 +865,17 @@
         "potency": {},
         "resilient": {}
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Kf4eJEXnFPuAsseP"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -989,7 +883,15 @@
       "name": "Crossbow",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt.</p>"
         },
@@ -1004,13 +906,13 @@
         "rules": [],
         "slug": "crossbow",
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1129,17 +1031,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1147,7 +1049,15 @@
       "name": "Bolts",
       "type": "consumable",
       "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
         },
@@ -1162,13 +1072,13 @@
         "rules": [],
         "slug": "bolts",
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1250,10 +1160,7 @@
           "autoUse": true,
           "autoDestroy": true
         },
-        "spell": {
-          "data": null,
-          "heightenedLevel": null
-        },
+        "spell": null,
         "level": {
           "value": 0
         },
@@ -1278,17 +1185,17 @@
           "_deprecated": true
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "RDRTYAhTWR8OYG4X": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1296,7 +1203,15 @@
       "name": "Attack of Opportunity",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
@@ -1311,13 +1226,13 @@
         "rules": [],
         "slug": "attack-of-opportunity",
         "schema": {
-          "version": 0.758,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-16T14:35:50.236-07:00",
+            "datetime": "2022-09-11T09:44:48.137-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.11.2.6"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1341,17 +1256,17 @@
           "value": ""
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     }
   ],
@@ -1366,8 +1281,209 @@
     "exportSource": {
       "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.11.2.6"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 23,
+        "temp": 0,
+        "max": 23,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": "",
+        "base": 18
+      },
+      "perception": {
+        "value": 6,
+        "base": 6
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "CE"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Humanoid",
+      "blurb": "Male half-orc criminal brute",
+      "publicNotes": "<p>If orc armies are rarely well organized, this shortcoming can likely be traced to the furious and undisciplined rank-and-file brutes who make up the bulk of an orc warband.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid",
+        "orc"
+      ],
+      "senses": {
+        "value": "darkvision"
+      },
+      "languages": {
+        "value": [
+          "common",
+          "orcish"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.137-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": "",
+        "base": 8
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": "",
+        "base": 7
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": "",
+        "base": 4
+      }
+    },
+    "customModifiers": {}
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Giggles",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "texture": {
+      "src": "worlds/crimson-throne/rolladvantage/Giggles-zwj3cg.png",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688399,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

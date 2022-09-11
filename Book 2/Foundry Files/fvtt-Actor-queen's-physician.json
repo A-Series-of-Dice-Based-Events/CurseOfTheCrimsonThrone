@@ -1,43 +1,44 @@
 {
-  "name": "Rioter",
+  "name": "Queen's Physician",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
-      "_id": "UZlHtMydIq06OfJW",
+      "_id": "Z6BNfng94z1xdzn3",
       "flags": {
         "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.ynnBwzkzsR6B73iO"
+          "sourceId": "Compendium.pf2e.equipment-srd.nOFcCidD5AwVZWTv"
         }
       },
-      "img": "systems/pf2e/icons/equipment/weapons/sickle.webp",
-      "name": "Sickle",
+      "img": "systems/pf2e/icons/equipment/weapons/war-razor.webp",
+      "name": "Scalpel",
       "sort": 100000,
       "type": "weapon",
       "effects": [],
       "folder": null,
       "system": {
         "description": {
-          "value": "<p>Originally a farming tool used for reaping grain, this one‑handed weapon has a short wooden handle ending in a curved blade, sometimes sharpened on both sides.</p>"
+          "value": "<p>A war razor is an exaggerated version of the barbers' tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.</p>"
         },
         "source": {
-          "value": "Pathfinder Core Rulebook"
+          "value": ""
         },
         "traits": {
           "value": [
             "agile",
-            "finesse",
-            "trip"
+            "backstabber",
+            "deadly-d8",
+            "finesse"
           ],
           "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": "sickle",
+        "slug": "war-razor",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.112-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -45,8 +46,8 @@
             }
           }
         },
-        "quantity": 1,
-        "baseItem": "sickle",
+        "quantity": 3,
+        "baseItem": "war-razor",
         "hp": {
           "brokenThreshold": 0,
           "value": 0,
@@ -61,7 +62,7 @@
         },
         "price": {
           "value": {
-            "sp": 2
+            "sp": 3
           }
         },
         "equipped": {
@@ -100,7 +101,7 @@
         "level": {
           "value": 0
         },
-        "category": "simple",
+        "category": "martial",
         "group": "knife",
         "bonus": {
           "value": 0
@@ -115,7 +116,7 @@
           "value": 0
         },
         "splashDamage": {
-          "value": 0
+          "value": null
         },
         "range": null,
         "reload": {
@@ -147,17 +148,17 @@
         },
         "property1": {
           "value": "",
-          "dice": "",
+          "dice": null,
           "die": "",
           "damageType": "",
-          "critDice": "",
+          "critDice": null,
           "critDie": "",
           "critDamage": "",
           "critDamageType": "",
           "criticalConditionType": "",
-          "criticalConditionValue": "",
+          "criticalConditionValue": null,
           "strikeConditionType": "",
-          "strikeConditionValue": ""
+          "strikeConditionValue": null
         }
       },
       "ownership": {
@@ -173,35 +174,36 @@
       }
     },
     {
-      "_id": "o8GJ3AVTDFtS1dFG",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Sickle",
+      "_id": "s5e6CueENejAHsP7",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.s1vB3HdXjMigYAnY"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/healers-kit.webp",
+      "name": "Healer's Tools",
       "sort": 200000,
-      "type": "melee",
+      "type": "equipment",
       "effects": [],
       "folder": null,
-      "flags": {},
       "system": {
         "description": {
-          "value": ""
+          "value": "<p>This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds.</p>"
         },
         "source": {
           "value": ""
         },
         "traits": {
-          "value": [
-            "agile",
-            "trip"
-          ],
+          "value": [],
           "rarity": "common",
           "custom": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "healers-tools",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.112-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -209,23 +211,60 @@
             }
           }
         },
-        "weaponType": {
-          "value": "melee"
+        "quantity": 1,
+        "baseItem": null,
+        "hp": {
+          "brokenThreshold": 0,
+          "value": 0,
+          "max": 0
         },
-        "attack": {
+        "hardness": 0,
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
           "value": ""
         },
-        "damageRolls": {
-          "uc1s1t4wur5bbofg09gjg": {
-            "damage": "1d4+2",
-            "damageType": "slashing"
+        "price": {
+          "value": {
+            "gp": 5
           }
         },
-        "bonus": {
-          "value": 5
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
         },
-        "attackEffects": {
-          "value": []
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": null,
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "size": "med",
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "level": {
+          "value": 0
         }
       },
       "ownership": {
@@ -241,9 +280,9 @@
       }
     },
     {
-      "_id": "Q9h6X4WFBsWo4KlV",
+      "_id": "JbPgkPBw6I7dZFcQ",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Rock",
+      "name": "Scalpel",
       "sort": 300000,
       "type": "melee",
       "effects": [],
@@ -258,7 +297,8 @@
         },
         "traits": {
           "value": [
-            "thrown-10"
+            "agile",
+            "versatile-p"
           ],
           "rarity": "common",
           "custom": ""
@@ -268,7 +308,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.112-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -277,19 +317,19 @@
           }
         },
         "weaponType": {
-          "value": "ranged"
+          "value": "melee"
         },
         "attack": {
           "value": ""
         },
         "damageRolls": {
-          "c16oqbic9ep578zkoag35t": {
-            "damage": "1d4+2",
-            "damageType": "bludgeoning"
+          "0": {
+            "damage": "1d4+1",
+            "damageType": "slashing"
           }
         },
         "bonus": {
-          "value": 3
+          "value": 11
         },
         "attackEffects": {
           "value": []
@@ -308,17 +348,168 @@
       }
     },
     {
-      "_id": "T3ZpHsIT64RGyhT0",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Power of the Mob",
+      "_id": "YgMj9CaUadOgAwPl",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Scalpel",
       "sort": 400000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "thrown-10",
+            "versatile-p"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.112-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d4+1",
+            "damageType": "slashing"
+          }
+        },
+        "bonus": {
+          "value": 11
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "F7IHKiavOdLoatuo",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Doctor's Hand",
+      "sort": 500000,
       "type": "action",
       "effects": [],
       "folder": null,
       "flags": {},
       "system": {
         "description": {
-          "value": "<p>When three or more commoners are adjacent to each other each commoner gets a +1 circumstance bonus to Athletics checks to @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, attack rolls, and damage rolls.</p>"
+          "value": "<p>When the surgeon rolls a critical failure on a check to @Compendium[pf2e.actionspf2e.TC7OcDa7JlWbqMaN]{Treat Disease}, @Compendium[pf2e.actionspf2e.KjoCEEmPGTeFE4hh]{Treat Poison}, or @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Treat Wounds}, they get a failure instead.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "adjustment": {
+              "criticalFailure": "one-degree-better"
+            },
+            "key": "AdjustDegreeOfSuccess",
+            "predicate": {
+              "any": [
+                "action:treat-wounds",
+                "action:treat-disease",
+                "action:treat-poison"
+              ]
+            },
+            "selector": "medicine",
+            "type": "skill"
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.112-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "Q95qJwP5SCa0IlGu",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Medical Malpractice",
+      "sort": 600000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The surgeon attempts a Medicine check against the Fortitude DC of one living creature they can see within 60 feet.</p>\n<p>On a success, the surgeon's melee Strikes deal an extra [[/r {1d6}[precision]]]{1d6 precision damage} against that creature ([[/r {2d6}[precision]]]{2d6 precision damage} on a critical success) until 1 minute passes or the surgeon critically hits that creature, whichever comes first.</p>\n<p>Using this action again designates a new target and ends the effect for any previous target. A surgeon can target an individual creature no more than once per day with this ability.</p>"
         },
         "source": {
           "value": ""
@@ -332,46 +523,46 @@
           {
             "domain": "all",
             "key": "RollOption",
-            "option": "power-of-the-mob",
+            "option": "medical-malpractice",
             "toggleable": true
           },
           {
-            "key": "FlatModifier",
-            "predicate": {
-              "all": [
-                "action:shove",
-                "power-of-the-mob"
-              ]
-            },
-            "selector": "athletics",
-            "value": 1
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Medical Malpractice (Critical Success)",
+            "option": "medical-malpractice-crit",
+            "toggleable": true
           },
           {
-            "key": "FlatModifier",
+            "damageType": "precision",
+            "diceNumber": 1,
+            "dieSize": "d6",
+            "key": "DamageDice",
             "predicate": {
               "all": [
-                "power-of-the-mob"
+                "medical-malpractice"
               ]
             },
-            "selector": "attack",
-            "value": 1
+            "selector": "strike-damage"
           },
           {
-            "key": "FlatModifier",
+            "damageType": "precision",
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "key": "DamageDice",
             "predicate": {
               "all": [
-                "power-of-the-mob"
+                "medical-malpractice-crit"
               ]
             },
-            "selector": "strike-damage",
-            "value": 1
+            "selector": "strike-damage"
           }
         ],
         "slug": null,
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.112-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -380,7 +571,7 @@
           }
         },
         "actionType": {
-          "value": "passive"
+          "value": "action"
         },
         "actionCategory": {
           "value": "offensive"
@@ -412,115 +603,9 @@
       }
     },
     {
-      "_id": "fxz50qBlMmlNMKcG",
+      "_id": "QIRnV7ARjaqPa77i",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 500000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "flags": {},
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "lqVfEZu6MeCHDuky",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Lore (any one related to their trade)",
-      "sort": 600000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "flags": {},
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "mod": {
-          "value": 6
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "opItqtXq4hh669qB",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Society",
+      "name": "Crafting",
       "sort": 700000,
       "type": "lore",
       "effects": [],
@@ -543,7 +628,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.112-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -552,7 +637,113 @@
           }
         },
         "mod": {
-          "value": 2
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "dozxqjoRyi4eoisR",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Diplomacy",
+      "sort": 800000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.112-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "0q0T8gJLXTvtrX8J",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Medicine",
+      "sort": 900000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.112-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 16
         },
         "proficient": {
           "value": 0
@@ -574,7 +765,7 @@
   "effects": [],
   "flags": {
     "core": {
-      "sourceId": "Compendium.pf2e.npc-gallery.xY2WjwebqTNXAP0q"
+      "sourceId": "Compendium.pf2e.npc-gallery.wfsT2QDtQhsFXQfE"
     },
     "exportSource": {
       "world": "crimson-throne-test",
@@ -586,9 +777,9 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 10,
+        "value": 30,
         "temp": 0,
-        "max": 10,
+        "max": 30,
         "details": ""
       },
       "initiative": {
@@ -600,11 +791,11 @@
         "details": ""
       },
       "ac": {
-        "value": 13,
+        "value": 17,
         "details": ""
       },
       "perception": {
-        "value": 3
+        "value": 14
       },
       "allSaves": {
         "value": ""
@@ -612,10 +803,10 @@
     },
     "details": {
       "alignment": {
-        "value": "N"
+        "value": "NE"
       },
       "level": {
-        "value": -1
+        "value": 2
       },
       "source": {
         "value": "Pathfinder Gamemastery Guide",
@@ -623,7 +814,7 @@
       },
       "creatureType": "",
       "blurb": "",
-      "publicNotes": "<p>Though not every commoner is downtrodden, many live hard lives of toil as they work to keep their families fed and housed in relative comfort. While many commoners are just simple folks who keep to themselves, sometimes commoners rebel, either rising up to face their oppressors or persuaded or even duped into joining nefarious plans and criminal conspiracies. Commoners benefit from power in numbers, and a crowd of commoners can accomplish a great deal more than their rulers often expect.</p>\n<hr />\n<p>Unfortunately, every society has people living on its fringes. While good communities work to grant aid and respite to their downtrodden, sometimes-due to economic downturn, famine, or war-the ranks of the less fortunate exceed the community's capacity to support them. In heartless neutral and evil societies, poverty is seen as an inevitability that can never be truly eradicated, or even worse, as a tool to be manipulated for political gain.</p>",
+      "publicNotes": "<p>The surgeon specializes in the physical alteration of the body to prevent the spread of disease, removing necrotic and decaying flesh to help the whole to survive. Few healers know the science of anatomy and physiology better than the surgeon. While their expertise is of grave importance in the medical world, the downside is that when one is in need of their talents, it is likely the complaint is serious. In medical matters, a surgeon is a 6th-level challenge.</p>\n<hr />\n<p>The world is a dangerous place. Thankfully, there are those who devote their lives to easing the pain and suffering of others.</p>",
       "privateNotes": ""
     },
     "traits": {
@@ -657,7 +848,7 @@
     "schema": {
       "version": 0.785,
       "lastMigration": {
-        "datetime": "2022-09-11T09:44:48.102-07:00",
+        "datetime": "2022-09-11T09:44:48.112-07:00",
         "version": {
           "schema": 0.769,
           "foundry": "10.285",
@@ -667,19 +858,19 @@
     },
     "abilities": {
       "str": {
-        "mod": 3
+        "mod": 1
       },
       "dex": {
-        "mod": 1
+        "mod": 3
       },
       "con": {
-        "mod": 2
+        "mod": 1
       },
       "int": {
-        "mod": 0
+        "mod": 2
       },
       "wis": {
-        "mod": 1
+        "mod": 4
       },
       "cha": {
         "mod": 0
@@ -687,15 +878,15 @@
     },
     "saves": {
       "fortitude": {
-        "value": 6,
+        "value": 7,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 3,
+        "value": 7,
         "saveDetail": ""
       },
       "will": {
-        "value": 3,
+        "value": 10,
         "saveDetail": ""
       }
     }
@@ -703,7 +894,7 @@
   "prototypeToken": {
     "disposition": -1,
     "height": 1,
-    "name": "Commoner",
+    "name": "Surgeon",
     "width": 1,
     "displayName": 20,
     "actorLink": false,
@@ -773,7 +964,7 @@
     "systemVersion": "4.0.2",
     "coreVersion": "10.285",
     "createdTime": null,
-    "modifiedTime": 1662914688369,
+    "modifiedTime": 1662914688376,
     "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

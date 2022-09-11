@@ -1,7 +1,7 @@
 {
-  "name": "Keys - Dodge Bonus",
+  "name": "Book 1 - Harrow Bonus",
   "type": "effect",
-  "img": "systems/pf2e/icons/default-icons/shield.webp",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
   "effects": [],
   "flags": {
     "exportSource": {
@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>A player can spend a Harrow Point to gain a +1 circumstance bonus to their Armor Class for one encounter. A player can spend up to two Harrow Points per encounter to increase their Armor Class in this manner.</p>"
+      "value": "<p>During <em>Edge of Anarchy,</em> PCs gain a +1 circumstance bonus to all Dexterity-based rolls and a +1 circumstance bonus to their Armor Class during specific encounters, based on their Choosing.</p>\n<p>The encounters the Choosing bonus applies to are listed under <em>Edge of Anarchy;</em> The Chosen on page 424 of Curse of the Crimson Throne Adventure Path: Anniversary Edition.</p>"
     },
     "source": {
       "value": ""
@@ -26,7 +26,14 @@
     "rules": [
       {
         "key": "FlatModifier",
-        "label": "Harrow Point (Keys)",
+        "label": "Harrow Bonus (Keys) (Skills)",
+        "selector": "dex-based",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Harrow Bonus (Keys) (AC)",
         "selector": "ac",
         "type": "circumstance",
         "value": 1
@@ -36,7 +43,7 @@
     "schema": {
       "version": 0.785,
       "lastMigration": {
-        "datetime": "2022-09-11T09:44:48.787-07:00",
+        "datetime": "2022-09-11T09:44:48.789-07:00",
         "version": {
           "schema": 0.769,
           "foundry": "10.285",
@@ -49,7 +56,7 @@
     },
     "duration": {
       "value": -1,
-      "unit": "encounter",
+      "unit": "unlimited",
       "sustained": false,
       "expiry": "turn-start"
     },
@@ -59,7 +66,7 @@
     },
     "target": null,
     "tokenIcon": {
-      "show": true
+      "show": false
     },
     "badge": null
   },
@@ -68,7 +75,7 @@
     "systemVersion": "4.0.2",
     "coreVersion": "10.285",
     "createdTime": null,
-    "modifiedTime": 1662914688804,
+    "modifiedTime": 1662914688805,
     "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

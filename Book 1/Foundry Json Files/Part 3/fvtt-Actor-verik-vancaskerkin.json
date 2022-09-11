@@ -2,185 +2,21 @@
   "name": "Verik Vancaskerkin",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 49,
-        "temp": 0,
-        "details": "",
-        "max": 49
-      },
-      "perception": {
-        "value": 9
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "25",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 20,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "CN"
-      },
-      "level": {
-        "value": 3
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
-      "creatureType": "",
-      "blurb": "",
-      "publicNotes": "",
-      "privateNotes": "<p>The conversion doc doesn't list skills for this NPC, but in 1E, he's a level 4 fighter with the following skills: Handle Animal +8, Indimidate +8, and Ride +7. Intimidation and Nature make sense as the adaptation of these. I assumed expert in Indimidation and trained in Nature.</p>"
-    },
-    "traits": {
-      "senses": {
-        "value": ""
-      },
-      "traits": {
-        "value": [
-          "human",
-          "humanoid"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "unique",
-      "size": {
-        "value": "med"
-      }
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.751,
-      "lastMigration": {
-        "datetime": "2022-06-03T08:00:29.888-07:00",
-        "version": {
-          "schema": 0.75,
-          "foundry": "9.269",
-          "system": "3.10.4.11747"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 4
-      },
-      "dex": {
-        "mod": 1
-      },
-      "con": {
-        "mod": 2
-      },
-      "int": {
-        "mod": 0
-      },
-      "wis": {
-        "mod": 1
-      },
-      "cha": {
-        "mod": 0
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 11,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 9,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 7,
-        "saveDetail": ""
-      }
-    }
-  },
-  "token": {
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "height": 1,
-    "width": 1,
-    "name": "Verik Vancaskerkin",
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "disposition": -1,
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "randomImg": false,
-    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Verik%20Vancaskerkin.png"
-  },
   "items": [
     {
       "_id": "t3GJAbp3XkYot1Sa",
       "name": "Chain Mail",
       "type": "armor",
       "img": "systems/pf2e/icons/equipment/armor/chainmail.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Kf4eJEXnFPuAsseP"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>A suit of chain mail consists of several pieces of armor composed of small metal rings linked together in a protective mesh. It typically includes a chain shirt, leggings, a pair of arms, and a coif, collectively protecting most of the body.</p>"
         },
@@ -198,13 +34,13 @@
         "rules": [],
         "slug": "chain-mail",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -299,17 +135,17 @@
         },
         "potency": {}
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Kf4eJEXnFPuAsseP"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -317,7 +153,15 @@
       "name": "Longspear",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/longspear.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.aXuJh4i8HqSu6NYV"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This very long spear, sometimes called a pike, is purely for thrusting rather than throwing. Used by many soldiers and city watch for crowd control and defense against charging enemies, it must be wielded with two hands.</p>"
         },
@@ -334,13 +178,13 @@
         "rules": [],
         "slug": "longspear",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -459,17 +303,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.aXuJh4i8HqSu6NYV"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -477,7 +321,15 @@
       "name": "Shortbow",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/shortbow.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.hIgqLgH3YcLZBeoT"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This smaller bow is made of a single piece of wood and favored by skirmishers and cavalry.</p>"
         },
@@ -494,13 +346,13 @@
         "rules": [],
         "slug": "shortbow",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -619,17 +471,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.hIgqLgH3YcLZBeoT"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -637,7 +489,15 @@
       "name": "Arrows",
       "type": "consumable",
       "img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.w2ENw2VMPcsbif8g"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
         },
@@ -652,13 +512,13 @@
         "rules": [],
         "slug": "arrows",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -740,10 +600,7 @@
           "autoUse": true,
           "autoDestroy": true
         },
-        "spell": {
-          "data": null,
-          "heightenedLevel": null
-        },
+        "spell": null,
         "level": {
           "value": 0
         },
@@ -768,17 +625,17 @@
           "_deprecated": true
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.w2ENw2VMPcsbif8g"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -786,7 +643,15 @@
       "name": "Attack of Opportunity",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
@@ -801,13 +666,13 @@
         "rules": [],
         "slug": "attack-of-opportunity",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -831,17 +696,17 @@
           "value": ""
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -849,7 +714,11 @@
       "name": "Longspear",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -866,13 +735,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -895,21 +764,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "Q62UFmi7D9oJGYnv",
       "name": "Shortbow",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -927,13 +804,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -956,21 +833,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "2nFwDpd1ZjM9RLgX",
       "name": "Intimidating Strike",
       "type": "action",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>Verik makes a melee Strike. If he hits and deals damage, the target is @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} on a critical hit.</p>"
         },
@@ -990,13 +875,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1017,21 +902,33 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "ikZIdEkT36EnOXBL",
       "name": "Power Attack",
       "type": "action",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.0B39GdScyZMPWalX"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.PowerAttack]</p>"
         },
@@ -1064,13 +961,13 @@
         ],
         "slug": "power-attack",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1094,17 +991,17 @@
           "value": ""
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.0B39GdScyZMPWalX"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1112,7 +1009,11 @@
       "name": "Intimidation",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1127,13 +1028,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1144,21 +1045,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "8ZIjE3UbgjBdTgTO",
       "name": "Nature",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1173,13 +1082,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.888-07:00",
+            "datetime": "2022-09-11T09:44:48.090-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1190,14 +1099,18 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -1206,10 +1119,202 @@
       "lootable": true
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 49,
+        "temp": 0,
+        "max": 49,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "perception": {
+        "value": 9
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "CN"
+      },
+      "level": {
+        "value": 3
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "Male human fighter",
+      "publicNotes": "",
+      "privateNotes": "<p>The conversion doc doesn't list skills for this NPC, but in 1E, he's a level 4 fighter with the following skills: Handle Animal +8, Indimidate +8, and Ride +7. Intimidation and Nature make sense as the adaptation of these. I assumed expert in Indimidation and trained in Nature.</p>"
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.090-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Verik Vancaskerkin",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Verik%20Vancaskerkin.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688357,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

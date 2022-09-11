@@ -2,26 +2,737 @@
   "name": "Giant Spider",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
+  "items": [
+    {
+      "_id": "IUA7ZWVTepsameDv",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fangs",
+      "sort": 100000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "finesse"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "dez5f2j66zdt2xxl3dsr": {
+            "damage": "1d6+2",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": [
+            "hunting-spider-venom"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ir8tXGoz964QTWmv",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Web",
+      "sort": 200000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "range-increment-30"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {},
+        "bonus": {
+          "value": 7
+        },
+        "attackEffects": {
+          "value": [
+            "web-trap"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "UW8qbPcbWR2N4HcI",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DbfLZXVZVTQMJoyI",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Web Sense",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The hunting spider has imprecise @Compendium[pf2e.bestiary-ability-glossary-srd.j2wsK6IsW5yMW1jW]{Tremorsense} to detect the vibrations of creatures touching its web.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "4lmj5hd20I5GvQJz",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Spring Upon Prey",
+      "sort": 500000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p><strong>Requirement</strong> Initiative has not yet been rolled.</p>\n<p><strong>Trigger</strong> A creature touches the hunting spider's web while the spider is on it.</p>\n<hr />\n<p><strong>Effect</strong> The hunting spider automatically notices the creature and Strides, Climbs, or Descends on a Web before it rolls initiative.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "attack"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "tHBnPDgoj9trVlBk",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Descend on a Web",
+      "sort": 600000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The hunting spider moves straight down up to 40 feet, suspended by a web line. It can hang from the web or drop off. The distance it Descends on a Web doesn't count for falling damage.</p>\n<p>A creature that successfully Strikes the web (AC 20, Hardness 3, 5 HP) severs it, causing the spider to fall.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "move"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "egV0y60X9Okkmuoc",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Hunting Spider Venom",
+      "sort": 700000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:16]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r {1d10}[poison]]]{1d10 poison damage} and @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {1d12}[poison]]]{1d12 poison damage}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, and flat-footed (1 round)</p>\n<p><strong>Stage 3</strong> [[/r {2d6}[poison]]]{2d6 poison damage}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, and flat-footed (1 round)</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "poison"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "Qy7s2ZDFTvr7xR1m",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Web Trap",
+      "sort": 800000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>A creature hit by the hunting spider's web attack is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface until it @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} (DC 17).</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "xHMvCThRFk7vVesc",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 900000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "CEl4JWNUQwuJRSbY",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 1000000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "CAW51DkD6zerH6gN",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 1100000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.138-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.E4ctF7Fvi3cdkgQq"
+    },
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "attributes": {
       "hp": {
         "value": 16,
         "temp": 0,
-        "details": "",
-        "max": 16
-      },
-      "perception": {
-        "value": 7
+        "max": 16,
+        "details": ""
       },
       "initiative": {
         "ability": "perception"
       },
       "speed": {
-        "value": "25",
+        "value": 25,
         "otherSpeeds": [
           {
             "type": "climb",
-            "value": "25"
+            "value": 25
           }
         ],
         "details": ""
@@ -29,6 +740,9 @@
       "ac": {
         "value": 17,
         "details": ""
+      },
+      "perception": {
+        "value": 7
       },
       "allSaves": {
         "value": ""
@@ -51,14 +765,11 @@
       "privateNotes": ""
     },
     "traits": {
+      "value": [
+        "animal"
+      ],
       "senses": {
         "value": "darkvision, web sense"
-      },
-      "traits": {
-        "value": [
-          "animal"
-        ],
-        "custom": ""
       },
       "languages": {
         "value": [],
@@ -82,8 +793,15 @@
     },
     "resources": {},
     "schema": {
-      "version": 0.751,
-      "lastMigration": null
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.138-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -120,31 +838,22 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "disposition": -1,
     "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Hunting Spider",
     "width": 1,
     "displayName": 20,
     "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
     "light": {
       "alpha": 0.5,
-      "angle": 0,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -152,12 +861,15 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
-        "reverse": false
+        "reverse": false,
+        "type": null
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "attenuation": 0.5,
+      "color": null
     },
     "displayBars": 20,
     "bar1": {
@@ -171,555 +883,35 @@
         "linkToActorSize": true
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "IUA7ZWVTepsameDv",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "finesse"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "dez5f2j66zdt2xxl3dsr": {
-            "damage": "1d6+2",
-            "damageType": "piercing"
-          }
-        },
-        "bonus": {
-          "value": 9
-        },
-        "attackEffects": {
-          "value": [
-            "hunting-spider-venom"
-          ],
-          "custom": ""
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Fangs",
-      "sort": 100000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "ir8tXGoz964QTWmv",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "range-increment-30"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {},
-        "bonus": {
-          "value": 7
-        },
-        "attackEffects": {
-          "value": [
-            "web-trap"
-          ],
-          "custom": ""
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Web",
-      "sort": 200000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "UW8qbPcbWR2N4HcI",
-      "data": {
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "darkvision",
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 300000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "DbfLZXVZVTQMJoyI",
-      "data": {
-        "description": {
-          "value": "<p>The hunting spider has imprecise @Compendium[pf2e.bestiary-ability-glossary-srd.j2wsK6IsW5yMW1jW]{Tremorsense} to detect the vibrations of creatures touching its web.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Web Sense",
-      "sort": 400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "4lmj5hd20I5GvQJz",
-      "data": {
-        "description": {
-          "value": "<p><strong>Requirement</strong> Initiative has not yet been rolled.</p>\n<p><strong>Trigger</strong> A creature touches the hunting spider's web while the spider is on it.</p>\n<hr />\n<p><strong>Effect</strong> The hunting spider automatically notices the creature and Strides, Climbs, or Descends on a Web before it rolls initiative.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "attack"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "reaction"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Spring Upon Prey",
-      "sort": 500000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "tHBnPDgoj9trVlBk",
-      "data": {
-        "description": {
-          "value": "<p>The hunting spider moves straight down up to 40 feet, suspended by a web line. It can hang from the web or drop off. The distance it Descends on a Web doesn't count for falling damage.</p>\n<p>A creature that successfully Strikes the web (AC 20, Hardness 3, 5 HP) severs it, causing the spider to fall.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "move"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": 1
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Descend on a Web",
-      "sort": 600000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "egV0y60X9Okkmuoc",
-      "data": {
-        "description": {
-          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:16]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r {1d10}[poison]]]{1d10 poison damage} and @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {1d12}[poison]]]{1d12 poison damage}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, and flat-footed (1 round)</p>\n<p><strong>Stage 3</strong> [[/r {2d6}[poison]]]{2d6 poison damage}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, and flat-footed (1 round)</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "poison"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Hunting Spider Venom",
-      "sort": 700000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "Qy7s2ZDFTvr7xR1m",
-      "data": {
-        "description": {
-          "value": "<p>A creature hit by the hunting spider's web attack is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface until it @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} (DC 17).</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Web Trap",
-      "sort": 800000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "xHMvCThRFk7vVesc",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 7
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Acrobatics",
-      "sort": 900000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "CEl4JWNUQwuJRSbY",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 5
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1000000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "CAW51DkD6zerH6gN",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 7
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Stealth",
-      "sort": 1100000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    }
-  ],
-  "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.pathfinder-bestiary.E4ctF7Fvi3cdkgQq"
-    },
-    "exportSource": {
-      "world": "curse-of-the-crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688400,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

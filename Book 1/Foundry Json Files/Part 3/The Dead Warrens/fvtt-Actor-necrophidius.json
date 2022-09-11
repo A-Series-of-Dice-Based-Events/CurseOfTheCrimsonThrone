@@ -2,27 +2,483 @@
   "name": "Necrophidius",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
+  "items": [
+    {
+      "_id": "iKjpMK3lSakpUkFY",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "5xs46f82ma91spxfqe3r": {
+            "damage": "1d10+3",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 8
+        },
+        "attackEffects": {
+          "value": [
+            "necrophidic-paralysis"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "qfYFz5QrJfsbmJng",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 200000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "6B5ZXZm5DwAILPJ2",
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Dance of Death",
+      "sort": 300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The necrophidius sways, its serpentine form undulating and clattering in a hypnotic rhythm. Each creature that witnesses the dance must attempt a @Check[type:will|dc:18] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The creature is unnerved by the swaying and becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} until the end of the necrophidius's next turn.</p>\n<p><strong>Failure</strong> The creature is distracted by the swaying, becoming @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}. After it recovers, it is flat-footed until the end of the necrophidius's next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 3}.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "enchantment",
+            "mental",
+            "occult",
+            "visual"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 3
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "CswqTh16aa0KDlDF",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Necrophidic Paralysis",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>A living creature bitten by a necrophidius must succeed at a @Check[type:fortitude|dc:20] save or become @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 for each save attempted. A creature that succeeds at this save is temporarily immune to necrophidic paralysis for 24 hours.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "incapacitation",
+            "occult",
+            "necromancy"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1LXvliPC588PndMb",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 500000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "V5sGVXapCraZg6cu",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 600000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "VZEN1Ncn243ccP26",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 700000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.115-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary-2.y2LqIPBHv2dA0pjI"
+    },
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "attributes": {
       "hp": {
         "value": 50,
         "temp": 0,
-        "details": "",
-        "max": 50
-      },
-      "perception": {
-        "value": 9
+        "max": 50,
+        "details": ""
       },
       "initiative": {
         "ability": "perception"
       },
       "speed": {
-        "value": "25",
-        "otherSpeeds": []
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       },
       "ac": {
         "value": 19,
         "details": ""
+      },
+      "perception": {
+        "value": 9
       },
       "allSaves": {
         "value": ""
@@ -36,7 +492,8 @@
         "value": 3
       },
       "source": {
-        "value": "Pathfinder Bestiary 2"
+        "value": "Pathfinder Bestiary 2",
+        "author": ""
       },
       "creatureType": "Construct",
       "blurb": "",
@@ -44,15 +501,12 @@
       "privateNotes": ""
     },
     "traits": {
+      "value": [
+        "construct",
+        "mindless"
+      ],
       "senses": {
         "value": "darkvision"
-      },
-      "traits": {
-        "value": [
-          "construct",
-          "mindless"
-        ],
-        "custom": ""
       },
       "languages": {
         "value": [],
@@ -97,8 +551,15 @@
     },
     "resources": {},
     "schema": {
-      "version": 0.751,
-      "lastMigration": null
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.115-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -135,31 +596,22 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "disposition": -1,
     "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Necrophidius",
     "width": 1,
     "displayName": 20,
     "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
     "light": {
       "alpha": 0.5,
-      "angle": 0,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -167,12 +619,15 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
-        "reverse": false
+        "reverse": false,
+        "type": null
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "attenuation": 0.5,
+      "color": null
     },
     "displayBars": 20,
     "bar1": {
@@ -186,356 +641,35 @@
         "linkToActorSize": true
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "iKjpMK3lSakpUkFY",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "agile",
-            "finesse"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "5xs46f82ma91spxfqe3r": {
-            "damage": "1d10+3",
-            "damageType": "piercing"
-          }
-        },
-        "bonus": {
-          "value": 8
-        },
-        "attackEffects": {
-          "value": [
-            "necrophidic-paralysis"
-          ],
-          "custom": ""
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Jaws",
-      "sort": 100000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "qfYFz5QrJfsbmJng",
-      "data": {
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "darkvision",
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 200000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "6B5ZXZm5DwAILPJ2",
-      "data": {
-        "description": {
-          "value": "<p>The necrophidius sways, its serpentine form undulating and clattering in a hypnotic rhythm. Each creature that witnesses the dance must attempt a @Check[type:will|dc:18] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The creature is unnerved by the swaying and becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} until the end of the necrophidius's next turn.</p>\n<p><strong>Failure</strong> The creature is distracted by the swaying, becoming @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}. After it recovers, it is flat-footed until the end of the necrophidius's next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 3}.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "enchantment",
-            "mental",
-            "occult",
-            "visual"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": 3
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
-      "name": "Dance of Death",
-      "sort": 300000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "CswqTh16aa0KDlDF",
-      "data": {
-        "description": {
-          "value": "<p>A living creature bitten by a necrophidius must succeed at a @Check[type:fortitude|dc:20] save or become @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 for each save attempted. A creature that succeeds at this save is temporarily immune to necrophidic paralysis for 24 hours.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "incapacitation",
-            "occult",
-            "necromancy"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Necrophidic Paralysis",
-      "sort": 400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "1LXvliPC588PndMb",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 9
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Acrobatics",
-      "sort": 500000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "V5sGVXapCraZg6cu",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 10
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 600000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "VZEN1Ncn243ccP26",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 9
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Stealth",
-      "sort": 700000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    }
-  ],
-  "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.pathfinder-bestiary-2.y2LqIPBHv2dA0pjI"
-    },
-    "exportSource": {
-      "world": "curse-of-the-crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688380,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

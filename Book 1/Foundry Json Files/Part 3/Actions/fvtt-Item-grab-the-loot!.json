@@ -2,7 +2,16 @@
   "name": "Grab the Loot!",
   "type": "action",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
-  "data": {
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>You attempt to grab a handful of gold from the Knivesies table. Attempt an Acrobatics check against your opponent's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You quickly snatch [[/r 1d10]]{1d10 coins} from the table without provoking an Attack of Opportunity from your opponent.</p>\n<p><strong>Success</strong> You pick up [[/r 1d10]]{1d10 coins} from the table.</p>\n<p><strong>Failure</strong> You pick up [[/r 1d4]]{1d4 coins} from the table.</p>\n<p><strong>Critical Failure</strong> You fail to pick up any coins.</p>"
     },
@@ -19,13 +28,13 @@
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.751,
+      "version": 0.785,
       "lastMigration": {
-        "datetime": "2022-06-12T15:18:59.902-07:00",
+        "datetime": "2022-09-11T09:44:48.788-07:00",
         "version": {
-          "schema": null,
-          "foundry": "9.269",
-          "system": "3.10.4.11747"
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
         }
       }
     },
@@ -46,13 +55,12 @@
     },
     "deathNote": false
   },
-  "effects": [],
-  "flags": {
-    "exportSource": {
-      "world": "curse-of-the-crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688804,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

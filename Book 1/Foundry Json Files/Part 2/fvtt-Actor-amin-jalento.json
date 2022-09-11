@@ -2,184 +2,21 @@
   "name": "Amin Jalento",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 30,
-        "temp": 0,
-        "details": "",
-        "max": 45
-      },
-      "perception": {
-        "value": 11
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "25",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 18,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "N"
-      },
-      "level": {
-        "value": 3
-      },
-      "source": {
-        "value": "Pathfinder Gamemastery Guide",
-        "author": ""
-      },
-      "creatureType": "",
-      "blurb": "",
-      "publicNotes": "<p>Envied by many and detested by still others, nobles exude confidence and gentility. Gossip and gambling are often nobles' favorite pastimes. Day-to-day life for a noble is often a mixture of business and leisure, and to an onlooker, such a lifestyle can appear to be nothing more than a string of meals, parties, and game halls. However, despite what some might believe, life as a noble is often quite dangerous and requires far more intellect than it would appear-along with a healthy dose of suspicion.</p>\n<hr />\n<p>Though adventurers travel through perilous dungeons and across treacherous wilderness, sometimes the most dangerous place they can end up is in a noble court.</p>",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": ""
-      },
-      "traits": {
-        "value": [
-          "human",
-          "humanoid",
-          "weak"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "unique",
-      "size": {
-        "value": "med"
-      },
-      "ci": []
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.751,
-      "lastMigration": {
-        "datetime": "2022-06-03T08:00:29.845-07:00",
-        "version": {
-          "schema": 0.75,
-          "foundry": "9.269",
-          "system": "3.10.4.11747"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 2
-      },
-      "dex": {
-        "mod": 3
-      },
-      "con": {
-        "mod": 1
-      },
-      "int": {
-        "mod": 1
-      },
-      "wis": {
-        "mod": 2
-      },
-      "cha": {
-        "mod": 4
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 6,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 10,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 11,
-        "saveDetail": ""
-      }
-    }
-  },
-  "token": {
-    "disposition": -1,
-    "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "name": "Noble",
-    "width": 1,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "2pjdLpOsf10e25Mu",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.tH5GirEy7YB3ZgCk"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
+      "name": "Rapier",
+      "sort": 100000,
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>The rapier is a long and thin piercing blade with a basket hilt. It is prized among many as a dueling weapon.</p>"
         },
@@ -198,13 +35,13 @@
         "rules": [],
         "slug": "rapier",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.845-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -323,24 +160,32 @@
           "strikeConditionValue": null
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.tH5GirEy7YB3ZgCk"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
-      "name": "Rapier",
-      "sort": 100000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "kbXfg2ermyAfTYHC",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.rXZxM7SbqEnvXyal"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/clothes-high-fashion.webp",
+      "name": "Clothing (High-Fashion Fine)",
+      "sort": 200000,
+      "type": "equipment",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper‑class folk while wearing high‑fashion fine clothing.</p>"
         },
@@ -368,13 +213,13 @@
         ],
         "slug": "clothing-high-fashion-fine",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.845-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -433,24 +278,28 @@
           "value": 3
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.rXZxM7SbqEnvXyal"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/adventuring-gear/clothes-high-fashion.webp",
-      "name": "Clothing (High-Fashion Fine)",
-      "sort": 200000,
-      "type": "equipment",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "iGam6RcKFAl2V9TI",
-      "data": {
+      "img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-resistance.webp",
+      "name": "Silver Flask",
+      "sort": 300000,
+      "type": "equipment",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -465,13 +314,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.845-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -529,20 +378,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-resistance.webp",
-      "name": "Silver Flask",
-      "sort": 300000,
-      "type": "equipment",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "n6mv4Y0jGccZlwmK",
-      "data": {
+      "img": "systems/pf2e/icons/equipment/treasure/art-objects/major-art-object/diamond-ring-with-platinum-band.webp",
+      "name": "Signet Ring",
+      "sort": 400000,
+      "type": "equipment",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -557,13 +414,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.845-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -621,20 +478,32 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/equipment/treasure/art-objects/major-art-object/diamond-ring-with-platinum-band.webp",
-      "name": "Signet Ring",
-      "sort": 400000,
-      "type": "equipment",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "Nv6NVuyp91007LQt",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.69IWSryF5BWkwWXY"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/treasure/art-objects/minor-art-object/set-of-six-ivory-dice.webp",
+      "name": "Loaded Dice",
+      "sort": 500000,
+      "type": "treasure",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": ""
         },
@@ -649,13 +518,13 @@
         "rules": [],
         "slug": "set-of-six-ivory-dice",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.845-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -713,24 +582,28 @@
           "value": 0
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.69IWSryF5BWkwWXY"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/treasure/art-objects/minor-art-object/set-of-six-ivory-dice.webp",
-      "name": "Loaded Dice",
-      "sort": 500000,
-      "type": "treasure",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "Eq3KajvZR0XWgw2w",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Rapier",
+      "sort": 600000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -749,13 +622,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -778,20 +651,28 @@
           "value": []
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Rapier",
-      "sort": 600000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "9OxsjzXYOnydXvcb",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 700000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -810,13 +691,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -839,20 +720,28 @@
           "value": []
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Fist",
-      "sort": 700000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "h0oO1nc9v9yl5OgB",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Lip Reader",
+      "sort": 800000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>After years of sticking their nose where it doesn't belong, the noble has learned to read lips from afar, with the effects of the @Compendium[pf2e.feats-srd.yUuU9xyotrpwpTyC]{Read Lips} feat.</p>"
         },
@@ -867,13 +756,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -897,20 +786,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Lip Reader",
-      "sort": 800000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "UQoNtmlZuh2NnKd0",
-      "data": {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Noble's Ruse",
+      "sort": 900000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>Frequency: Once per round</p>\n<p>Effect: The noble @Compendium[pf2e.action-macros.RjfPFjqPrNve6eeh]{Feints}. On a success, the noble Strikes the target.</p>"
         },
@@ -925,13 +822,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -955,20 +852,32 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Noble's Ruse",
-      "sort": 900000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "EHw3qV7vYGDQdfPB",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.AWvNPE4U0kEJSL1T"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sneak Attack",
+      "sort": 1000000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>The noble deals 1d6 extra precision damage to flat-footed creatures.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
         },
@@ -988,18 +897,16 @@
             "key": "DamageDice",
             "predicate": {
               "all": [
-                "target:condition:flat-footed",
+                "target:condition:flat-footed"
+              ],
+              "any": [
+                "weapon:trait:agile",
+                "weapon:trait:finesse",
                 {
-                  "or": [
-                    "finesse",
-                    "agile",
+                  "and": [
+                    "weapon:ranged",
                     {
-                      "and": [
-                        "ranged",
-                        {
-                          "not": "thrown"
-                        }
-                      ]
+                      "not": "weapon:thrown-melee"
                     }
                   ]
                 }
@@ -1010,13 +917,13 @@
         ],
         "slug": "sneak-attack",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1040,69 +947,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.AWvNPE4U0kEJSL1T"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Sneak Attack",
-      "sort": 1000000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "lJmoeQyzWTg05zhF",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
-            "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
-            }
-          }
-        },
-        "mod": {
-          "value": 10
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Deception",
       "sort": 1100000,
       "type": "lore",
       "effects": [],
       "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "3Sa8XVXt4D5Etclg",
-      "data": {
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1117,13 +983,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1134,20 +1000,28 @@
           "value": 0
         }
       },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "3Sa8XVXt4D5Etclg",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Diplomacy",
       "sort": 1200000,
       "type": "lore",
       "effects": [],
       "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "rBpjP1zIiLXuu1XU",
-      "data": {
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1162,13 +1036,66 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 10
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "rBpjP1zIiLXuu1XU",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Gambling Lore",
+      "sort": 1300000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.741-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1179,20 +1106,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Gambling Lore",
-      "sort": 1300000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "uA7pVAV4Iq9pVCNy",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Intimidation",
+      "sort": 1400000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1207,13 +1142,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.846-07:00",
+            "datetime": "2022-09-11T09:44:48.741-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1224,16 +1159,17 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Intimidation",
-      "sort": 1400000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -1242,10 +1178,204 @@
       "sourceId": "Compendium.pf2e.npc-gallery.R5SWtNtQt8l7WLYk"
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "temp": 0,
+        "max": 45,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "perception": {
+        "value": 11
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "adjustment": "weak"
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": 3
+      },
+      "source": {
+        "value": "Pathfinder Gamemastery Guide",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "<p>Envied by many and detested by still others, nobles exude confidence and gentility. Gossip and gambling are often nobles' favorite pastimes. Day-to-day life for a noble is often a mixture of business and leisure, and to an onlooker, such a lifestyle can appear to be nothing more than a string of meals, parties, and game halls. However, despite what some might believe, life as a noble is often quite dangerous and requires far more intellect than it would appear-along with a healthy dose of suspicion.</p>\n<hr />\n<p>Though adventurers travel through perilous dungeons and across treacherous wilderness, sometimes the most dangerous place they can end up is in a noble court.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.741-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Noble",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688758,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

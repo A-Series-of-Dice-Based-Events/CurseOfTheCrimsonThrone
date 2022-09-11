@@ -1,43 +1,49 @@
 {
-  "name": "Harrow Points",
+  "name": "Harrow Points (Keys)",
   "type": "consumable",
   "img": "systems/pf2e/icons/default-icons/consumable.webp",
-  "data": {
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "description": {
-      "value": "<p>A player can spend a Harrow Point to reroll any Dexterity-based roll. They must abide by the new result, but additional Harrow Points can be spent for additional rerolls. This is a fortune effect.</p>\n<p>&nbsp;</p>\n<p>@Item[X2E06RqD2DidPNs7]{Keys - Speed Bonus}</p>\n<p>@Item[sO0O3ugBn9rhyIiH]{Keys - Reroll Dex Roll}</p>\n<p>@Item[rM1Iq5iZW00qM5sv]{Keys - Dodge Bonus}</p>"
+      "value": "<p>During each Chapter, characters will gain opportunities to use their Harrow Points. The methods in which they can use these are detailed in each reading. Using a Harrow Point is a free action. As long as a PC has enough points, there is no limit to the number of points they can spend in a round.</p>\n<hr />\n<p>@Item[DTfekfdyaZPn2t0A]{Keys - Dexterity Rolls}</p>\n<p>@Item[z16YCzO7t9d9JGAW]{Keys - Dodge Bonus}</p>\n<p>@Item[Z6XXYqqA2F6YR2vr]{Keys - Dodge Bonus x2}</p>\n<p>@Item[KUP3gSh1P6BG9Ipm]{Keys - Speed Bonus}</p>"
     },
     "source": {
       "value": ""
     },
     "traits": {
       "value": [],
-      "rarity": {
-        "value": "common"
-      },
+      "rarity": "rare",
       "custom": ""
     },
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.684,
-      "lastMigration": null
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.788-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
     },
-    "quantity": {
-      "value": 1
-    },
+    "quantity": 1,
     "baseItem": null,
     "hp": {
-      "value": 0
+      "brokenThreshold": 0,
+      "value": 0,
+      "max": 0
     },
-    "maxHp": {
-      "value": 0
-    },
-    "hardness": {
-      "value": 0
-    },
-    "brokenThreshold": {
-      "value": 0
-    },
+    "hardness": 0,
     "weight": {
       "value": "-"
     },
@@ -45,35 +51,24 @@
       "value": ""
     },
     "price": {
-      "value": "0 gp"
+      "value": {}
     },
     "equipped": {
-      "value": false
+      "carryType": "worn",
+      "handsHeld": 0
     },
-    "stackGroup": {
-      "value": ""
-    },
-    "bulkCapacity": {
-      "value": ""
-    },
+    "stackGroup": "",
     "negateBulk": {
       "value": "0"
     },
-    "containerId": {
-      "value": null
-    },
+    "containerId": "null",
     "preciousMaterial": {
       "value": null
     },
     "preciousMaterialGrade": {
       "value": null
     },
-    "collapsed": {
-      "value": false
-    },
-    "size": {
-      "value": "med"
-    },
+    "size": "med",
     "identification": {
       "status": "identified",
       "unidentified": {
@@ -116,10 +111,7 @@
       "autoUse": true,
       "autoDestroy": true
     },
-    "spell": {
-      "data": null,
-      "heightenedLevel": null
-    },
+    "spell": null,
     "level": {
       "value": 0
     },
@@ -127,8 +119,8 @@
       "value": "potion"
     },
     "charges": {
-      "value": 3,
-      "max": 3,
+      "value": 0,
+      "max": 8,
       "_deprecated": true
     },
     "consume": {
@@ -144,14 +136,12 @@
       "_deprecated": true
     }
   },
-  "effects": [],
-  "sort": 0,
-  "flags": {
-    "exportSource": {
-      "world": "crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688804,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

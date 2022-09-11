@@ -1,182 +1,13 @@
 {
-  "name": "Rioter",
+  "name": "Skinshear",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
-      "_id": "UZlHtMydIq06OfJW",
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.ynnBwzkzsR6B73iO"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/sickle.webp",
-      "name": "Sickle",
-      "sort": 100000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>Originally a farming tool used for reaping grain, this one‑handed weapon has a short wooden handle ending in a curved blade, sometimes sharpened on both sides.</p>"
-        },
-        "source": {
-          "value": "Pathfinder Core Rulebook"
-        },
-        "traits": {
-          "value": [
-            "agile",
-            "finesse",
-            "trip"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "sickle",
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "quantity": 1,
-        "baseItem": "sickle",
-        "hp": {
-          "brokenThreshold": 0,
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "price": {
-          "value": {
-            "sp": 2
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null,
-          "handsHeld": 1
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "containerId": null,
-        "preciousMaterial": {
-          "value": ""
-        },
-        "preciousMaterialGrade": {
-          "value": ""
-        },
-        "size": "med",
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "held-in-one-hand"
-        },
-        "level": {
-          "value": 0
-        },
-        "category": "simple",
-        "group": "knife",
-        "bonus": {
-          "value": 0
-        },
-        "damage": {
-          "value": "",
-          "dice": 1,
-          "die": "d4",
-          "damageType": "slashing"
-        },
-        "bonusDamage": {
-          "value": 0
-        },
-        "splashDamage": {
-          "value": 0
-        },
-        "range": null,
-        "reload": {
-          "value": ""
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": null
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "specific": {
-          "value": false
-        },
-        "propertyRune1": {
-          "value": ""
-        },
-        "propertyRune2": {
-          "value": ""
-        },
-        "propertyRune3": {
-          "value": ""
-        },
-        "propertyRune4": {
-          "value": ""
-        },
-        "property1": {
-          "value": "",
-          "dice": "",
-          "die": "",
-          "damageType": "",
-          "critDice": "",
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": "",
-          "criticalConditionType": "",
-          "criticalConditionValue": "",
-          "strikeConditionType": "",
-          "strikeConditionValue": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "o8GJ3AVTDFtS1dFG",
+      "_id": "B9C716BDIWeqDrLI",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Sickle",
-      "sort": 200000,
+      "name": "Jaws",
+      "sort": 100000,
       "type": "melee",
       "effects": [],
       "folder": null,
@@ -189,10 +20,7 @@
           "value": ""
         },
         "traits": {
-          "value": [
-            "agile",
-            "trip"
-          ],
+          "value": [],
           "rarity": "common",
           "custom": ""
         },
@@ -201,7 +29,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.099-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -216,83 +44,19 @@
           "value": ""
         },
         "damageRolls": {
-          "uc1s1t4wur5bbofg09gjg": {
-            "damage": "1d4+2",
-            "damageType": "slashing"
+          "oot8em5t2uhaftsd56nr": {
+            "damage": "1d12+7",
+            "damageType": "piercing"
           }
         },
         "bonus": {
-          "value": 5
+          "value": 11
         },
         "attackEffects": {
-          "value": []
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": null,
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "Q9h6X4WFBsWo4KlV",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Rock",
-      "sort": 300000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "flags": {},
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
           "value": [
-            "thrown-10"
+            "grab"
           ],
-          "rarity": "common",
           "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.785,
-          "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
-            "version": {
-              "schema": 0.769,
-              "foundry": "10.285",
-              "system": "4.0.2"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "c16oqbic9ep578zkoag35t": {
-            "damage": "1d4+2",
-            "damageType": "bludgeoning"
-          }
-        },
-        "bonus": {
-          "value": 3
-        },
-        "attackEffects": {
-          "value": []
         }
       },
       "ownership": {
@@ -308,17 +72,21 @@
       }
     },
     {
-      "_id": "T3ZpHsIT64RGyhT0",
+      "_id": "ksGHYkwsnnxc2Vmk",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Power of the Mob",
-      "sort": 400000,
+      "name": "Darkvision",
+      "sort": 200000,
       "type": "action",
       "effects": [],
       "folder": null,
-      "flags": {},
       "system": {
         "description": {
-          "value": "<p>When three or more commoners are adjacent to each other each commoner gets a +1 circumstance bonus to Athletics checks to @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, attack rolls, and damage rolls.</p>"
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "source": {
           "value": ""
@@ -328,50 +96,12 @@
           "rarity": "common",
           "custom": ""
         },
-        "rules": [
-          {
-            "domain": "all",
-            "key": "RollOption",
-            "option": "power-of-the-mob",
-            "toggleable": true
-          },
-          {
-            "key": "FlatModifier",
-            "predicate": {
-              "all": [
-                "action:shove",
-                "power-of-the-mob"
-              ]
-            },
-            "selector": "athletics",
-            "value": 1
-          },
-          {
-            "key": "FlatModifier",
-            "predicate": {
-              "all": [
-                "power-of-the-mob"
-              ]
-            },
-            "selector": "attack",
-            "value": 1
-          },
-          {
-            "key": "FlatModifier",
-            "predicate": {
-              "all": [
-                "power-of-the-mob"
-              ]
-            },
-            "selector": "strike-damage",
-            "value": 1
-          }
-        ],
-        "slug": null,
+        "rules": [],
+        "slug": "darkvision",
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.099-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -383,7 +113,7 @@
           "value": "passive"
         },
         "actionCategory": {
-          "value": "offensive"
+          "value": "interaction"
         },
         "actions": {
           "value": null
@@ -412,7 +142,143 @@
       }
     },
     {
-      "_id": "fxz50qBlMmlNMKcG",
+      "_id": "Fc10tuSKXi4OAWw6",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Deep Plunge",
+      "sort": 300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The brine shark dives straight down into the water, moving up to twice its swim Speed in a straight vertical line. It can use this ability while grabbing a creature.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "2d3ZGRIXERcjqnmJ",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "grab",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "N8RaoZ6IeU5TovlO",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Athletics",
       "sort": 500000,
@@ -437,7 +303,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.099-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -446,7 +312,7 @@
           }
         },
         "mod": {
-          "value": 5
+          "value": 10
         },
         "proficient": {
           "value": 0
@@ -465,9 +331,9 @@
       }
     },
     {
-      "_id": "lqVfEZu6MeCHDuky",
+      "_id": "fg3RTEikAdx8jmmC",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Lore (any one related to their trade)",
+      "name": "Stealth",
       "sort": 600000,
       "type": "lore",
       "effects": [],
@@ -490,7 +356,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.099-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -499,7 +365,7 @@
           }
         },
         "mod": {
-          "value": 6
+          "value": 11
         },
         "proficient": {
           "value": 0
@@ -518,9 +384,9 @@
       }
     },
     {
-      "_id": "opItqtXq4hh669qB",
+      "_id": "F0m1cdMw6jv4aZwk",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Society",
+      "name": "Survival",
       "sort": 700000,
       "type": "lore",
       "effects": [],
@@ -543,7 +409,7 @@
         "schema": {
           "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-09-11T09:44:48.102-07:00",
+            "datetime": "2022-09-11T09:44:48.099-07:00",
             "version": {
               "schema": 0.769,
               "foundry": "10.285",
@@ -552,7 +418,7 @@
           }
         },
         "mod": {
-          "value": 2
+          "value": 8
         },
         "proficient": {
           "value": 0
@@ -574,7 +440,7 @@
   "effects": [],
   "flags": {
     "core": {
-      "sourceId": "Compendium.pf2e.npc-gallery.xY2WjwebqTNXAP0q"
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.9sa2KE4Fbh3OPH7M"
     },
     "exportSource": {
       "world": "crimson-throne-test",
@@ -586,25 +452,30 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 10,
+        "value": 45,
         "temp": 0,
-        "max": 10,
+        "max": 45,
         "details": ""
       },
       "initiative": {
         "ability": "perception"
       },
       "speed": {
-        "value": 25,
-        "otherSpeeds": [],
+        "value": 15,
+        "otherSpeeds": [
+          {
+            "type": "swim",
+            "value": 50
+          }
+        ],
         "details": ""
       },
       "ac": {
-        "value": 13,
+        "value": 19,
         "details": ""
       },
       "perception": {
-        "value": 3
+        "value": 8
       },
       "allSaves": {
         "value": ""
@@ -615,39 +486,48 @@
         "value": "N"
       },
       "level": {
-        "value": -1
+        "value": 3
       },
       "source": {
-        "value": "Pathfinder Gamemastery Guide",
+        "value": "Pathfinder Bestiary",
         "author": ""
       },
-      "creatureType": "",
+      "creatureType": "Elemental",
       "blurb": "",
-      "publicNotes": "<p>Though not every commoner is downtrodden, many live hard lives of toil as they work to keep their families fed and housed in relative comfort. While many commoners are just simple folks who keep to themselves, sometimes commoners rebel, either rising up to face their oppressors or persuaded or even duped into joining nefarious plans and criminal conspiracies. Commoners benefit from power in numbers, and a crowd of commoners can accomplish a great deal more than their rulers often expect.</p>\n<hr />\n<p>Unfortunately, every society has people living on its fringes. While good communities work to grant aid and respite to their downtrodden, sometimes-due to economic downturn, famine, or war-the ranks of the less fortunate exceed the community's capacity to support them. In heartless neutral and evil societies, poverty is seen as an inevitability that can never be truly eradicated, or even worse, as a tool to be manipulated for political gain.</p>",
+      "publicNotes": "<p>Brine sharks are deadly elementals that roam the endless oceans of the Plane of Water.</p>\n<hr />\n<p>Water elementals can be very destructive, but often not intentionally so; just as water can bring life to those in need on the Material Plane, its waves can pound shores and rains can flood cities. Water elementals are similarly difficult to predict.</p>",
       "privateNotes": ""
     },
     "traits": {
       "value": [
-        "human",
-        "humanoid"
+        "aquatic",
+        "elemental",
+        "water"
       ],
       "senses": {
-        "value": ""
+        "value": "darkvision"
       },
       "languages": {
-        "value": [
-          "common"
-        ],
+        "value": [],
         "selected": [],
         "custom": ""
       },
       "di": {
-        "value": [],
+        "value": [
+          "bleed",
+          "paralyzed",
+          "poison",
+          "sleep"
+        ],
         "custom": ""
       },
-      "dr": [],
+      "dr": [
+        {
+          "type": "fire",
+          "value": 5
+        }
+      ],
       "dv": [],
-      "rarity": "common",
+      "rarity": "uncommon",
       "size": {
         "value": "med"
       },
@@ -657,7 +537,7 @@
     "schema": {
       "version": 0.785,
       "lastMigration": {
-        "datetime": "2022-09-11T09:44:48.102-07:00",
+        "datetime": "2022-09-11T09:44:48.099-07:00",
         "version": {
           "schema": 0.769,
           "foundry": "10.285",
@@ -670,13 +550,13 @@
         "mod": 3
       },
       "dex": {
-        "mod": 1
+        "mod": 2
       },
       "con": {
         "mod": 2
       },
       "int": {
-        "mod": 0
+        "mod": -4
       },
       "wis": {
         "mod": 1
@@ -687,15 +567,15 @@
     },
     "saves": {
       "fortitude": {
-        "value": 6,
+        "value": 9,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 3,
+        "value": 11,
         "saveDetail": ""
       },
       "will": {
-        "value": 3,
+        "value": 6,
         "saveDetail": ""
       }
     }
@@ -703,7 +583,7 @@
   "prototypeToken": {
     "disposition": -1,
     "height": 1,
-    "name": "Commoner",
+    "name": "Brine Shark",
     "width": 1,
     "displayName": 20,
     "actorLink": false,
@@ -773,7 +653,7 @@
     "systemVersion": "4.0.2",
     "coreVersion": "10.285",
     "createdTime": null,
-    "modifiedTime": 1662914688369,
+    "modifiedTime": 1662914688367,
     "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

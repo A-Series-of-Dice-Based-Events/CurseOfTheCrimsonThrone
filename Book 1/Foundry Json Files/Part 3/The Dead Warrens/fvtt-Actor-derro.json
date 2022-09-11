@@ -2,189 +2,17 @@
   "name": "Derro",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 45,
-        "temp": 0,
-        "details": "",
-        "max": 45
-      },
-      "perception": {
-        "value": 6
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "20",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 19,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "CE"
-      },
-      "level": {
-        "value": 3
-      },
-      "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
-      },
-      "creatureType": "Humanoid",
-      "blurb": "",
-      "publicNotes": "<p>Dero stranglers specialize in capturing living victims, and they are often called upon to aid in abductions.</p>\n<hr />\n<p>Deros are short, wiry humanoids with milky white eyes, gray-blue skin, and wild shocks of off-white or gray hair. The descendants of a mysterious type of fey abandoned in the deepest, darkest caverns of Golarion, deros are the subject of fearful legends and folk tales to most of the world's surface races. They skulk beneath major metropolitan areas, performing cruel and twisted experiments on unwilling subjects. A dero is 3 feet tall and weighs approximately 70 pounds.</p>",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": "darlvision"
-      },
-      "traits": {
-        "value": [
-          "dero",
-          "humanoid"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "aklo",
-          "undercommon"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [
-          "confusion"
-        ],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [
-        {
-          "type": "vulnerable-to-sunlight",
-          "value": 0
-        }
-      ],
-      "rarity": "common",
-      "size": {
-        "value": "sm"
-      },
-      "ci": []
-    },
-    "resources": {
-      "focus": {
-        "max": 1,
-        "value": 1
-      }
-    },
-    "schema": {
-      "version": 0.751,
-      "lastMigration": null
-    },
-    "abilities": {
-      "str": {
-        "mod": 4
-      },
-      "dex": {
-        "mod": 3
-      },
-      "con": {
-        "mod": 3
-      },
-      "int": {
-        "mod": 0
-      },
-      "wis": {
-        "mod": -1
-      },
-      "cha": {
-        "mod": 2
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 10,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 8,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 6,
-        "saveDetail": ""
-      }
-    }
-  },
-  "token": {
-    "disposition": -1,
-    "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "name": "Dero Strangler",
-    "width": 1,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "osyjgXeJV4vv5i3F",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Innate Spells",
+      "sort": 100000,
+      "type": "spellcastingEntry",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -199,8 +27,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "ability": {
           "value": "cha"
@@ -293,20 +128,32 @@
           "value": null
         }
       },
-      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
-      "name": "Occult Innate Spells",
-      "sort": 100000,
-      "type": "spellcastingEntry",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "E9yEjfkAzFYDW6Iy",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/darkness.webp",
+      "name": "Darkness (At Will)",
+      "sort": 200000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's level or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}.</p>"
         },
@@ -323,8 +170,15 @@
         "rules": [],
         "slug": "darkness",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "level": {
           "value": 2
@@ -410,24 +264,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/darkness.webp",
-      "name": "Darkness (At Will)",
-      "sort": 200000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "bMvPJFV7vj2bgwOK",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.wzLkNU3AAqOSKFPR"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/sound-burst.webp",
+      "name": "Sound Burst",
+      "sort": 300000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is Deafened for 1 minute, and is @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
         },
@@ -444,8 +306,15 @@
         "rules": [],
         "slug": "sound-burst",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "level": {
           "value": 2
@@ -544,24 +413,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.wzLkNU3AAqOSKFPR"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/sound-burst.webp",
-      "name": "Sound Burst",
-      "sort": 300000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "qfnBEDuh8ayHKkWs",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.4gBIw4IDrSfFHik4"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/daze.webp",
+      "name": "Daze",
+      "sort": 400000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>You cloud the target's mind and daze it with a mental jolt. The jolt deals mental damage equal to your spellcasting ability modifier; the target must attempt a basic Will save. If the target critically fails the save, it is also @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
         },
@@ -580,8 +457,15 @@
         "rules": [],
         "slug": "daze",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "level": {
           "value": 1
@@ -681,24 +565,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.4gBIw4IDrSfFHik4"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/daze.webp",
-      "name": "Daze",
-      "sort": 400000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "PWln8e7NZhbFQEiU",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.atlgGNI1E1Ox3O3a"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/ghost-sound.webp",
+      "name": "Ghost Sound",
+      "sort": 500000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>You create an auditory illusion of simple sounds that has a maximum volume equal to four normal humans shouting. The sounds emanate from a square you designate within range. You can't create intelligible words or other intricate sounds (such as music).</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The range increases to 60 feet.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 120 feet.</p>"
         },
@@ -716,8 +608,15 @@
         "rules": [],
         "slug": "ghost-sound",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "level": {
           "value": 1
@@ -800,24 +699,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.atlgGNI1E1Ox3O3a"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/ghost-sound.webp",
-      "name": "Ghost Sound",
-      "sort": 500000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "NzbLKc9kj7IBRhxp",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.YnPYSKCQBLIOtm0J"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/aklys.webp",
+      "name": "Aklys",
+      "sort": 600000,
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>The aklys is a throwing club with a hook on one end and a lengthy cord attached to the other. Though aklyses aren't available in most shops, one might be purchased for 5 gp from a vendor that specializes in strange weapons.</p>"
         },
@@ -837,8 +744,15 @@
         "rules": [],
         "slug": "aklys",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "aklys",
@@ -914,7 +828,7 @@
         },
         "range": null,
         "reload": {
-          "value": ""
+          "value": "-"
         },
         "MAP": {
           "value": "5"
@@ -955,24 +869,32 @@
           "strikeConditionValue": null
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.YnPYSKCQBLIOtm0J"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/aklys.webp",
-      "name": "Aklys",
-      "sort": 600000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "aMrfeaJgHIoPyWhD",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.XyA6PKV46aNlLXOd"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
+      "name": "Hand Crossbow",
+      "sort": 700000,
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load.</p>"
         },
@@ -987,8 +909,15 @@
         "rules": [],
         "slug": "hand-crossbow",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "hand-crossbow",
@@ -1105,24 +1034,32 @@
           "strikeConditionValue": null
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.XyA6PKV46aNlLXOd"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
-      "name": "Hand Crossbow",
-      "sort": 700000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "Bl8rxvSctjIs06lY",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.fyYnQf1NAx9fWFaS"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/rope.webp",
+      "name": "Rope",
+      "sort": 800000,
+      "type": "equipment",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>50 feet of rope.</p>"
         },
@@ -1137,8 +1074,15 @@
         "rules": [],
         "slug": "rope",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": null,
@@ -1196,24 +1140,32 @@
           "value": 0
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.fyYnQf1NAx9fWFaS"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/adventuring-gear/rope.webp",
-      "name": "Rope",
-      "sort": 800000,
-      "type": "equipment",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "CQl8LEG6PSZ2LQ81",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/lethargy-poison.webp",
+      "name": "Lethargy Poison",
+      "sort": 900000,
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Lethargy poison is commonly used in hit-and-run tactics by drow and others who want their victims alive; the ambusher retreats until the poison sets in and the victim falls unconscious. Further exposure to lethargy poison does not require the target to attempt additional saving throws; only failing an saving throw against an ongoing exposure can progress its stage.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">D</span> Interact (Injury)</p>\n<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p>\n<p><strong>Stage 2</strong> slowed 1 (1 minute)</p>\n<p><strong>Stage 3</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} with no Perception check to wake up (1 round)</p>\n<p><strong>Stage 4</strong> unconscious with no Perception check to wake up ([[/br 1d4 #hours]]{1d4 hours}).</p>"
         },
@@ -1235,8 +1187,15 @@
         "rules": [],
         "slug": "lethargy-poison",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 5,
         "baseItem": null,
@@ -1315,10 +1274,7 @@
           "autoUse": true,
           "autoDestroy": true
         },
-        "spell": {
-          "data": null,
-          "heightenedLevel": null
-        },
+        "spell": null,
         "level": {
           "value": 2
         },
@@ -1343,24 +1299,32 @@
           "_deprecated": true
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-poisons/lethargy-poison.webp",
-      "name": "Lethargy Poison",
-      "sort": 900000,
-      "type": "consumable",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "1CVLhTrJVtFboNQC",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+      "name": "Bolts",
+      "sort": 1000000,
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
         },
@@ -1375,8 +1339,15 @@
         "rules": [],
         "slug": "bolts",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 10,
         "baseItem": null,
@@ -1456,10 +1427,7 @@
           "autoUse": true,
           "autoDestroy": true
         },
-        "spell": {
-          "data": null,
-          "heightenedLevel": null
-        },
+        "spell": null,
         "level": {
           "value": 0
         },
@@ -1484,24 +1452,28 @@
           "_deprecated": true
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
-      "name": "Bolts",
-      "sort": 1000000,
-      "type": "consumable",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "CtYKJciKGy9Wtza1",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Aklys",
+      "sort": 1100000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1518,8 +1490,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "weaponType": {
           "value": "melee"
@@ -1541,20 +1520,28 @@
           "custom": ""
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Aklys",
-      "sort": 1100000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "mvM0UYDSareH0kWj",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Aklys",
+      "sort": 1200000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1573,8 +1560,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "weaponType": {
           "value": "ranged"
@@ -1596,20 +1590,28 @@
           "custom": ""
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Aklys",
-      "sort": 1200000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "5HRKFbIvbD2qXTXD",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Hand Crossbow",
+      "sort": 1300000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1627,8 +1629,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "weaponType": {
           "value": "ranged"
@@ -1652,20 +1661,32 @@
           "custom": ""
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Hand Crossbow",
-      "sort": 1300000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "LLJiTLsfaDzD1nZo",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 1400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
@@ -1680,8 +1701,15 @@
         "rules": [],
         "slug": "darkvision",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1703,24 +1731,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 1400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "HzveIcuKPfW88Zc6",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "At-Will Spells",
+      "sort": 1500000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
         },
@@ -1735,8 +1771,15 @@
         "rules": [],
         "slug": "at-will-spells",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1758,24 +1801,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "At-Will Spells",
-      "sort": 1500000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "uldVZLVdwiLD1q6v",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Vulnerable to Sunlight",
+      "sort": 1600000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>A dero strangler takes [[/r {8}]]{8 damage} for every hour they're exposed to sunlight.</p>"
         },
@@ -1790,8 +1837,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1813,20 +1867,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Vulnerable to Sunlight",
-      "sort": 1600000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "ZDJkjnIor7qxsiSU",
-      "data": {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Strangle",
+      "sort": 1700000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Requirement</strong> The dero must have two free hands, or be wielding an aklys and have one hand free.</p>\n<hr />\n<p><strong>Effect</strong> The dero attempts an @Check[type:athletics|traits:action:grapple,action:strangle] check to @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grab} with a +2 circumstance bonus. On a success, the target takes [[/r {1d6+6}[bludgeoning]]]{1d6+6 bludgeoning damage}. Double the damage on a critical success.</p>"
         },
@@ -1857,8 +1919,15 @@
         ],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "action"
@@ -1880,20 +1949,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Strangle",
-      "sort": 1700000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "m4E5Z11TgNcjvLMr",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 1800000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1908,8 +1985,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "mod": {
           "value": 11
@@ -1918,20 +2002,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1800000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "UIo1toFdmWKBBeQX",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Intimidation",
+      "sort": 1900000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1946,8 +2038,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "mod": {
           "value": 7
@@ -1956,20 +2055,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Intimidation",
-      "sort": 1900000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "BDQwFRB2ZtSosflq",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Medicine",
+      "sort": 2000000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1984,8 +2091,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "mod": {
           "value": 4
@@ -1994,20 +2108,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Medicine",
-      "sort": 2000000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "H4F6aPPZpF1qqFjS",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 2100000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -2022,8 +2144,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.155-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "mod": {
           "value": 10
@@ -2032,16 +2161,17 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Stealth",
-      "sort": 2100000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -2050,10 +2180,216 @@
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.ZsduIlmluQe4ZxFy"
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "temp": 0,
+        "max": 45,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "perception": {
+        "value": 6
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "CE"
+      },
+      "level": {
+        "value": 3
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Humanoid",
+      "blurb": "",
+      "publicNotes": "<p>Dero stranglers specialize in capturing living victims, and they are often called upon to aid in abductions.</p>\n<hr />\n<p>Deros are short, wiry humanoids with milky white eyes, gray-blue skin, and wild shocks of off-white or gray hair. The descendants of a mysterious type of fey abandoned in the deepest, darkest caverns of Golarion, deros are the subject of fearful legends and folk tales to most of the world's surface races. They skulk beneath major metropolitan areas, performing cruel and twisted experiments on unwilling subjects. A dero is 3 feet tall and weighs approximately 70 pounds.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "dero",
+        "humanoid"
+      ],
+      "senses": {
+        "value": "darlvision"
+      },
+      "languages": {
+        "value": [
+          "aklo",
+          "undercommon"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "confusion"
+        ],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [
+        {
+          "type": "vulnerable-to-sunlight",
+          "value": 0
+        }
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      },
+      "ci": []
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.155-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": -1
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Dero Strangler",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688412,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

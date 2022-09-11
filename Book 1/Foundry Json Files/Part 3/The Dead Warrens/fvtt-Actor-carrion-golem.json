@@ -2,27 +2,575 @@
   "name": "Carrion Golem",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
+  "items": [
+    {
+      "_id": "jNQXKdaz3dr7h6s3",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "magical"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d10+4",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": [
+            "filth-fever"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ZDqmS7tceuWsp4M1",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "sort": 200000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "magical"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+4",
+            "damageType": "slashing"
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": [
+            "filth-fever"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "U291oOsn8aI5u9Za",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "OEYNgSplNvqswLPK",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Golem Antimagic",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>harmed by fire ([[/r 4d6]], [[/r 1d8]] from areas or persistent damage); healed by electricity (area [[/r 1d6]] HP); slowed by cold</p>\n<p>A golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. If an entry lists multiple types (such as “cold and water”), either type of spell can affect the golem.</p>\n<p><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.</p>\n<p><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</p>\n<p><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for that round.</p>\n<p><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific spells, with the effects described in its stat block.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "hswGSODfM3HdK8zC",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Stench",
+      "sort": 500000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>40 feet.</p>\n<p>A creature entering the aura or starting its turn in the aura must succeed at a @Check[type:fortitude|dc:19] save or become @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (plus @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for as long as it's sickened on a critical failure). While within the aura, affected creatures take a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "aura",
+            "olfactory",
+            "disease"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "AldxbbHYC1u6qB4A",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Vulnerable to Gentle Repose",
+      "sort": 600000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>Casting a <em>@Compendium[pf2e.spells-srd.xRgU9rrhmGAgG4Rc]{Gentle Repose}</em> spell on a carrion golem causes it to grow stiff. The golem attempts a @Check[type:fortitude|dc:19] save. It's unaffected on a critical success, @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/br 1d4 #rounds]]{1d4 rounds} on a success, and on a failure is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and slowed for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "k2d7PB0MeYOIfjcj",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Filth Fever",
+      "sort": 700000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} and @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} conditions from filth fever can't end or be reduced until the disease is cured.</p>\n<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:19]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect ([[/br 1d4 #hours]]{1d4 hours})</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it remains sickened (1 day)</p>\n<p><strong>Stage 4</strong> unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "disease"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "3Cj87sD6ahks4syM",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 800000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.161-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 14
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary-2.sbVdWfLZ2rdPh9Ec"
+    },
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "attributes": {
       "hp": {
         "value": 60,
         "temp": 0,
-        "details": "",
-        "max": 60
-      },
-      "perception": {
-        "value": 6
+        "max": 60,
+        "details": ""
       },
       "initiative": {
         "ability": "perception"
       },
       "speed": {
-        "value": "25",
+        "value": 25,
         "otherSpeeds": []
       },
       "ac": {
         "value": 19,
         "details": ""
+      },
+      "perception": {
+        "value": 6
       },
       "allSaves": {
         "value": ""
@@ -44,16 +592,13 @@
       "privateNotes": ""
     },
     "traits": {
+      "value": [
+        "construct",
+        "golem",
+        "mindless"
+      ],
       "senses": {
         "value": "darkvision"
-      },
-      "traits": {
-        "value": [
-          "construct",
-          "golem",
-          "mindless"
-        ],
-        "custom": ""
       },
       "languages": {
         "value": [],
@@ -100,8 +645,15 @@
     },
     "resources": {},
     "schema": {
-      "version": 0.751,
-      "lastMigration": null
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.161-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
     },
     "abilities": {
       "str": {
@@ -138,31 +690,22 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "disposition": -1,
     "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
     "name": "Carrion Golem",
     "width": 1,
     "displayName": 20,
     "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
     "light": {
       "alpha": 0.5,
-      "angle": 0,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -170,12 +713,15 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
-        "reverse": false
+        "reverse": false,
+        "type": null
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "attenuation": 0.5,
+      "color": null
     },
     "displayBars": 20,
     "bar1": {
@@ -189,434 +735,35 @@
         "linkToActorSize": true
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "jNQXKdaz3dr7h6s3",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "magical"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "0": {
-            "damage": "2d10+4",
-            "damageType": "piercing"
-          }
-        },
-        "bonus": {
-          "value": 14
-        },
-        "attackEffects": {
-          "value": [
-            "filth-fever"
-          ],
-          "custom": ""
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Jaws",
-      "sort": 100000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "ZDqmS7tceuWsp4M1",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "agile",
-            "magical"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "0": {
-            "damage": "2d6+4",
-            "damageType": "slashing"
-          }
-        },
-        "bonus": {
-          "value": 14
-        },
-        "attackEffects": {
-          "value": [
-            "filth-fever"
-          ],
-          "custom": ""
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Claw",
-      "sort": 200000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "U291oOsn8aI5u9Za",
-      "data": {
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "darkvision",
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 300000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "OEYNgSplNvqswLPK",
-      "data": {
-        "description": {
-          "value": "<p>harmed by fire ([[/r 4d6]], [[/r 1d8]] from areas or persistent damage); healed by electricity (area [[/r 1d6]] HP); slowed by cold</p>\n<p>A golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. If an entry lists multiple types (such as “cold and water”), either type of spell can affect the golem.</p>\n<p><strong>Harmed By</strong> Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.</p>\n<p><strong>Healed By</strong> Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.</p>\n<p><strong>Slowed By</strong> Any magic of this type that targets the golem causes it to be @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/br 2d6 #rounds]]{2d6 rounds} instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for that round.</p>\n<p><strong>Vulnerable To</strong> Each golem is vulnerable to one or more specific spells, with the effects described in its stat block.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Golem Antimagic",
-      "sort": 400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "hswGSODfM3HdK8zC",
-      "data": {
-        "description": {
-          "value": "<p>40 feet.</p>\n<p>A creature entering the aura or starting its turn in the aura must succeed at a @Check[type:fortitude|dc:19] save or become @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (plus @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for as long as it's sickened on a critical failure). While within the aura, affected creatures take a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "aura",
-            "olfactory",
-            "disease"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Stench",
-      "sort": 500000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "AldxbbHYC1u6qB4A",
-      "data": {
-        "description": {
-          "value": "<p>Casting a <em>@Compendium[pf2e.spells-srd.xRgU9rrhmGAgG4Rc]{Gentle Repose}</em> spell on a carrion golem causes it to grow stiff. The golem attempts a @Check[type:fortitude|dc:19] save. It's unaffected on a critical success, @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/br 1d4 #rounds]]{1d4 rounds} on a success, and on a failure is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and slowed for [[/br 1d4 #rounds]]{1d4 rounds}.</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Vulnerable to Gentle Repose",
-      "sort": 600000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "k2d7PB0MeYOIfjcj",
-      "data": {
-        "description": {
-          "value": "<p>The @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} and @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} conditions from filth fever can't end or be reduced until the disease is cured.</p>\n<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:19]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect ([[/br 1d4 #hours]]{1d4 hours})</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it remains sickened (1 day)</p>\n<p><strong>Stage 4</strong> unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "disease"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Filth Fever",
-      "sort": 700000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    },
-    {
-      "_id": "3Cj87sD6ahks4syM",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.751,
-          "lastMigration": null
-        },
-        "mod": {
-          "value": 14
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 800000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "flags": {}
-    }
-  ],
-  "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.pathfinder-bestiary-2.sbVdWfLZ2rdPh9Ec"
-    },
-    "exportSource": {
-      "world": "curse-of-the-crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688415,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

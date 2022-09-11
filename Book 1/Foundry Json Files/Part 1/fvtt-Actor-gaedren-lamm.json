@@ -2,216 +2,17 @@
   "name": "Gaedren Lamm",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 38,
-        "temp": 0,
-        "details": "",
-        "max": 38
-      },
-      "perception": {
-        "value": 6
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "15",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 19,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "NE"
-      },
-      "level": {
-        "value": 1
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
-      "creatureType": "",
-      "blurb": "",
-      "publicNotes": "",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": ""
-      },
-      "traits": {
-        "value": [
-          "human",
-          "humanoid"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "unique",
-      "size": {
-        "value": "med"
-      }
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.75,
-      "lastMigration": {
-        "datetime": "2022-05-21T13:28:11.514-07:00",
-        "version": {
-          "schema": null,
-          "foundry": "9.269",
-          "system": "3.10.2.11602"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 3
-      },
-      "dex": {
-        "mod": 4
-      },
-      "con": {
-        "mod": 1
-      },
-      "int": {
-        "mod": 0
-      },
-      "wis": {
-        "mod": 1
-      },
-      "cha": {
-        "mod": 0
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 6,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 11,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 9,
-        "saveDetail": ""
-      }
-    },
-    "customModifiers": {}
-  },
-  "token": {
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      },
-      "perfect-vision": {
-        "visionRules": "default",
-        "monoVisionColor": "",
-        "sightLimit": null,
-        "light": {}
-      },
-      "core": {
-        "priority": null
-      },
-      "token-auras": {
-        "aura1": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        },
-        "aura2": {
-          "permission": "all",
-          "colour": "#ffffff",
-          "opacity": 0.5,
-          "distance": null,
-          "square": false
-        }
-      }
-    },
-    "height": 1,
-    "width": 1,
-    "name": "Gaedren Lamm",
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "color": null
-    },
-    "disposition": -1,
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": ""
-    },
-    "randomImg": false,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "tint": null,
-    "x": null,
-    "y": null,
-    "elevation": null
-  },
   "items": [
     {
       "_id": "mgM1A9eX5jdwuK9Z",
       "name": "Intimidation",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -226,13 +27,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:13:17.066-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -243,21 +44,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "Xf4S3OpiGq61EoHX",
       "name": "Stealth",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -272,13 +81,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:13:21.522-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -289,21 +98,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "BUPN5VhEoyKcPNOq",
       "name": "Thievery",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -318,13 +135,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:13:25.793-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -335,21 +152,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "IY3cuAZnFmBbLtVT",
       "name": "Acrobatics",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -364,13 +189,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:31:59.833-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -381,21 +206,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "reiJXDfLbF4JEz6F",
       "name": "Athletics",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -410,13 +243,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:32:02.817-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -427,21 +260,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "D1nH4NoQbHuDqj4j",
       "name": "Limping Gait",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>The most significant manifestation of Gaedren&rsquo;s long life of crime is his limp; an old wound to his left leg that reduces his Speed to 15 feet.</p>"
         },
@@ -456,13 +297,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:33:23.985-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -483,21 +324,33 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "MuSSHYYFDDHJDiMk",
       "name": "Key-Shaped Dagger",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/dagger.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.rQWaJhI5Bko5x14Z"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.</p>\n<hr />\n<p>This is a special key-shaped dagger.</p>"
         },
@@ -517,8 +370,15 @@
         "rules": [],
         "slug": "dagger",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.139-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "dagger",
@@ -594,7 +454,7 @@
         },
         "range": null,
         "reload": {
-          "value": ""
+          "value": "-"
         },
         "MAP": {
           "value": ""
@@ -635,17 +495,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.rQWaJhI5Bko5x14Z"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -653,7 +513,15 @@
       "name": "Hand Crossbow",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/hand-crossbow.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.XyA6PKV46aNlLXOd"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It's small enough to be shot one-handed, but it still requires two hands to load.</p>"
         },
@@ -668,8 +536,15 @@
         "rules": [],
         "slug": "hand-crossbow",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.139-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "hand-crossbow",
@@ -786,17 +661,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.XyA6PKV46aNlLXOd"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -804,7 +679,15 @@
       "name": "Bolts",
       "type": "consumable",
       "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
         },
@@ -819,8 +702,15 @@
         "rules": [],
         "slug": "bolts",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.139-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 20,
         "baseItem": null,
@@ -900,10 +790,7 @@
           "autoUse": true,
           "autoDestroy": true
         },
-        "spell": {
-          "data": null,
-          "heightenedLevel": null
-        },
+        "spell": null,
         "level": {
           "value": 0
         },
@@ -928,17 +815,17 @@
           "_deprecated": true
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -946,7 +833,15 @@
       "name": "Studded Leather Armor",
       "type": "armor",
       "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.ewQZ0VeL38v3qFnN"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection.</p>"
         },
@@ -961,8 +856,15 @@
         "rules": [],
         "slug": "studded-leather-armor",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.139-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "studded-leather-armor",
@@ -1055,17 +957,17 @@
         },
         "potency": {}
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.ewQZ0VeL38v3qFnN"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1073,7 +975,11 @@
       "name": "Rusty Iron Key",
       "type": "treasure",
       "img": "systems/pf2e/icons/default-icons/treasure.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1088,13 +994,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:49:34.726-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1151,21 +1057,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "cCuxBvwZoyFrmFrg",
       "name": "Brass Key",
       "type": "treasure",
       "img": "systems/pf2e/icons/default-icons/treasure.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1180,13 +1094,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:49:53.579-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1243,21 +1157,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "MK8TL8tfXrtlVvFt",
       "name": "Deny Advantage",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>Gaedren isn't @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} to creatures of 2nd level or lower that are @Compendium[pf2e.conditionitems.Hidden]{Hidden}, undetected, flanking, or using surprise attack.</p>"
         },
@@ -1272,13 +1194,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:51:43.248-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1299,21 +1221,29 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "Sg3EPjb6ovzvouyY",
       "name": "Dagger",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1332,13 +1262,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:53:51.876-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1361,21 +1291,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "PHmEbdZr4xuKU517",
       "name": "Dagger",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1395,13 +1333,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:54:48.465-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1424,21 +1362,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "DT8q7KQvFmxCpLAd",
       "name": "Hand Crossbow",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1456,13 +1402,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:55:37.124-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1485,21 +1431,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "4IMxW2PKyTfFm6HX",
       "name": "Abusive Inspiration",
       "type": "action",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>Gaedren threatens and attempts a hand crossbow Strike against Gobblegut. If successful, Gobblegut becomes frenzied and gains +1 to attack rolls, damage rolls, and takes a -1 penalty to AC, saves, and skill checks until the start of Gaedren's next turn.</p>"
         },
@@ -1519,13 +1473,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:56:37.624-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1546,21 +1500,33 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "volBcf1LTfaacdS9",
       "name": "Nimble Dodge",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.wCnsRCHvtZkZTmO0"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p><strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.</p>\n<p><strong>Requirements</strong> You are not encumbered</p>\n<hr />\n<p>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
         },
@@ -1593,8 +1559,15 @@
         ],
         "slug": "nimble-dodge",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.139-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "reaction"
@@ -1613,17 +1586,17 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.wCnsRCHvtZkZTmO0"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1631,7 +1604,15 @@
       "name": "Sneak Attack",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.AWvNPE4U0kEJSL1T"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
         },
@@ -1651,18 +1632,16 @@
             "key": "DamageDice",
             "predicate": {
               "all": [
-                "target:condition:flat-footed",
+                "target:condition:flat-footed"
+              ],
+              "any": [
+                "weapon:trait:agile",
+                "weapon:trait:finesse",
                 {
-                  "or": [
-                    "finesse",
-                    "agile",
+                  "and": [
+                    "weapon:ranged",
                     {
-                      "and": [
-                        "ranged",
-                        {
-                          "not": "thrown"
-                        }
-                      ]
+                      "not": "weapon:thrown-melee"
                     }
                   ]
                 }
@@ -1673,8 +1652,15 @@
         ],
         "slug": "sneak-attack",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.139-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1696,17 +1682,17 @@
           "value": ""
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.AWvNPE4U0kEJSL1T"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1714,7 +1700,11 @@
       "name": "Surprise Attack",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>On the first round of combat, creatures that haven&rsquo;t acted yet are flat-footed to Gaedren.</p>"
         },
@@ -1729,13 +1719,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T15:59:17.027-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1756,21 +1746,29 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "7TDg0ZRjCPRAs6dY",
       "name": "You're Next!",
       "type": "action",
       "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Trigger</strong> Gaedren reduces a creature to 0 Hit Points</p>\n<p><strong>Effect</strong> Gaerdren attempts an Intimidation check with a +2 circumstance bonus to @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} a single creature he can see and that can see him.</p>"
         },
@@ -1785,13 +1783,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-22T16:00:08.706-07:00",
+            "datetime": "2022-09-11T09:44:48.139-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.3.11650"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1812,14 +1810,18 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -1828,10 +1830,228 @@
       "lootable": true
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.3.11650"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 38,
+        "temp": 0,
+        "max": 38,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 15,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "perception": {
+        "value": 6
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "NE"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "Male human petty crime lord",
+      "publicNotes": "",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.139-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 9,
+        "saveDetail": ""
+      }
+    },
+    "customModifiers": {}
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "light": {}
+      },
+      "core": {
+        "priority": null
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Gaedren Lamm",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688402,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

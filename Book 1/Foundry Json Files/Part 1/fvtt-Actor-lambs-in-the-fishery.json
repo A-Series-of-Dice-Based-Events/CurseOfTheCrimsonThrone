@@ -2,7 +2,94 @@
   "name": "Lambs in the Fishery",
   "type": "hazard",
   "img": "systems/pf2e/icons/default-icons/hazard.svg",
-  "data": {
+  "items": [
+    {
+      "_id": "jUnTqECOa1N6ejJ5",
+      "name": "Pitchforks",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.116-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "nnkh6l08jpu2rpg303bq": {
+            "damage": "1d4+1",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 4
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": "8 HP per room of children"
+      }
+    },
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "source": {
       "value": ""
     },
@@ -49,13 +136,10 @@
     },
     "statusEffects": [],
     "traits": {
+      "value": [],
       "rarity": "unique",
       "size": {
         "value": "med"
-      },
-      "traits": {
-        "value": [],
-        "custom": ""
       },
       "di": {
         "custom": "",
@@ -70,19 +154,19 @@
       "dv": []
     },
     "schema": {
-      "version": 0.75,
+      "version": 0.785,
       "lastMigration": {
-        "datetime": "2022-05-17T20:46:11.081-07:00",
+        "datetime": "2022-09-11T09:44:48.116-07:00",
         "version": {
-          "schema": null,
-          "foundry": "9.269",
-          "system": "3.10.1.11559"
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
         }
       }
     },
     "customModifiers": {}
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "pf2e": {
         "linkToActorSize": false
@@ -93,23 +177,15 @@
     "name": "Lamm's Lamb",
     "displayName": 20,
     "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
     "light": {
       "alpha": 0.5,
-      "angle": 0,
+      "angle": 360,
       "bright": 0,
       "coloration": 1,
       "dim": 0,
-      "gradual": true,
       "luminosity": 0.5,
       "saturation": 0,
       "contrast": 0,
@@ -117,12 +193,15 @@
       "animation": {
         "speed": 5,
         "intensity": 5,
-        "reverse": false
+        "reverse": false,
+        "type": null
       },
       "darkness": {
         "min": 0,
         "max": 1
-      }
+      },
+      "attenuation": 0.5,
+      "color": null
     },
     "disposition": -1,
     "displayBars": 20,
@@ -133,85 +212,34 @@
       "attribute": null
     },
     "randomImg": false,
-    "img": "systems/pf2e/icons/default-icons/hazard.svg"
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
   },
-  "items": [
-    {
-      "_id": "jUnTqECOa1N6ejJ5",
-      "name": "Pitchforks",
-      "type": "melee",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.75,
-          "lastMigration": {
-            "datetime": "2022-05-17T20:56:42.163-07:00",
-            "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
-        "damageRolls": {
-          "nnkh6l08jpu2rpg303bq": {
-            "damage": "1d4+1",
-            "damageType": "piercing"
-          }
-        },
-        "bonus": {
-          "value": 4
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0,
-        "N8BJEefwErTVmTS8": 3
-      },
-      "flags": {}
-    }
-  ],
-  "effects": [],
-  "flags": {
-    "pf2e": {
-      "editHazard": {
-        "value": false
-      }
-    },
-    "pf2e_updatednpcsheet": {
-      "npcNotes": {
-        "value": "8 HP per room of children"
-      }
-    },
-    "exportSource": {
-      "world": "curse-of-the-crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.3.11650"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688382,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

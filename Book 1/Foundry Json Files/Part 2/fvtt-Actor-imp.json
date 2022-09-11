@@ -2,211 +2,17 @@
   "name": "Imp",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 15,
-        "temp": 0,
-        "details": "",
-        "max": 15
-      },
-      "perception": {
-        "value": 7
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "20",
-        "otherSpeeds": [
-          {
-            "type": "fly",
-            "value": "30"
-          }
-        ],
-        "details": ""
-      },
-      "ac": {
-        "value": 17,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "LE"
-      },
-      "level": {
-        "value": 1
-      },
-      "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
-      },
-      "creatureType": "Fiend",
-      "blurb": "",
-      "publicNotes": "<p>Imps are infiltrators and corruptors who, despite their diminutive stature, are more than capable of subtly influencing a weak-willed individual into performing increasingly evil acts over time. An imp will often agree to serve a mortal and act docile and loyal in a long-term plot to eventually damn its master's soul to Hell. Imps are born directly from Hell itself, rather than from mortal souls, and thus they serve outside the usual diabolic hierarchy, granting them leeway to pursue their specialties. Despite standing a mere 2-feet tall, imps can be vicious combatants, flying out of reach and turning invisible to escape should the odds turn against them.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": "greater darkvision"
-      },
-      "traits": {
-        "value": [
-          "devil",
-          "fiend"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common",
-          "infernal"
-        ],
-        "selected": [],
-        "custom": "Telepathy (Touch)"
-      },
-      "di": {
-        "value": [
-          "fire"
-        ],
-        "custom": ""
-      },
-      "dr": [
-        {
-          "exceptions": "except silver",
-          "type": "physical",
-          "value": 3
-        },
-        {
-          "type": "poison",
-          "value": 5
-        }
-      ],
-      "dv": [
-        {
-          "type": "good",
-          "value": 3
-        }
-      ],
-      "rarity": "common",
-      "size": {
-        "value": "tiny"
-      },
-      "ci": []
-    },
-    "resources": {
-      "focus": {
-        "max": 1,
-        "value": 1
-      }
-    },
-    "schema": {
-      "version": 0.751,
-      "lastMigration": {
-        "datetime": "2022-06-03T08:00:29.883-07:00",
-        "version": {
-          "schema": 0.75,
-          "foundry": "9.269",
-          "system": "3.10.4.11747"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": -1
-      },
-      "dex": {
-        "mod": 4
-      },
-      "con": {
-        "mod": 0
-      },
-      "int": {
-        "mod": 1
-      },
-      "wis": {
-        "mod": 2
-      },
-      "cha": {
-        "mod": 2
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 5,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 9,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 7,
-        "saveDetail": ""
-      }
-    }
-  },
-  "token": {
-    "disposition": -1,
-    "height": 0.5,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "name": "Imp",
-    "width": 0.5,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "AuBndTd199sHLYXX",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "sort": 100000,
+      "type": "spellcastingEntry",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -221,13 +27,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -322,20 +128,32 @@
           "value": null
         }
       },
-      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
-      "name": "Divine Innate Spells",
-      "sort": 100000,
-      "type": "spellcastingEntry",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "ljWqi7Rdo10zXj2j",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.pkcOby5prOausy1k"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/read-omens.webp",
+      "name": "Read Omens",
+      "sort": 200000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>You peek into the future. Choose a particular goal or activity you plan to engage in within 1 week, or an event you expect might happen within 1 week. You learn a cryptic clue or piece of advice that could help with the chosen event, often in the form of a rhyme or omen.</p>"
         },
@@ -352,13 +170,13 @@
         "rules": [],
         "slug": "read-omens",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -444,24 +262,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.pkcOby5prOausy1k"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/read-omens.webp",
-      "name": "Read Omens",
-      "sort": 200000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "VpJedVOR1dcpVdbe",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/invisibility.webp",
+      "name": "Invisibility (At Will) (Self Only)",
+      "sort": 300000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Cloaked in illusion, the target becomes @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}. This makes it @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
         },
@@ -476,13 +302,13 @@
         "rules": [],
         "slug": "invisibility",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -568,24 +394,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/invisibility.webp",
-      "name": "Invisibility (At Will) (Self Only)",
-      "sort": 300000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "1dpMc0MTl3sBJ1yR",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.vLA0q0WOK2YPuJs6"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/charm.webp",
+      "name": "Charm",
+      "sort": 400000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>To the target, your words are honey and your visage seems bathed in a dreamy haze. It must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.</p>\n<p>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. When the spell ends, the target doesn't necessarily realize it was charmed unless its friendship with you or the actions you convinced it to take clash with its expectations, meaning you could potentially convince the target to continue being your friend via mundane means.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and aware you tried to charm it.</p>\n<p><strong>Success</strong> The target is unaffected but thinks your spell was something harmless instead of charm, unless it identifies the spell.</p>\n<p><strong>Failure</strong> The target's attitude becomes @Compendium[pf2e.conditionitems.v66R7FdOf11l94im]{Friendly} toward you. If it was Friendly, it becomes @Compendium[pf2e.conditionitems.v44P3WUcU1j0115l]{Helpful}. It can't use hostile actions against you.</p>\n<p><strong>Critical Failure</strong> The target's attitude becomes Helpful toward you, and it can't use hostile actions against you.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration lasts until the next time you make your daily preparations.</p>\n<p><strong>Heightened (8th)</strong> The duration lasts until the next time you make your daily preparations, and you can target up to 10 creatures.</p>"
         },
@@ -604,13 +438,13 @@
         "rules": [],
         "slug": "charm",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -697,24 +531,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.vLA0q0WOK2YPuJs6"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/charm.webp",
-      "name": "Charm",
-      "sort": 400000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "fEOaF0IuTdPQkeq9",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.QnTtGCAvdWRU4spv"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/detect-alignment.webp",
+      "name": "Detect Alignment (At Will) (Good Only)",
+      "sort": 500000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Your eyes glow as you sense aligned auras. Choose chaotic, evil, good, or lawful. You detect auras of that alignment. You receive no information beyond presence or absence. You can choose not to detect creatures or effects you're aware have that alignment.</p>\n<p>Only creatures of 6th level or higher-unless divine spellcasters, undead, or beings from the Outer Sphere-have alignment auras.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> You learn each aura's location and strength.</p>"
         },
@@ -731,13 +573,13 @@
         "rules": [],
         "slug": "detect-alignment",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -823,24 +665,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.QnTtGCAvdWRU4spv"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/detect-alignment.webp",
-      "name": "Detect Alignment (At Will) (Good Only)",
-      "sort": 500000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "3kk2mTRbqYBvm4Rt",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl"
+        }
+      },
+      "img": "systems/pf2e/icons/spells/detect-magic.webp",
+      "name": "Detect Magic",
+      "sort": 600000,
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies.</p>\n<p>You detect illusion magic only if that magic's effect has a lower level than the level of your detect magic spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an invisibility potion) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the school of magic for the highest-level effect within range that the spell detects. If multiple effects are equally strong, the GM determines which you learn.</p>\n<p><strong>Heightened (4th)</strong> As 3rd level, but you also pinpoint the source of the highest-level magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
@@ -858,13 +708,13 @@
         "rules": [],
         "slug": "detect-magic",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -952,24 +802,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl"
-        }
-      },
-      "img": "systems/pf2e/icons/spells/detect-magic.webp",
-      "name": "Detect Magic",
-      "sort": 600000,
-      "type": "spell",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "LD8TK8mGL7ubLU4I",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Stinger",
+      "sort": 700000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -989,13 +843,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1025,20 +879,32 @@
           "custom": ""
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Stinger",
-      "sort": 700000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "U1ORlKZKu61bng75",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Greater Darkvision",
+      "sort": 800000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
@@ -1053,13 +919,13 @@
         "rules": [],
         "slug": "greater-darkvision",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1083,24 +949,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Greater Darkvision",
-      "sort": 800000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "ah6fU0jl6IqyfBw4",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.kdhbPaBMK1d1fpbA"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Telepathy (Touch)",
+      "sort": 900000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
         },
@@ -1119,13 +993,13 @@
         "rules": [],
         "slug": "telepathy",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1149,24 +1023,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.kdhbPaBMK1d1fpbA"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Telepathy (Touch)",
-      "sort": 900000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "oMykAWUXRiU2dRig",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "At-Will Spells",
+      "sort": 1000000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
         },
@@ -1181,13 +1063,13 @@
         "rules": [],
         "slug": "at-will-spells",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1211,24 +1093,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "At-Will Spells",
-      "sort": 1000000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "kZEJMwLRJaBvJMSU",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.eQM5hQ1W3d1uen97"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Change Shape",
+      "sort": 1100000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<ul>\n<li><strong>Boar</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent (Imprecise) 30 feet}</li>\n<li><strong>Speed</strong> 40 feet</li>\n<li><strong>Melee</strong> tusk [[/r 1d20+9 #Tusk]]{+9}/[[/r 1d20+4 #Tusk]]{+4}/[[/r 1d20-1 #Tusk]]{-1} (finesse), <strong>Damage</strong> [[/r {1d10-1}[piercing]]]{1d10-1 piercing damage}</li>\n</ul>\n</li>\n<li><strong>Giant Spider</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li><strong>Speed</strong> 25 feet, climb 25 feet</li>\n<li><strong>Melee</strong> fangs [[/r 1d20+9 #Fangs]]{+9}/[[/r 1d20+4 #Fangs]]{+4}/[[/r 1d20-1 #Fangs]]{-1} (finesse, poison), <strong>Damage</strong> [[/r {1d6-1}[piercing]+{1d4}[poison]]]{1d6-1 piercing damage plus 1d4 poison damage}</li>\n</ul>\n</li>\n<li><strong>Rat</strong>\n<ul>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent}</li>\n<li><strong>Speed</strong> 20 feet</li>\n<li><strong>Melee</strong> jaws [[/r 1d20+9 #Jaws]]{+9}/[[/r 1d20+5 #Jaws]]{+5}/[[/r 1d20+1 #Jaws]]{+1} (agile, finesse), <strong>Damage</strong> [[/r {1}[piercing]]]{1 piercing damage}</li>\n</ul>\n</li>\n<li><strong>Raven</strong>\n<ul>\n<li>@Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent}</li>\n<li><strong>Speed</strong> 10 feet, fly 40 feet</li>\n<li><strong>Melee</strong> beak [[/r 1d20+9 #Beak]]{+9}/[[/r 1d20+4 #Beak]]{+4}/[[/r 1d20-1 #Beak]]{-1} (finesse), <strong>Damage</strong> [[/r {1}[piercing]]]{1 piercing damage}</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
@@ -1248,13 +1138,13 @@
         "rules": [],
         "slug": "change-shape",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.121-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1278,24 +1168,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.eQM5hQ1W3d1uen97"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Change Shape",
-      "sort": 1100000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "ATs94SggOJoPD71u",
-      "data": {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Diabolic Healing",
+      "sort": 1200000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Frequency</strong> once per round.</p>\n<hr />\n<p><strong>Effect</strong> The imp regains [[/r {1d6}[healing]]]{1d6 Hit Points}.</p>"
         },
@@ -1315,13 +1209,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1345,20 +1239,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Diabolic Healing",
-      "sort": 1200000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "hwvMSx3qTN1uk4iN",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Imp Venom",
+      "sort": 1300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:16]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r {1d6}[poison]]]{1d6 poison damage} and @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> [[/r {1d6}[poison]]]{1d6 poison damage}, clumsy 1, and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p>"
         },
@@ -1375,13 +1277,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1405,20 +1307,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Imp Venom",
-      "sort": 1300000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "RZv15pm5vEmZAZhK",
-      "data": {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Infernal Temptation",
+      "sort": 1400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Frequency</strong> once per day.</p>\n<hr />\n<p><strong>Effect</strong> The imp offers a non-fiend within 15 feet a bargain, granting a boon of good luck if the creature accepts. The boon lasts for 1 hour once accepted.</p>\n<p>If the creature dies while the boon is in place, its soul travels to Hell, where it is bound for eternity and unable to be raised or resurrected except by <em>@Compendium[pf2e.spells-srd.6dDtGIUerazSHIOu]{Wish}</em> or similar magic.</p>\n<p>Once during the hour, the creature can roll an attack roll or saving throw twice and use the higher result.</p>"
         },
@@ -1439,13 +1349,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1469,20 +1379,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Infernal Temptation",
-      "sort": 1400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "AOdoPhtCg5SaX0OF",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 1500000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1497,13 +1415,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1514,20 +1432,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Acrobatics",
-      "sort": 1500000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "HXMRJLMCyPgtDq33",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Arcana",
+      "sort": 1600000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1542,13 +1468,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1559,20 +1485,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Arcana",
-      "sort": 1600000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "Hcq6v4mQtR55Zl7o",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Deception",
+      "sort": 1700000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1587,13 +1521,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1604,20 +1538,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Deception",
-      "sort": 1700000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "bujJKmGpjAphjLcc",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Religion",
+      "sort": 1800000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1632,13 +1574,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.883-07:00",
+            "datetime": "2022-09-11T09:44:48.122-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1649,16 +1591,17 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Religion",
-      "sort": 1800000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -1667,10 +1610,231 @@
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.I4CpyMUsWfFYdpL5"
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 15,
+        "temp": 0,
+        "max": 15,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "perception": {
+        "value": 7
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "LE"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Fiend",
+      "blurb": "",
+      "publicNotes": "<p>Imps are infiltrators and corruptors who, despite their diminutive stature, are more than capable of subtly influencing a weak-willed individual into performing increasingly evil acts over time. An imp will often agree to serve a mortal and act docile and loyal in a long-term plot to eventually damn its master's soul to Hell. Imps are born directly from Hell itself, rather than from mortal souls, and thus they serve outside the usual diabolic hierarchy, granting them leeway to pursue their specialties. Despite standing a mere 2-feet tall, imps can be vicious combatants, flying out of reach and turning invisible to escape should the odds turn against them.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "devil",
+        "fiend"
+      ],
+      "senses": {
+        "value": "greater darkvision"
+      },
+      "languages": {
+        "value": [
+          "common",
+          "infernal"
+        ],
+        "selected": [],
+        "custom": "Telepathy (Touch)"
+      },
+      "di": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dr": [
+        {
+          "exceptions": "except silver",
+          "type": "physical",
+          "value": 3
+        },
+        {
+          "type": "poison",
+          "value": 5
+        }
+      ],
+      "dv": [
+        {
+          "type": "good",
+          "value": 3
+        }
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      },
+      "ci": []
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.121-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": -1
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 0.5,
+    "name": "Imp",
+    "width": 0.5,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688387,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

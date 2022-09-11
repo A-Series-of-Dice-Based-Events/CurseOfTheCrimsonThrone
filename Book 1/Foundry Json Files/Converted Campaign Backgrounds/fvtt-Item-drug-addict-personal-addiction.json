@@ -2,30 +2,37 @@
   "name": "Drug Addict - Personal Addiction",
   "type": "background",
   "img": "systems/pf2e/icons/default-icons/background.svg",
-  "data": {
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "description": {
-      "value": "<p><span id=\"docs-internal-guid-7416afdd-7fff-5957-1e44-df5b819de78b\"><span style=\"font-size: 9pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Someone you know has become addicted to shiver, a drug distilled from the venom of dream spiders. The drug induces sleep filled with vivid dreams, during which the user&rsquo;s body often shakes and shivers, giving the substance its street name. Shiver is particularly dangerous for the desperate, for its promises of dreams and oblivion are often viewed as the only alternative apart from suicide for escaping a dreary life. You&rsquo;ve always thought of shiver as a problem of the lower class, but then someone you know overdosed on the stuff. You&rsquo;ve done a bit of investigating and have learned that the one who got your friend addicted in the first place was a crimelord named Gaedren. Unfortunately, the guards seem to be more focused on the bigger dealers. They don&rsquo;t have time to devote many resources to what they&rsquo;ve called, &ldquo;a bit player in a beggar&rsquo;s problem.&rdquo; It would seem that if his operation is to be stopped, it falls to you.</span></span></p>\n<hr />\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">You were the addict. You blame Gaedren for your brush with death and hate how his drugs are causing similar problems among other youths. Fortunately, your body recovers quickly from toxins, and you have gained a tolerance to the life addiction has given you.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Choose two ability boosts. One must be to </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Strength</span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\"> or </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Constitution</span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">. The other is a free boost.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">You are trained in the Medicine skill and Drugs Lore skill. You gain the Assurance skill feat in Medicine.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>"
+      "value": "<p>Someone you know has become addicted to shiver, a drug distilled from the venom of dream spiders. The drug induces sleep filled with vivid dreams, during which the user's body often shakes and shivers, giving the substance its street name. Shiver is particularly dangerous for the desperate, for its promises of dreams and oblivion are often viewed as the only alternative apart from suicide for escaping a dreary life. You've always thought of shiver as a problem of the lower class, but then someone you know overdosed on the stuff. You've done a bit of investigating and have learned that the one who got your friend addicted in the first place was a crimelord named Gaedren. Unfortunately, the guards seem to be more focused on the bigger dealers. They don't have time to devote many resources to what they've called, \"a bit player in a beggar's problem.\" It would seem that if his operation is to be stopped, it falls to you.</p>\n<hr />\n<p>You were the addict. You blame Gaedren for your brush with death and hate how his drugs are causing similar problems among other youths. Fortunately, your body recovers quickly from toxins, and you have gained a tolerance to the life addiction has given you.</p>\n<p>Choose two ability boosts. One must be to <strong>Strength</strong> or <strong>Constitution</strong>. The other is a free boost.</p>\n<p>You are trained in the Medicine skill and Drugs Lore skill. You gain the @Compendium[pf2e.feats-srd.Assurance]{Assurance} skill feat in Medicine.</p>"
     },
     "source": {
       "value": ""
     },
     "traits": {
       "value": [],
-      "rarity": {
-        "value": "unique"
-      },
+      "rarity": "unique",
       "custom": ""
     },
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.684,
+      "version": 0.785,
       "lastMigration": {
-        "datetime": "2021-10-25T19:22:59.256+02:00",
+        "datetime": "2022-09-11T09:44:48.789-07:00",
         "version": {
-          "schema": 0.68,
-          "foundry": "0.8.9",
-          "system": "2.17.0.8553"
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
         }
       }
     },
@@ -49,11 +56,10 @@
     },
     "items": {
       "esd6p": {
-        "pack": "pf2e.feats-srd",
-        "id": "yPwVPu2QLhnx2gdB",
         "img": "systems/pf2e/icons/features/feats/feats.webp",
         "name": "Assurance (Medicine)",
-        "level": 1
+        "level": 1,
+        "uuid": "Compendium.pf2e.feats-srd.yPwVPu2QLhnx2gdB"
       }
     },
     "trainedLore": "Drugs",
@@ -64,14 +70,12 @@
       "custom": ""
     }
   },
-  "effects": [],
-  "sort": 0,
-  "flags": {
-    "exportSource": {
-      "world": "crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688805,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

@@ -1,8 +1,17 @@
 {
-  "name": "Keys - Reroll Dex Roll",
+  "name": "Keys - Dexterity Rolls",
   "type": "effect",
   "img": "systems/pf2e/icons/spells/lucky-number.webp",
-  "data": {
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "description": {
       "value": "<p>A player can spend a Harrow Point to reroll any Dexterity-based roll. They must abide by the new result, but additional Harrow Points can be spent for additional rerolls. This is a fortune effect.</p>"
     },
@@ -11,16 +20,21 @@
     },
     "traits": {
       "value": [],
-      "rarity": {
-        "value": "common"
-      },
+      "rarity": "common",
       "custom": ""
     },
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.684,
-      "lastMigration": null
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.787-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
     },
     "level": {
       "value": 1
@@ -29,7 +43,7 @@
       "value": -1,
       "unit": "unlimited",
       "sustained": false,
-      "expiry": "turn-start"
+      "expiry": null
     },
     "start": {
       "value": 0,
@@ -38,16 +52,15 @@
     "target": null,
     "tokenIcon": {
       "show": true
-    }
+    },
+    "badge": null
   },
-  "effects": [],
-  "sort": 0,
-  "flags": {
-    "exportSource": {
-      "world": "crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688804,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

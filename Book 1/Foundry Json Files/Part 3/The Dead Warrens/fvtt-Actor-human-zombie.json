@@ -2,195 +2,24 @@
   "name": "Human Zombie",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 30,
-        "temp": 0,
-        "details": "negative healing",
-        "max": 20
-      },
-      "perception": {
-        "value": 0
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "25",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 12,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "NE"
-      },
-      "level": {
-        "value": -1
-      },
-      "source": {
-        "value": "Pathfinder Bestiary",
-        "author": ""
-      },
-      "creatureType": "Undead",
-      "blurb": "",
-      "publicNotes": "<p>A zombie shambler is a slow-moving horror dangerous in larger groups.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": "darkvision"
-      },
-      "traits": {
-        "value": [
-          "mindless",
-          "undead",
-          "zombie",
-          "elite"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [
-          "death-effects",
-          "disease",
-          "mental",
-          "paralyzed",
-          "poison",
-          "unconscious"
-        ],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [
-        {
-          "type": "positive",
-          "value": 5
-        },
-        {
-          "type": "slashing",
-          "value": 5
-        }
-      ],
-      "rarity": "common",
-      "size": {
-        "value": "med"
-      },
-      "attitude": {
-        "value": "hostile"
-      },
-      "ci": []
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.751,
-      "lastMigration": null
-    },
-    "abilities": {
-      "str": {
-        "mod": 3
-      },
-      "dex": {
-        "mod": -2
-      },
-      "con": {
-        "mod": 2
-      },
-      "int": {
-        "mod": -5
-      },
-      "wis": {
-        "mod": 0
-      },
-      "cha": {
-        "mod": -2
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 6,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 0,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 2,
-        "saveDetail": ""
-      }
-    }
-  },
-  "token": {
-    "disposition": -1,
-    "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "name": "Zombie Shambler",
-    "width": 1,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "qiyu0aoav4y0v7tf",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3"
+        },
+        "pf2e": {
+          "condition": true
+        }
+      },
+      "img": "systems/pf2e/icons/conditions/slowed.webp",
+      "name": "Slowed",
+      "sort": 100000,
+      "type": "condition",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
         },
@@ -205,8 +34,15 @@
         "rules": [],
         "slug": "slowed",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "active": true,
         "removable": true,
@@ -248,27 +84,28 @@
         },
         "overrides": []
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3"
-        },
-        "pf2e": {
-          "condition": true
-        }
-      },
-      "img": "systems/pf2e/icons/conditions/slowed.webp",
-      "name": "Slowed",
-      "sort": 100000,
-      "type": "condition",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "wOkHQN8ELSDh7T1f",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 200000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -283,8 +120,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "weaponType": {
           "value": "melee"
@@ -308,20 +152,28 @@
           "custom": ""
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Fist",
-      "sort": 200000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "v90WRjELLiKF57vr",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 300000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Requirement</strong> The zombie has a creature @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p>"
         },
@@ -336,8 +188,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "weaponType": {
           "value": "melee"
@@ -359,20 +218,32 @@
           "custom": ""
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Jaws",
-      "sort": 300000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "SyWmilYaLnrtDFVe",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
@@ -387,8 +258,15 @@
         "rules": [],
         "slug": "darkvision",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -410,24 +288,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "eulyI60JHNUYs39w",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Slow",
+      "sort": 500000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>A zombie is permanently @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
         },
@@ -442,8 +324,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -465,20 +354,32 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Slow",
-      "sort": 500000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "q1OobVjFqRsc58KI",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.TTCw5NusiSSkJU1x"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Negative Healing",
+      "sort": 600000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         },
@@ -494,14 +395,21 @@
           {
             "key": "ActiveEffectLike",
             "mode": "override",
-            "path": "data.attributes.hp.negativeHealing",
+            "path": "system.attributes.hp.negativeHealing",
             "value": true
           }
         ],
         "slug": "negative-healing",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -523,24 +431,32 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.TTCw5NusiSSkJU1x"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Negative Healing",
-      "sort": 600000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "Qknp3UNQSMjNTUmL",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "sort": 700000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
@@ -555,8 +471,15 @@
         "rules": [],
         "slug": "grab",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "action"
@@ -578,24 +501,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Grab",
-      "sort": 700000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "3WEDMCeiWeexqO8U",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 800000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -610,8 +537,15 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.122-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "mod": {
           "value": 5
@@ -620,16 +554,17 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 800000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -638,10 +573,222 @@
       "sourceId": "Compendium.pf2e.pathfinder-bestiary.0plBflWwrCWQO2RO"
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "temp": 0,
+        "max": 20,
+        "details": "negative healing"
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 12,
+        "details": ""
+      },
+      "perception": {
+        "value": 0
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "adjustment": "elite"
+    },
+    "details": {
+      "alignment": {
+        "value": "NE"
+      },
+      "level": {
+        "value": -1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Undead",
+      "blurb": "",
+      "publicNotes": "<p>A zombie shambler is a slow-moving horror dangerous in larger groups.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "mindless",
+        "undead",
+        "zombie"
+      ],
+      "senses": {
+        "value": "darkvision"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [
+          "death-effects",
+          "disease",
+          "mental",
+          "paralyzed",
+          "poison",
+          "unconscious"
+        ],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [
+        {
+          "type": "positive",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
+        }
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "attitude": {
+        "value": "hostile"
+      },
+      "ci": []
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.122-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": -2
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 2,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Zombie Shambler",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688388,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

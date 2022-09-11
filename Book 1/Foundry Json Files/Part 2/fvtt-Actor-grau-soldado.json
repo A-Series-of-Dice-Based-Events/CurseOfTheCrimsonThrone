@@ -2,184 +2,21 @@
   "name": "Grau Soldado",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 75,
-        "temp": 0,
-        "details": "",
-        "max": 95
-      },
-      "perception": {
-        "value": 15
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "20",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 24,
-        "details": "(26 with shield raised)"
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "LN"
-      },
-      "level": {
-        "value": 6
-      },
-      "source": {
-        "value": "Pathfinder Gamemastery Guide",
-        "author": ""
-      },
-      "creatureType": "",
-      "blurb": "",
-      "publicNotes": "<p>The captain of the guard leads a troop of soldiers who serve as security forces for a powerful individual, most often a high-ranking noble or very rich merchant, though this stat block could also represent a lower-ranking captain of the guard for the leader of a nation. A formidable opponent in their own right, the captain of the guard skillfully employs their troops to protect the life and health of their ward.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": ""
-      },
-      "traits": {
-        "value": [
-          "human",
-          "humanoid",
-          "weak"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "unique",
-      "size": {
-        "value": "med"
-      },
-      "ci": []
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.751,
-      "lastMigration": {
-        "datetime": "2022-06-03T08:00:29.875-07:00",
-        "version": {
-          "schema": 0.75,
-          "foundry": "9.269",
-          "system": "3.10.4.11747"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 5
-      },
-      "dex": {
-        "mod": 0
-      },
-      "con": {
-        "mod": 2
-      },
-      "int": {
-        "mod": 0
-      },
-      "wis": {
-        "mod": 3
-      },
-      "cha": {
-        "mod": 3
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 14,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 12,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 15,
-        "saveDetail": ""
-      }
-    }
-  },
-  "token": {
-    "disposition": -1,
-    "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "name": "Captain Of The Guard",
-    "width": 1,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "l2i7aOSZ1o0FbLUP",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
+      "name": "Crossbow",
+      "sort": 100000,
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt.</p>"
         },
@@ -194,13 +31,13 @@
         "rules": [],
         "slug": "crossbow",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -319,24 +156,32 @@
           "strikeConditionValue": null
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
-      "name": "Crossbow",
-      "sort": 100000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "TCDCbHDHjLorCHLx",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.rQWaJhI5Bko5x14Z"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/dagger.webp",
+      "name": "Dagger",
+      "sort": 200000,
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.</p>"
         },
@@ -356,13 +201,13 @@
         "rules": [],
         "slug": "dagger",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -440,7 +285,7 @@
         },
         "range": null,
         "reload": {
-          "value": ""
+          "value": "-"
         },
         "MAP": {
           "value": ""
@@ -481,24 +326,32 @@
           "strikeConditionValue": null
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.rQWaJhI5Bko5x14Z"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/dagger.webp",
-      "name": "Dagger",
-      "sort": 200000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "EYXqnzW1WGw1aWCa",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.LJdbVTOZog39EEbi"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/longsword.webp",
+      "name": "Longsword",
+      "sort": 300000,
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Longswords can be one‑edged or two‑edged swords. Their blades are heavy and they're between 3 and 4 feet in length.</p>"
         },
@@ -515,13 +368,13 @@
         "rules": [],
         "slug": "longsword",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -640,24 +493,32 @@
           "strikeConditionValue": null
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.LJdbVTOZog39EEbi"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/longsword.webp",
-      "name": "Longsword",
-      "sort": 300000,
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "uynKYJoCB64MIHm3",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Gq1cZWSKOtJhKd2p"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment//armor/fullplate.webp",
+      "name": "Full Plate",
+      "sort": 400000,
+      "type": "armor",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
         },
@@ -674,13 +535,13 @@
         "rules": [],
         "slug": "full-plate",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -776,24 +637,32 @@
         },
         "potency": {}
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Gq1cZWSKOtJhKd2p"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment//armor/fullplate.webp",
-      "name": "Full Plate",
-      "sort": 400000,
-      "type": "armor",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "TKT45YKDBK7C1DIF",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Yr9yCuJiAlFh3QEB"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/shields/steel-shield.webp",
+      "name": "Steel Shield",
+      "sort": 500000,
+      "type": "armor",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>"
         },
@@ -808,13 +677,13 @@
         "rules": [],
         "slug": "steel-shield",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -910,24 +779,32 @@
         },
         "potency": {}
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Yr9yCuJiAlFh3QEB"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/shields/steel-shield.webp",
-      "name": "Steel Shield",
-      "sort": 500000,
-      "type": "armor",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "sH9wjvFFWdNhYpVU",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+      "name": "Bolts",
+      "sort": 600000,
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
         },
@@ -942,13 +819,13 @@
         "rules": [],
         "slug": "bolts",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1030,10 +907,7 @@
           "autoUse": true,
           "autoDestroy": true
         },
-        "spell": {
-          "data": null,
-          "heightenedLevel": null
-        },
+        "spell": null,
         "level": {
           "value": 0
         },
@@ -1058,24 +932,28 @@
           "_deprecated": true
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.AITVZmakiu3RgfKo"
-        }
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
-      "name": "Bolts",
-      "sort": 600000,
-      "type": "consumable",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "J0gZtGInMyuCyCuB",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Longsword",
+      "sort": 700000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1093,13 +971,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1122,20 +1000,28 @@
           "value": []
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Longsword",
-      "sort": 700000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "3k43BvFaLIDzoL5a",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Crossbow",
+      "sort": 800000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1153,13 +1039,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1182,20 +1068,32 @@
           "value": []
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Crossbow",
-      "sort": 800000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "PlvlB09wLGdgmyo3",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Attack of Opportunity",
+      "sort": 900000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
@@ -1210,13 +1108,13 @@
         "rules": [],
         "slug": "attack-of-opportunity",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1240,24 +1138,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Attack of Opportunity",
-      "sort": 900000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "T7oZcH7OKDm1O4cw",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Aura of Command",
+      "sort": 1000000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>@Template[type:emanation|distance:30]{30 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>The captain of the guard bolsters lower-level guards under their command, granting them a +1 status bonus to their attack rolls and a +2 status bonus to their Will saves.</p>\n<hr />\n<p>@Compendium[pf2e.bestiary-effects.OxOMYmlPtjsEkRtY]{Effect: Aura of Command}</p>"
         },
@@ -1276,13 +1178,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1306,20 +1208,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Aura of Command",
-      "sort": 1000000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "HXCEPfKkb2TP6NVy",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Bravery",
+      "sort": 1100000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>When the captain of the guard rolls a success on a Will save against a fear effect, they get a critical success instead.</p>\n<p>In addition, any time they gain the @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} condition, reduce its value by 1.</p>"
         },
@@ -1340,7 +1250,8 @@
               ]
             },
             "selector": "will",
-            "text": "<p class='compact-text'><strong>{item|name}</strong> When you roll a success at a Will save against a fear effect, you get a critical success instead.</p>"
+            "text": "When you roll a success at a Will save against a fear effect, you get a critical success instead.",
+            "title": "{item|name}"
           },
           {
             "adjustment": {
@@ -1358,13 +1269,13 @@
         ],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1388,20 +1299,32 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Bravery",
-      "sort": 1100000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "LEi8MMikbUZD1avz",
-      "data": {
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.m4HQ2o5aPxjXf2kY"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Shield Block",
+      "sort": 1200000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
@@ -1416,13 +1339,13 @@
         "rules": [],
         "slug": "shield-block",
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1446,24 +1369,28 @@
           "value": ""
         }
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.m4HQ2o5aPxjXf2kY"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Shield Block",
-      "sort": 1200000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
       "_id": "9hxxkHZZGdkhbZvg",
-      "data": {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Shield Warden",
+      "sort": 1300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>When the captain has their shield raised, they can @Compendium[pf2e.bestiary-ability-glossary-srd.m4HQ2o5aPxjXf2kY]{Shield Block} when an attack is made against an adjacent ally. If they do, the shield prevents that ally from taking damage instead of the captain.</p>"
         },
@@ -1478,13 +1405,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1508,20 +1435,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Shield Warden",
-      "sort": 1300000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "drNAUPLqWo7QSh3l",
-      "data": {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Shielded Advance",
+      "sort": 1400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Requirements</strong> The captain of the guard has their shield raised</p>\n<hr />\n<p><strong>Effect</strong> The captain of the guard presses forward, using their shield to push back foes.</p>\n<p>The captain Strides and @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shoves}, in either order. The multiple attack penalty doesn't apply to this Shove, though the Shove does count toward the captain's multiple attack penalty.</p>"
         },
@@ -1536,13 +1471,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1566,20 +1501,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Shielded Advance",
-      "sort": 1400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "gjRkdJRbt97tIbfZ",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 1500000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1594,13 +1537,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1611,20 +1554,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1500000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "mU5IeLhsZuwGA8dX",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Diplomacy",
+      "sort": 1600000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1639,13 +1590,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1656,20 +1607,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Diplomacy",
-      "sort": 1600000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "KvliqTPC7wXCxpCr",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Intimidation",
+      "sort": 1700000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1684,13 +1643,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1701,20 +1660,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Intimidation",
-      "sort": 1700000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "7JSOtd0bGE4q9bHf",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Legal Lore",
+      "sort": 1800000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1729,13 +1696,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1746,20 +1713,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Legal Lore",
-      "sort": 1800000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "oy3Dc9bbilIEBgxH",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Society",
+      "sort": 1900000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1774,13 +1749,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1791,20 +1766,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Society",
-      "sort": 1900000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "hF5pPWi7gLBNBaO0",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Warfare Lore",
+      "sort": 2000000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1819,13 +1802,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.875-07:00",
+            "datetime": "2022-09-11T09:44:48.132-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1836,16 +1819,17 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Warfare Lore",
-      "sort": 2000000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -1854,10 +1838,204 @@
       "sourceId": "Compendium.pf2e.npc-gallery.t7QwdZ2m7AbuRWqd"
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 75,
+        "temp": 0,
+        "max": 95,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 24,
+        "details": "(26 with shield raised)"
+      },
+      "perception": {
+        "value": 15
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "adjustment": "weak"
+    },
+    "details": {
+      "alignment": {
+        "value": "LN"
+      },
+      "level": {
+        "value": 6
+      },
+      "source": {
+        "value": "Pathfinder Gamemastery Guide",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "<p>The captain of the guard leads a troop of soldiers who serve as security forces for a powerful individual, most often a high-ranking noble or very rich merchant, though this stat block could also represent a lower-ranking captain of the guard for the leader of a nation. A formidable opponent in their own right, the captain of the guard skillfully employs their troops to protect the life and health of their ward.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.132-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 15,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Captain Of The Guard",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688395,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

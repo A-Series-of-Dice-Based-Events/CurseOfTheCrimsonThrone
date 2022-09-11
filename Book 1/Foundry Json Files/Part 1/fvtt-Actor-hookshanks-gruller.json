@@ -2,187 +2,17 @@
   "name": "Hookshanks Gruller",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 21,
-        "temp": 0,
-        "details": "",
-        "max": 21
-      },
-      "perception": {
-        "value": 6
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "25",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 17,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "NE"
-      },
-      "level": {
-        "value": 1
-      },
-      "source": {
-        "value": "",
-        "author": ""
-      },
-      "creatureType": "",
-      "blurb": "",
-      "publicNotes": "",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": "low light vision"
-      },
-      "traits": {
-        "value": [
-          "gnome",
-          "humanoid"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common",
-          "gnomish"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "unique",
-      "size": {
-        "value": "sm"
-      }
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.75,
-      "lastMigration": {
-        "datetime": "2022-05-17T22:56:44.081-07:00",
-        "version": {
-          "schema": null,
-          "foundry": "9.269",
-          "system": "3.10.1.11559"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 2
-      },
-      "dex": {
-        "mod": 3
-      },
-      "con": {
-        "mod": 2
-      },
-      "int": {
-        "mod": 0
-      },
-      "wis": {
-        "mod": 2
-      },
-      "cha": {
-        "mod": 0
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 5,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 9,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 5,
-        "saveDetail": ""
-      }
-    },
-    "customModifiers": {}
-  },
-  "token": {
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "height": 1,
-    "width": 1,
-    "name": "Hookshanks Gruller",
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "disposition": -1,
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "randomImg": false,
-    "img": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Hookshanks%20Gruller.png"
-  },
   "items": [
     {
       "_id": "atET6mnSsBtiAAhw",
       "name": "Acrobatics",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -197,13 +27,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T22:58:07.939-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -214,21 +44,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "Ked6Wp8Rv7d6dBqI",
       "name": "Athletics",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -243,13 +81,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T22:58:12.797-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -260,21 +98,29 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "1FfX34BipRX1vaQn",
       "name": "Stealth",
       "type": "lore",
       "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -289,13 +135,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T22:58:17.322-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -306,21 +152,33 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "7dbTw2Q2cT7FzGrC",
       "name": "Kukri",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/kukri.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.TDrO7Xdyn7juFy3c"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>The blade of this foot‑long knife curves inward and lacks a cross guard at the hilt.</p>"
         },
@@ -339,8 +197,15 @@
         "rules": [],
         "slug": "kukri",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.127-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "kukri",
@@ -457,17 +322,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.TDrO7Xdyn7juFy3c"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -475,7 +340,15 @@
       "name": "Studded Leather Armor",
       "type": "armor",
       "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.ewQZ0VeL38v3qFnN"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This leather armor is reinforced with metal studs and sometimes small metal plates, providing most of the flexibility of leather armor with more robust protection.</p>"
         },
@@ -490,8 +363,15 @@
         "rules": [],
         "slug": "studded-leather-armor",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.127-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "studded-leather-armor",
@@ -586,17 +466,17 @@
         },
         "potency": {}
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.ewQZ0VeL38v3qFnN"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -604,7 +484,15 @@
       "name": "Disguise Kit",
       "type": "equipment",
       "img": "systems/pf2e/icons/equipment/adventuring-gear/disguisekit.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Jvp0x2Sc82WVpExT"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. If you've crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit.</p>"
         },
@@ -619,8 +507,15 @@
         "rules": [],
         "slug": "disguise-kit",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.127-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": null,
@@ -677,17 +572,17 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Jvp0x2Sc82WVpExT"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -695,7 +590,11 @@
       "name": "Nimble Dodge",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p><strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.</p>\n<hr />\n<p>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
         },
@@ -710,13 +609,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T23:08:11.842-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -737,21 +636,29 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "kNwc3t7HOn9wU6Rk",
       "name": "Kukri",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -770,13 +677,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T23:09:29.193-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -799,21 +706,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "cWMNzSfiNnjsh7I0",
       "name": "Sneak Attack",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>If you Strike a creature that has the @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, or a ranged weapon attack, you deal an extra [[/r {1d6}[precision]]]{1d6 precision damage}.</p>"
         },
@@ -828,13 +743,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T23:11:44.125-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -855,21 +770,29 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "GKk5l7iRZFsvpKHJ",
       "name": "Surprise Attack",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>On the first round of combat, creatures that haven't acted yet are @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} to the rebel.</p>"
         },
@@ -884,13 +807,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T23:15:05.258-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -911,21 +834,29 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "ISdE9bvnrclDjr6Z",
       "name": "Threaten the Lambs",
       "type": "action",
       "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": "<p>Hookshanks threatens and insults any children present. Attempt a @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} check on any Lambs in the Fishery present in the area. On a success, any Lambs in the Fishery in Hookshanks' area that have been made helpful to the PC's are instead reverted to harmful actions towards the PC's.</p>"
         },
@@ -943,13 +874,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-17T23:16:26.187-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.1.11559"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -970,21 +901,33 @@
         },
         "deathNote": false
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "3nqnCojLL7lhafl0",
       "name": "Low-Light Vision",
       "type": "action",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.fFu2sZz4KB01fVRc"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
         },
@@ -999,8 +942,15 @@
         "rules": [],
         "slug": "low-light-vision",
         "schema": {
-          "version": 0.75,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.127-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "actionType": {
           "value": "passive"
@@ -1022,17 +972,17 @@
           "value": ""
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.fFu2sZz4KB01fVRc"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -1040,7 +990,11 @@
       "name": "Key to Cabinet",
       "type": "treasure",
       "img": "systems/pf2e/icons/default-icons/treasure.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -1055,13 +1009,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.75,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-05-20T12:39:32.046-07:00",
+            "datetime": "2022-09-11T09:44:48.127-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.2.11602"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1118,29 +1072,224 @@
           "value": 0
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
   "flags": {
     "pf2e": {
-      "lootable": true,
-      "rollOptions": {
-        "all": {}
-      }
+      "lootable": true
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.3.11650"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 21,
+        "temp": 0,
+        "max": 21,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "perception": {
+        "value": 6
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "NE"
+      },
+      "level": {
+        "value": 1
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "gnome",
+        "humanoid"
+      ],
+      "senses": {
+        "value": "low light vision"
+      },
+      "languages": {
+        "value": [
+          "common",
+          "gnomish"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "unique",
+      "size": {
+        "value": "sm"
+      }
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.127-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "customModifiers": {}
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Hookshanks Gruller",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/6264471f5a52d86320ddd323/Tokens%20Book%201%20and%202/111%20Tokens/Hookshanks%20Gruller.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688391,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

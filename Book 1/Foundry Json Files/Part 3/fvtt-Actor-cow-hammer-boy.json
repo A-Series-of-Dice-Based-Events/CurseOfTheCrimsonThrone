@@ -2,185 +2,17 @@
   "name": "Cow Hammer Boy",
   "type": "npc",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
-  "data": {
-    "attributes": {
-      "hp": {
-        "value": 21,
-        "temp": 0,
-        "details": "",
-        "max": 11
-      },
-      "perception": {
-        "value": 5
-      },
-      "initiative": {
-        "ability": "perception"
-      },
-      "speed": {
-        "value": "25",
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "ac": {
-        "value": 17,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      }
-    },
-    "details": {
-      "alignment": {
-        "value": "N"
-      },
-      "level": {
-        "value": -1
-      },
-      "source": {
-        "value": "Pathfinder Society: Season 1",
-        "author": ""
-      },
-      "creatureType": "",
-      "blurb": "",
-      "publicNotes": "",
-      "privateNotes": ""
-    },
-    "traits": {
-      "senses": {
-        "value": ""
-      },
-      "traits": {
-        "value": [
-          "humanoid",
-          "human",
-          "elite"
-        ],
-        "custom": ""
-      },
-      "languages": {
-        "value": [
-          "common"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": [],
-      "dv": [],
-      "rarity": "uncommon",
-      "size": {
-        "value": "med"
-      },
-      "ci": []
-    },
-    "resources": {},
-    "schema": {
-      "version": 0.751,
-      "lastMigration": {
-        "datetime": "2022-06-03T08:00:29.871-07:00",
-        "version": {
-          "schema": 0.75,
-          "foundry": "9.269",
-          "system": "3.10.4.11747"
-        }
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 2
-      },
-      "dex": {
-        "mod": 0
-      },
-      "con": {
-        "mod": 2
-      },
-      "int": {
-        "mod": 0
-      },
-      "wis": {
-        "mod": 0
-      },
-      "cha": {
-        "mod": 1
-      }
-    },
-    "saves": {
-      "fortitude": {
-        "value": 6,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 3,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 3,
-        "saveDetail": ""
-      }
-    },
-    "customModifiers": {}
-  },
-  "token": {
-    "disposition": -1,
-    "height": 1,
-    "img": "systems/pf2e/icons/default-icons/npc.svg",
-    "name": "Mercenary",
-    "width": 1,
-    "displayName": 20,
-    "actorLink": false,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "sightAngle": 0,
-    "light": {
-      "alpha": 0.5,
-      "angle": 0,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "gradual": true,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true
-      }
-    },
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "t2tTQEGsUB0LvL9b",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shortsword",
+      "sort": 100000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -199,13 +31,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.871-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -228,22 +60,30 @@
           "value": []
         }
       },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Shortsword",
-      "sort": 100000,
-      "type": "melee",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "4qQGeUBrlcedG0kG",
-      "data": {
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Dirty Fighting",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
-          "value": "<p>A mercenary throws dirt in an opponent's eyes or performs similar underhanded trick.</p>\n<hr />\n<p><strong>Effect</strong> The opponent must attempt a @Check[type:reflex|dc:16] save. On a failure, the PC gains the Blinded condition for one round. On a critical failure, the duration increases to 2 rounds.</p>"
+          "value": "<p>A mercenary throws dirt in an opponent's eyes or performs similar underhanded trick.</p>\n<hr />\n<p><strong>Effect</strong> The opponent must attempt a @Check[type:reflex|dc:16] save. On a failure, the PC gains the @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} condition for one round. On a critical failure, the duration increases to 2 rounds.</p>"
         },
         "source": {
           "value": ""
@@ -258,13 +98,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.871-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -288,20 +128,28 @@
           "value": ""
         }
       },
-      "img": "systems/pf2e/icons/actions/TwoActions.webp",
-      "name": "Dirty Fighting",
-      "sort": 400000,
-      "type": "action",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "aovVQ5UK8DsN8cFJ",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 500000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -316,13 +164,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.871-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -333,20 +181,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Acrobatics",
-      "sort": 500000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "SvKH7nOdt6XTsDuP",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 600000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -361,13 +217,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.871-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -378,20 +234,28 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 600000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "5h0KVt8A0timOpYs",
-      "data": {
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 700000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -406,13 +270,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-03T08:00:29.871-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": 0.75,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -423,23 +287,32 @@
           "value": 0
         }
       },
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Stealth",
-      "sort": 700000,
-      "type": "lore",
-      "effects": [],
-      "folder": null,
-      "permission": {
+      "ownership": {
         "default": 0
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "BGgP26PGqCVwrhD2",
       "name": "Shortsword",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/shortsword.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.7tKkkF8eZ4iCLJtp"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>These blades come in a variety of shapes and styles, but they are typically 2 feet long.</p>"
         },
@@ -458,8 +331,15 @@
         "rules": [],
         "slug": "shortsword",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.158-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "shortsword",
@@ -576,17 +456,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.7tKkkF8eZ4iCLJtp"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -594,7 +474,15 @@
       "name": "Crossbow",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt.</p>"
         },
@@ -609,8 +497,15 @@
         "rules": [],
         "slug": "crossbow",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.158-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "crossbow",
@@ -727,17 +622,17 @@
           "strikeConditionValue": null
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.62nnVQvGhoVLLl2K"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -745,7 +640,15 @@
       "name": "Club",
       "type": "weapon",
       "img": "systems/pf2e/icons/equipment/weapons/club.webp",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.c58wczIzH2gzeXQL"
+        }
+      },
+      "system": {
         "description": {
           "value": "<p>This is a piece of stout wood shaped or repurposed to bludgeon an enemy. Clubs can be intricately carved pieces of martial art or as simple as a tree branch or piece of wood.</p>"
         },
@@ -762,8 +665,15 @@
         "rules": [],
         "slug": "club",
         "schema": {
-          "version": 0.751,
-          "lastMigration": null
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.158-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
         },
         "quantity": 1,
         "baseItem": "club",
@@ -837,7 +747,7 @@
         },
         "range": null,
         "reload": {
-          "value": ""
+          "value": "-"
         },
         "MAP": {
           "value": ""
@@ -878,17 +788,17 @@
           "strikeConditionValue": ""
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.c58wczIzH2gzeXQL"
-        }
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       }
     },
     {
@@ -896,7 +806,11 @@
       "name": "Club",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -913,13 +827,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-13T23:13:50.508-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -942,21 +856,29 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     },
     {
       "_id": "qrVQLcl8vIXKftPb",
       "name": "Crossbow",
       "type": "melee",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "data": {
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
         "description": {
           "value": ""
         },
@@ -971,13 +893,13 @@
         "rules": [],
         "slug": null,
         "schema": {
-          "version": 0.751,
+          "version": 0.785,
           "lastMigration": {
-            "datetime": "2022-06-13T23:15:03.854-07:00",
+            "datetime": "2022-09-11T09:44:48.158-07:00",
             "version": {
-              "schema": null,
-              "foundry": "9.269",
-              "system": "3.10.4.11747"
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
             }
           }
         },
@@ -1000,14 +922,18 @@
           "value": []
         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
+      "ownership": {
         "default": 0,
         "N8BJEefwErTVmTS8": 3
       },
-      "flags": {}
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
     }
   ],
   "effects": [],
@@ -1019,10 +945,205 @@
       "lootable": true
     },
     "exportSource": {
-      "world": "curse-of-the-crimson-throne",
+      "world": "crimson-throne-test",
       "system": "pf2e",
-      "coreVersion": "9.269",
-      "systemVersion": "3.10.4.11747"
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
     }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 11,
+        "temp": 0,
+        "max": 11,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "perception": {
+        "value": 5
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "adjustment": "elite"
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": -1
+      },
+      "source": {
+        "value": "Pathfinder Society: Season 1",
+        "author": ""
+      },
+      "creatureType": "",
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "human"
+      ],
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "ci": []
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.158-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 3,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 3,
+        "saveDetail": ""
+      }
+    },
+    "customModifiers": {}
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Mercenary",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688413,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }
