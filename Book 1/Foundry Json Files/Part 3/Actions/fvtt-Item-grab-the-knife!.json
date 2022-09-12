@@ -1,0 +1,66 @@
+{
+  "name": "Grab the Knife!",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You attempt to grab the knife from the table. Attempt an Acrobatics check against you opponent's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You grab the knife faster than your opponent can react. You may attempt an immediate Strike against your opponent.</p>\n<p><strong>Success</strong> You grab the knife.</p>\n<p><strong>Failure</strong> No effect.</p>"
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [
+        "move"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.788-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actionCategory": {
+      "value": "interaction"
+    },
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688804,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Shove Back!",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You push your opponent away from you. Attempt an Athletics check against your opponent's Fortitude DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You knock your opponent @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>\n<p><strong>Success</strong> Your opponent gains the @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} condition until the start of your next turn.</p>\n<p><strong>Failure</strong> No effect.</p>\n<p><strong>Critical Failure</strong> Your shove goes awry. You gain the flatfooted condition until the start of your next turn.</p>"
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [
+        "attack"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.785-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actionCategory": {
+      "value": "offensive"
+    },
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688803,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
+  }
+}

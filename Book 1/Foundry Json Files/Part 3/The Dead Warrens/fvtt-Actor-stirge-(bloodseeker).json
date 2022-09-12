@@ -1,0 +1,660 @@
+{
+  "name": "Stirge (Bloodseeker)",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "_id": "a9nhBEqNFJ9N1rH5",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Barbed Leg",
+      "sort": 100000,
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "finesse"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.098-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {},
+        "bonus": {
+          "value": 8
+        },
+        "attackEffects": {
+          "value": [
+            "attach"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "oQxGeLSQxmxGUQ1l",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 200000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "yLq2DsGvZs0Z0aZN",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Scent (Imprecise) 60 feet",
+      "sort": 300000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "scent",
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "QEvRlTqwOEac04ov",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Attach",
+      "sort": 400000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>When a bloodseeker hits a target larger than itself, its barbed legs attach it to that creature. This is similar to grabbing the creature, but the bloodseeker moves with that creature rather than holding it in place.</p>\n<p>The bloodseeker is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} while attached. If the bloodseeker is killed or pushed away while attached to a creature it has drained blood from, that creature takes [[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}.</p>\n<p>Escaping the attach or removing the bloodseeker in other ways doesn't cause bleed damage.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "YwidZ8QmOJ85iLcw",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Blood Drain",
+      "sort": 500000,
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p><strong>Requirements</strong> The bloodseeker is attached to a creature.</p>\n<hr />\n<p><strong>Effect</strong> The bloodseeker uses its proboscis to drain blood from the creature it's attached to. This deals [[/r {1d4}]]{1d4 damage}, and the bloodseeker gains temporary Hit Points equal to the damage dealt.</p>\n<p>A creature that has its blood drained by a bloodseeker is @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} until it receives healing (of any kind or amount).</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "oHUlPXpuTFUHKAtS",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 600000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ciSHQDq6CMAp4EqW",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 700000,
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.099-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-bestiary.HpD0BTfid3hnUEWj"
+    },
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 6,
+        "temp": 0,
+        "max": 6,
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "speed": {
+        "value": 10,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "perception": {
+        "value": 6
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "details": {
+      "alignment": {
+        "value": "N"
+      },
+      "level": {
+        "value": -1
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Animal",
+      "blurb": "",
+      "publicNotes": "<p>Scourges of swamps and damp, abandoned places, bloodseekers are ravenous blood drinkers. Farmers curse the creatures for sucking their livestock dry. It is from such beleaguered people that the bloodseeker's regional name \"stirge,\" possibly a corruption of the word \"scourge,\" comes. Folk wisdom holds that the appearance of bloodseekers in a region signals a healthy herd of livestock, but more often it means bogs or old buildings that haven't been properly tended to. Certainly, no amount of folksy parable can assuage a farmer driven to destitution by a bloodseeker infestation. But despite their role as parasites, bloodseekers aren't hated by all villages. In some cases, the inhabitants of remote backwoods thorps even keep the things as pets or use them as doubtful medicinal \"tools\" to drain away unwanted humors or test for evil spirits possessing the blood. Worshippers of gods of pestilence and parasites often view bloodseekers as sacred to their faith and allow the creatures to feed freely from their bodies. In such societies, those who accidentally give too much are considered to have been \"blessed\" by the village's hungry god.</p>\n<p>Bloodseekers seem to be constantly hungry, but they are not inherently malevolent. They can be scared away fairly easily and prefer to swiftly retreat rather than risk death. Some adventurers report that these creatures can be scared away by waving torches at the flying pests. However, bloodseekers are much bolder when encountered in larger numbers, as bringing down one victim lets an entire colony feed. Bloodseeker colonies are called clots, for obvious and disgusting reasons. If a lone bloodseeker finds a likely victim while its clot is nearby, it emits a high-pitched, keening noise to summon reinforcements.</p>\n<p>Most humanoids avoid bloodseekers, but boggards sometimes cultivate bloodseeker nests around the perimeter of their territory. These colonies serve as a deterrent to intruders, and the boggards sometimes check for bloodseeker prey, collecting the hides or bodies of animals killed by the pests. Meals prepared from slain bloodseekers that have gorged on the blood of specific creatures are a staple among certain boggard communities. The boggards not only eat the actual bloodseekers, but they also make a gelled slurry from the drained blood.</p>\n<p>A typical bloodseeker is about a foot long, with mottled, reddish-brown skin and a yellow underbelly. Its four wings resemble bat wings. When gorged with blood, the creature becomes bloated and pink, and it tends to wobble unsteadily in the air as it flies off to digest its meal.</p>",
+      "privateNotes": ""
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "senses": {
+        "value": "darkvision, scent (imprecise) 60 feet"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": [],
+      "dv": [],
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      },
+      "attitude": {
+        "value": "hostile"
+      },
+      "ci": []
+    },
+    "resources": {},
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.098-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": -4
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 0.5,
+    "name": "Bloodseeker",
+    "width": 0.5,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688366,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
+  }
+}

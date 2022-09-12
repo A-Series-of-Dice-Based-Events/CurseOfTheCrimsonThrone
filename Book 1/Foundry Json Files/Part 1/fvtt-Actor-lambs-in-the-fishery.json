@@ -1,0 +1,245 @@
+{
+  "name": "Lambs in the Fishery",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "jUnTqECOa1N6ejJ5",
+      "name": "Pitchforks",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.785,
+          "lastMigration": {
+            "datetime": "2022-09-11T09:44:48.116-07:00",
+            "version": {
+              "schema": 0.769,
+              "foundry": "10.285",
+              "system": "4.0.2"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "nnkh6l08jpu2rpg303bq": {
+            "damage": "1d4+1",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 4
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "N8BJEefwErTVmTS8": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": "8 HP per room of children"
+      }
+    },
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 4,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 4,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 8
+      },
+      "hp": {
+        "value": 8,
+        "max": 8,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": -10,
+        "details": "<p>-10 and no minimum proficiency to notice</p>"
+      }
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 0
+      },
+      "disable": "<p>@Check[type:diplomacy|dc:16|name:Calm the room] to convince the children to be helpful or quiet a room.</p>",
+      "description": "<p>The orphan children known as Lamm's Lambs stab with their pitchforks, daggers, and otherwise harass any intruders into the domain of Gaedren Lamm.</p>",
+      "reset": "",
+      "routine": "<p>(3 actions) At the beginning of each turn, the Lambs choose to be helpful or harmful to the PC's and make a pitchfork Strike on each creature in the room they have chosen to be harmful towards and roll the damage once for all targets. The Lambs always choose to be harmful unless a successful Diplomacy check has been made to convince them to be helpful. The Lambs then use <strong>Chaos in the Fishery.</strong></p>\n<hr />\n<p><strong>Chaos in the Fishery</strong> The Lambs create an effect based on their allegiance, located at any point within the hazard (even within sections that have been disabled) as long as the entire hazard has not been disabled.</p>\n<ul>\n<li><strong>Harmful</strong> The Lambs choose a PC target in the area and drop foul river water on them. The target must succeed a @Check[type:fortitude|dc:14] save or become @Compendium[pf2e.conditionitems.Sickened]{Sickened 1}.</li>\n<li><strong>Helpful</strong> The Lambs choose a target not allied with the PC's in the area and use their brooms to @Compendium[pf2e.actionspf2e.Trip]{Trip} the target with a +6 modifier. If Giggles is present in the area, this effect always targets him.</li>\n</ul>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      },
+      "di": {
+        "custom": "",
+        "value": [
+          "critical-hits",
+          "precision",
+          "swarm-mind"
+        ],
+        "selected": {}
+      },
+      "dr": [],
+      "dv": []
+    },
+    "schema": {
+      "version": 0.785,
+      "lastMigration": {
+        "datetime": "2022-09-11T09:44:48.116-07:00",
+        "version": {
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Lamm's Lamb",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688382,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
+  }
+}

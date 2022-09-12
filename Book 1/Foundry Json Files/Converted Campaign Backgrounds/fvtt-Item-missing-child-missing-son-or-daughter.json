@@ -2,30 +2,37 @@
   "name": "Missing Child - Missing Son or Daughter",
   "type": "background",
   "img": "systems/pf2e/icons/default-icons/background.svg",
-  "data": {
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "crimson-throne-test",
+      "system": "pf2e",
+      "coreVersion": "10.285",
+      "systemVersion": "4.0.3"
+    }
+  },
+  "system": {
     "description": {
-      "value": "<p><span style=\"font-size: 9pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">You suspect that a child you know has been abducted by Gaedren. Whatever the relationship, you&rsquo;ve heard rumors about Gaedren&rsquo;s &ldquo;Little Lamms,&rdquo; and of how the old man uses children as pickpockets and agents for his crimes. You&rsquo;ve even heard rumors that the child you&rsquo;re looking for has been spotted in the marketplaces in the company of other known to be cutpurses and pickpockets. Although the :Korvosan Guard has been understanding of your plight, yet it has its hands full with &ldquo;more important&rdquo; matters these days, it seems, and has not yet been able to learn anything more about Gaedren. No one else is interested in bringing Gaedren down and rescuing his victims&mdash;that task falls to you. Yet where could the old scoundrel be hiding?</span></p>\n<hr />\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">The missing child is your own son or daughter, a niece or nephew, or the son or daughter of your superior or employer and one you had been charged with protecting. The child was abducted during a trip to the market or some other daily event. Long hours spent searching for rumors and has honed your stubborn will.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><strong id=\"docs-internal-guid-d37b43bc-7fff-1321-866c-c1090ddc5b49\" style=\"font-weight: normal;\"></strong><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Choose two ability boosts. One must be to </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Constitution </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">or </span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Strength</span><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">. The other is a free boost.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\"><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">You are trained in the Survival skill and the Scouting Lore Skill. You gain the Experienced Tracker skill feat.</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\" role=\"presentation\">&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 9pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p>"
+      "value": "<p>You suspect that a child you know has been abducted by Gaedren. Whatever the relationship, you've heard rumors about Gaedren's \"Little Lamms,\" and of how the old man uses children as pickpockets and agents for his crimes. You've even heard rumors that the child you're looking for has been spotted in the marketplaces in the company of other known to be cutpurses and pickpockets. Although the :Korvosan Guard has been understanding of your plight, yet it has its hands full with \"more important\" matters these days, it seems, and has not yet been able to learn anything more about Gaedren. No one else is interested in bringing Gaedren down and rescuing his victims-that task falls to you. Yet where could the old scoundrel be hiding?</p>\n<hr />\n<p>The missing child is your own son or daughter, a niece or nephew, or the son or daughter of your superior or employer and one you had been charged with protecting. The child was abducted during a trip to the market or some other daily event. Long hours spent searching for rumors and has honed your stubborn will.</p>\n<p>Choose two ability boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>. The other is a free boost.</p>\n<p>You are trained in the Survival skill and the Scouting Lore Skill. You gain the @Compendium[pf2e.feats-srd.Experienced Tracker]{Experienced Tracker} skill feat.</p>"
     },
     "source": {
       "value": ""
     },
     "traits": {
       "value": [],
-      "rarity": {
-        "value": "unique"
-      },
+      "rarity": "unique",
       "custom": ""
     },
     "rules": [],
     "slug": null,
     "schema": {
-      "version": 0.684,
+      "version": 0.785,
       "lastMigration": {
-        "datetime": "2021-10-25T19:22:59.256+02:00",
+        "datetime": "2022-09-11T09:44:48.787-07:00",
         "version": {
-          "schema": 0.68,
-          "foundry": "0.8.9",
-          "system": "2.17.0.8553"
+          "schema": 0.769,
+          "foundry": "10.285",
+          "system": "4.0.2"
         }
       }
     },
@@ -49,11 +56,10 @@
     },
     "items": {
       "409vh": {
-        "pack": "pf2e.feats-srd",
-        "id": "urQZwmzg2kS53vd5",
         "img": "systems/pf2e/icons/features/feats/feats.webp",
         "name": "Experienced Tracker",
-        "level": 1
+        "level": 1,
+        "uuid": "Compendium.pf2e.feats-srd.urQZwmzg2kS53vd5"
       }
     },
     "trainedLore": "Scouting",
@@ -64,14 +70,12 @@
       "custom": ""
     }
   },
-  "effects": [],
-  "sort": 0,
-  "flags": {
-    "exportSource": {
-      "world": "crimson-throne",
-      "system": "pf2e",
-      "coreVersion": "0.8.9",
-      "systemVersion": "2.17.0.8553"
-    }
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.0.2",
+    "coreVersion": "10.285",
+    "createdTime": null,
+    "modifiedTime": 1662914688804,
+    "lastModifiedBy": "y9TJIywoLvXI9KUw"
   }
 }

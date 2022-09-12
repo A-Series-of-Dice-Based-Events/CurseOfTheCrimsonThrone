@@ -1,5 +1,5 @@
 {
-  "name": "Keys - Dodge Bonus",
+  "name": "Keys - Dodge Bonus x2",
   "type": "effect",
   "img": "systems/pf2e/icons/default-icons/shield.webp",
   "effects": [],
@@ -29,7 +29,7 @@
         "label": "Harrow Point (Keys)",
         "selector": "ac",
         "type": "circumstance",
-        "value": 1
+        "value": 2
       }
     ],
     "slug": null,

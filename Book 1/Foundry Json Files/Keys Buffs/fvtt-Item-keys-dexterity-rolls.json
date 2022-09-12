@@ -1,7 +1,7 @@
 {
-  "name": "Keys - Dodge Bonus",
+  "name": "Keys - Dexterity Rolls",
   "type": "effect",
-  "img": "systems/pf2e/icons/default-icons/shield.webp",
+  "img": "systems/pf2e/icons/spells/lucky-number.webp",
   "effects": [],
   "flags": {
     "exportSource": {
@@ -13,7 +13,7 @@
   },
   "system": {
     "description": {
-      "value": "<p>A player can spend a Harrow Point to gain a +1 circumstance bonus to their Armor Class for one encounter. A player can spend up to two Harrow Points per encounter to increase their Armor Class in this manner.</p>"
+      "value": "<p>A player can spend a Harrow Point to reroll any Dexterity-based roll. They must abide by the new result, but additional Harrow Points can be spent for additional rerolls. This is a fortune effect.</p>"
     },
     "source": {
       "value": ""
@@ -23,15 +23,7 @@
       "rarity": "common",
       "custom": ""
     },
-    "rules": [
-      {
-        "key": "FlatModifier",
-        "label": "Harrow Point (Keys)",
-        "selector": "ac",
-        "type": "circumstance",
-        "value": 1
-      }
-    ],
+    "rules": [],
     "slug": null,
     "schema": {
       "version": 0.785,
@@ -49,9 +41,9 @@
     },
     "duration": {
       "value": -1,
-      "unit": "encounter",
+      "unit": "unlimited",
       "sustained": false,
-      "expiry": "turn-start"
+      "expiry": null
     },
     "start": {
       "value": 0,
